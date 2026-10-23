@@ -137,7 +137,6 @@ function legalPageLayout(title, content) {
       </a>
       <div class="nav-links">
         <a href="/">Home</a>
-        <a href="/docs">API Docs</a>
         <a href="/privacy-policy">Privacy</a>
         <a href="/terms">Terms</a>
         <a href="/contact">Contact</a>
@@ -284,56 +283,6 @@ router.get('/delete-account', (req, res) => {
       <li>Synchronized Quran bookmarks and reading progress.</li>
       <li>Custom Tasbih presets and recitation count history.</li>
       <li>Saved settings and prayer configuration overrides.</li>
-    </ul>
-  `));
-});
-
-// ── Interactive API Documentation Page ──
-router.get('/docs', (req, res) => {
-  res.send(legalPageLayout('API Documentation & Explorer', `
-    <h2>Noor Serverless API Explorer</h2>
-    <p>The Noor API provides high-performance, structured endpoints for Islamic content, prayer timings, Quranic data, hadith collections, and cloud sync.</p>
-
-    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:16px; margin:24px 0;">
-      <a href="/prayer/timings?date=23-10-2026&latitude=43.6532&longitude=-79.3832" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /prayer/timings</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">Fetch live prayer times by date & coordinates</p>
-      </a>
-      <a href="/asma-ul-husna" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /asma-ul-husna</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">Retrieve all 99 Names of Allah</p>
-      </a>
-      <a href="/duas/categories-with-duas" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /duas/categories-with-duas</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">All categories with nested supplications</p>
-      </a>
-      <a href="/kalmas" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /kalmas</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">The 6 Kalmas with Arabic, English & Urdu</p>
-      </a>
-      <a href="/hadith/books" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /hadith/books</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">Canonical Hadith book collections & sections</p>
-      </a>
-      <a href="/courses/" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /courses/</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">Islamic curriculum & structured lessons</p>
-      </a>
-      <a href="/hajj-guide/steps" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /hajj-guide/steps</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">Step-by-step Hajj pilgrimage guide</p>
-      </a>
-      <a href="/historical-places" target="_blank" style="padding:16px; border:1px solid var(--border); border-radius:12px; display:block;">
-        <span style="font-weight:700; color:var(--primary);">GET /historical-places</span>
-        <p style="font-size:0.85rem; margin:4px 0 0; color:var(--text-muted);">Sacred heritage locations with coordinates</p>
-      </a>
-    </div>
-
-    <h2>Verification Files</h2>
-    <ul>
-      <li><a href="/app-ads.txt" target="_blank"><strong>/app-ads.txt</strong></a> - Google AdMob verification</li>
-      <li><a href="/ads.txt" target="_blank"><strong>/ads.txt</strong></a> - Google AdSense verification</li>
-      <li><a href="/health" target="_blank"><strong>/health</strong></a> - JSON health check</li>
     </ul>
   `));
 });
@@ -887,7 +836,6 @@ router.get('/', (req, res) => {
         <a href="#features">Features</a>
         <a href="#preview">Prayer Times</a>
         <a href="#screenshots">Screenshots</a>
-        <a href="/docs">API Docs</a>
         <a href="/privacy-policy">Privacy</a>
         <a href="https://play.google.com/store/apps/details?id=com.firecode.studios.noor" class="nav-download" target="_blank" rel="noopener">Download Free</a>
       </div>
@@ -910,8 +858,8 @@ router.get('/', (req, res) => {
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3v18l18-9L3 3z"/></svg>
             Download on Google Play
           </a>
-          <a href="/docs" class="btn-secondary">
-            Explore API &amp; Data &rarr;
+          <a href="#features" class="btn-secondary">
+            Explore Features &rarr;
           </a>
         </div>
 
@@ -1100,7 +1048,6 @@ router.get('/', (req, res) => {
           <li><a href="#features">Features</a></li>
           <li><a href="#preview">Prayer Times</a></li>
           <li><a href="#screenshots">Screenshots</a></li>
-          <li><a href="/docs">API Documentation</a></li>
         </ul>
       </div>
 
