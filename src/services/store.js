@@ -219,11 +219,89 @@ function addCourseInquiry(inquiry) {
   }
 
   // Console notice & notification trigger
+  const cleanPhone = (newInquiry.phone_or_whatsapp || '').replace(/[^0-9]/g, '');
+  const waLink = cleanPhone ? `https://wa.me/${cleanPhone}` : '';
+
   console.log(`\n📢 [NEW 1-ON-1 COURSE INQUIRY]`);
   console.log(`   Course: ${newInquiry.course_title}`);
   console.log(`   Student: ${newInquiry.student_name} (${newInquiry.phone_or_whatsapp} | ${newInquiry.email})`);
   console.log(`   Preferred: ${newInquiry.preferred_days} / ${newInquiry.preferred_time}`);
-  console.log(`   Direct WhatsApp link: https://wa.me/${newInquiry.phone_or_whatsapp.replace(/[^0-9]/g, '')}\n`);
+  if (waLink) console.log(`   Direct WhatsApp link: ${waLink}\n`);
+
+  // 1. Resend / Email Notification (if RESEND_API_KEY is configured in Vercel)
+  if (process.env.RESEND_API_KEY) {
+    const toEmail = process.env.ADMIN_NOTIFICATION_EMAIL || 'waheed@quicksol.ca';
+    fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        from: process.env.RESEND_FROM_EMAIL || 'Noor App <onboarding@resend.dev>',
+        to: [toEmail],
+        subject: `🌙 New 1-on-1 Student Inquiry: ${newInquiry.student_name} (${newInquiry.course_title})`,
+        html: `
+          <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; padding: 24px; border: 1px solid #e1e4e8; border-radius: 12px;">
+            <h2 style="color: #047857; margin-top: 0;">🌙 New 1-on-1 Course Lead Received!</h2>
+            <p style="font-size: 15px; color: #333;">A student just requested a 1-on-1 trial class from the Noor mobile app.</p>
+            
+            <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+              <tr><td style="padding: 8px 0; color: #666; width: 140px;"><strong>Course:</strong></td><td style="color: #111; font-weight: bold;">${newInquiry.course_title}</td></tr>
+              <tr><td style="padding: 8px 0; color: #666;"><strong>Student Name:</strong></td><td style="color: #111;">${newInquiry.student_name}</td></tr>
+              <tr><td style="padding: 8px 0; color: #666;"><strong>WhatsApp / Phone:</strong></td><td style="color: #111;"><strong>${newInquiry.phone_or_whatsapp}</strong></td></tr>
+              <tr><td style="padding: 8px 0; color: #666;"><strong>Email:</strong></td><td style="color: #111;">${newInquiry.email || 'N/A'}</td></tr>
+              <tr><td style="padding: 8px 0; color: #666;"><strong>Preferred Schedule:</strong></td><td style="color: #111;">${newInquiry.preferred_days} (${newInquiry.preferred_time})</td></tr>
+              <tr><td style="padding: 8px 0; color: #666;"><strong>Level:</strong></td><td style="color: #111;">${newInquiry.student_level}</td></tr>
+              <tr><td style="padding: 8px 0; color: #666;"><strong>Notes:</strong></td><td style="color: #111;">${newInquiry.notes || 'None'}</td></tr>
+            </table>
+
+            ${waLink ? `<div style="margin: 24px 0;"><a href="${waLink}?text=${encodeURIComponent(`Assalamu Alaikum ${newInquiry.student_name}, thank you for your interest in the 1-on-1 ${newInquiry.course_title} course with Noor! When would be a good time for your free trial session?`)}" style="background-color: #25D366; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">💬 Chat on WhatsApp with Student</a></div>` : ''}
+
+            <p style="font-size: 13px; color: #888; margin-top: 30px; border-top: 1px solid #eee; padding-top: 12px;">
+              Manage all leads online at: <a href="https://noor.quicksol.ca/courses/admin/dashboard" style="color: #047857;">https://noor.quicksol.ca/courses/admin/dashboard</a>
+            </p>
+          </div>
+        `
+      })
+    }).catch(e => console.warn('Resend email notification failed:', e.message));
+  }
+
+  // 2. Telegram Bot Alert (if TELEGRAM_BOT_TOKEN & TELEGRAM_CHAT_ID are set)
+  if (process.env.TELEGRAM_BOT_TOKEN && process.env.TELEGRAM_CHAT_ID) {
+    const text = `🌙 *New 1-on-1 Course Lead!*
+
+*Student:* ${newInquiry.student_name}
+*Course:* ${newInquiry.course_title}
+*WhatsApp:* \`${newInquiry.phone_or_whatsapp}\`
+*Preferred:* ${newInquiry.preferred_days} (${newInquiry.preferred_time})
+*Level:* ${newInquiry.student_level}
+*Notes:* ${newInquiry.notes || 'None'}
+
+${waLink ? `[💬 Open WhatsApp](https://wa.me/${cleanPhone})` : ''}
+[📊 View Dashboard](https://noor.quicksol.ca/courses/admin/dashboard)`;
+
+    fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: process.env.TELEGRAM_CHAT_ID,
+        text,
+        parse_mode: 'Markdown'
+      })
+    }).catch(e => console.warn('Telegram notification failed:', e.message));
+  }
+
+  // 3. Webhook (Slack / Discord / Zapier)
+  if (process.env.ADMIN_WEBHOOK_URL) {
+    fetch(process.env.ADMIN_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        content: `🌙 **New 1-on-1 Course Lead!**\n**Student:** ${newInquiry.student_name} (${newInquiry.phone_or_whatsapp})\n**Course:** ${newInquiry.course_title}\n**Timing:** ${newInquiry.preferred_days} (${newInquiry.preferred_time})\n**Dashboard:** https://noor.quicksol.ca/courses/admin/dashboard`
+      })
+    }).catch(e => console.warn('Admin webhook notification failed:', e.message));
+  }
 
   return newInquiry;
 }
