@@ -1,0 +1,2466 @@
+[
+  {
+    "slug": "abudawud",
+    "name": "Sunan Abu Dawud",
+    "total_sections": 44,
+    "sections": [
+      {
+        "id": 1,
+        "name": "Purification (Kitab Al-Taharah)",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 390
+      },
+      {
+        "id": 2,
+        "name": "Prayer (Kitab Al-Salat)",
+        "hadithnumber_first": 391,
+        "hadithnumber_last": 1160
+      },
+      {
+        "id": 3,
+        "name": "The Book Of The Prayer For Rain (Kitab al-Istisqa')",
+        "hadithnumber_first": 1161,
+        "hadithnumber_last": 1197
+      },
+      {
+        "id": 4,
+        "name": "Prayer (Kitab Al-Salat): Detailed Rules of Law about the Prayer during Journey",
+        "hadithnumber_first": 1198,
+        "hadithnumber_last": 1249
+      },
+      {
+        "id": 5,
+        "name": "Prayer (Kitab Al-Salat): Voluntary Prayers",
+        "hadithnumber_first": 1250,
+        "hadithnumber_last": 1370
+      },
+      {
+        "id": 6,
+        "name": "Prayer (Kitab Al-Salat): Detailed Injunctions about Ramadan",
+        "hadithnumber_first": 1371,
+        "hadithnumber_last": 1400
+      },
+      {
+        "id": 7,
+        "name": "Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an",
+        "hadithnumber_first": 1401,
+        "hadithnumber_last": 1415
+      },
+      {
+        "id": 8,
+        "name": "Prayer (Kitab Al-Salat): Detailed Injunctions about Witr",
+        "hadithnumber_first": 1416,
+        "hadithnumber_last": 1555
+      },
+      {
+        "id": 9,
+        "name": "Zakat (Kitab Al-Zakat)",
+        "hadithnumber_first": 1556,
+        "hadithnumber_last": 1700
+      },
+      {
+        "id": 10,
+        "name": "The Book of Lost and Found Items",
+        "hadithnumber_first": 1701,
+        "hadithnumber_last": 1720
+      },
+      {
+        "id": 11,
+        "name": "The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)",
+        "hadithnumber_first": 1721,
+        "hadithnumber_last": 2045
+      },
+      {
+        "id": 12,
+        "name": "Marriage (Kitab Al-Nikah)",
+        "hadithnumber_first": 2046,
+        "hadithnumber_last": 2174
+      },
+      {
+        "id": 13,
+        "name": "Divorce (Kitab Al-Talaq)",
+        "hadithnumber_first": 2175,
+        "hadithnumber_last": 2312
+      },
+      {
+        "id": 14,
+        "name": "Fasting (Kitab Al-Siyam)",
+        "hadithnumber_first": 2313,
+        "hadithnumber_last": 2476
+      },
+      {
+        "id": 15,
+        "name": "Jihad (Kitab Al-Jihad)",
+        "hadithnumber_first": 2477,
+        "hadithnumber_last": 2787
+      },
+      {
+        "id": 16,
+        "name": "Sacrifice (Kitab Al-Dahaya)",
+        "hadithnumber_first": 2788,
+        "hadithnumber_last": 2843
+      },
+      {
+        "id": 17,
+        "name": "Game (Kitab Al-Said)",
+        "hadithnumber_first": 2844,
+        "hadithnumber_last": 2861
+      },
+      {
+        "id": 18,
+        "name": "Wills (Kitab Al-Wasaya)",
+        "hadithnumber_first": 2862,
+        "hadithnumber_last": 2884
+      },
+      {
+        "id": 19,
+        "name": "Shares of Inheritance (Kitab Al-Fara'id)",
+        "hadithnumber_first": 2885,
+        "hadithnumber_last": 2927
+      },
+      {
+        "id": 20,
+        "name": "Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)",
+        "hadithnumber_first": 2928,
+        "hadithnumber_last": 3088
+      },
+      {
+        "id": 21,
+        "name": "Funerals (Kitab Al-Jana'iz)",
+        "hadithnumber_first": 3089,
+        "hadithnumber_last": 3241
+      },
+      {
+        "id": 22,
+        "name": "Oaths and Vows (Kitab Al-Aiman Wa Al-Nudhur)",
+        "hadithnumber_first": 3242,
+        "hadithnumber_last": 3325
+      },
+      {
+        "id": 23,
+        "name": "Commercial Transactions (Kitab Al-Buyu)",
+        "hadithnumber_first": 3326,
+        "hadithnumber_last": 3415
+      },
+      {
+        "id": 24,
+        "name": "Wages (Kitab Al-Ijarah)",
+        "hadithnumber_first": 3416,
+        "hadithnumber_last": 3570
+      },
+      {
+        "id": 25,
+        "name": "The Office of the Judge (Kitab Al-Aqdiyah)",
+        "hadithnumber_first": 3571,
+        "hadithnumber_last": 3640
+      },
+      {
+        "id": 26,
+        "name": "Knowledge (Kitab Al-Ilm)",
+        "hadithnumber_first": 3641,
+        "hadithnumber_last": 3668
+      },
+      {
+        "id": 27,
+        "name": "Drinks (Kitab Al-Ashribah)",
+        "hadithnumber_first": 3669,
+        "hadithnumber_last": 3735
+      },
+      {
+        "id": 28,
+        "name": "Foods (Kitab Al-At'imah)",
+        "hadithnumber_first": 3736,
+        "hadithnumber_last": 3854
+      },
+      {
+        "id": 29,
+        "name": "Medicine (Kitab Al-Tibb)",
+        "hadithnumber_first": 3855,
+        "hadithnumber_last": 3903
+      },
+      {
+        "id": 30,
+        "name": "Divination and Omens (Kitab Al-Kahanah Wa Al-Tatayyur)",
+        "hadithnumber_first": 3904,
+        "hadithnumber_last": 3925
+      },
+      {
+        "id": 31,
+        "name": "The Book of Manumission of Slaves",
+        "hadithnumber_first": 3926,
+        "hadithnumber_last": 3968
+      },
+      {
+        "id": 32,
+        "name": "Dialects and Readings of the Qur'an (Kitab Al-Huruf Wa Al-Qira'at)",
+        "hadithnumber_first": 3969,
+        "hadithnumber_last": 4008
+      },
+      {
+        "id": 33,
+        "name": "Hot Baths (Kitab Al-Hammam)",
+        "hadithnumber_first": 4009,
+        "hadithnumber_last": 4019
+      },
+      {
+        "id": 34,
+        "name": "Clothing (Kitab Al-Libas)",
+        "hadithnumber_first": 4020,
+        "hadithnumber_last": 4158
+      },
+      {
+        "id": 35,
+        "name": "Combing the Hair (Kitab Al-Tarajjul)",
+        "hadithnumber_first": 4159,
+        "hadithnumber_last": 4213
+      },
+      {
+        "id": 36,
+        "name": "Signet-Rings (Kitab Al-Khatam)",
+        "hadithnumber_first": 4214,
+        "hadithnumber_last": 4239
+      },
+      {
+        "id": 37,
+        "name": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+        "hadithnumber_first": 4240,
+        "hadithnumber_last": 4278
+      },
+      {
+        "id": 38,
+        "name": "The Promised Deliverer (Kitab Al-Mahdi)",
+        "hadithnumber_first": 4279,
+        "hadithnumber_last": 4290
+      },
+      {
+        "id": 39,
+        "name": "Battles (Kitab Al-Malahim)",
+        "hadithnumber_first": 4291,
+        "hadithnumber_last": 4350
+      },
+      {
+        "id": 40,
+        "name": "Prescribed Punishments (Kitab Al-Hudud)",
+        "hadithnumber_first": 4351,
+        "hadithnumber_last": 4493
+      },
+      {
+        "id": 41,
+        "name": "Types of Blood-Wit (Kitab Al-Diyat)",
+        "hadithnumber_first": 4494,
+        "hadithnumber_last": 4595
+      },
+      {
+        "id": 42,
+        "name": "Model Behavior of the Prophet (Kitab Al-Sunnah)",
+        "hadithnumber_first": 4596,
+        "hadithnumber_last": 4772
+      },
+      {
+        "id": 43,
+        "name": "General Behavior (Kitab Al-Adab)",
+        "hadithnumber_first": 4773,
+        "hadithnumber_last": 5274
+      }
+    ]
+  },
+  {
+    "slug": "bukhari",
+    "name": "Sahih al-Bukhari",
+    "total_sections": 98,
+    "sections": [
+      {
+        "id": 1,
+        "name": "Revelation",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 7
+      },
+      {
+        "id": 2,
+        "name": "Belief",
+        "hadithnumber_first": 8,
+        "hadithnumber_last": 58
+      },
+      {
+        "id": 3,
+        "name": "Knowledge",
+        "hadithnumber_first": 59,
+        "hadithnumber_last": 134
+      },
+      {
+        "id": 4,
+        "name": "Ablutions (Wudu')",
+        "hadithnumber_first": 135,
+        "hadithnumber_last": 247
+      },
+      {
+        "id": 5,
+        "name": "Bathing (Ghusl)",
+        "hadithnumber_first": 248,
+        "hadithnumber_last": 293
+      },
+      {
+        "id": 6,
+        "name": "Menstrual Periods",
+        "hadithnumber_first": 294,
+        "hadithnumber_last": 333
+      },
+      {
+        "id": 7,
+        "name": "Rubbing hands and feet with dust (Tayammum)",
+        "hadithnumber_first": 334,
+        "hadithnumber_last": 348
+      },
+      {
+        "id": 8,
+        "name": "Prayers (Salat)",
+        "hadithnumber_first": 349,
+        "hadithnumber_last": 520
+      },
+      {
+        "id": 9,
+        "name": "Times of the Prayers",
+        "hadithnumber_first": 522,
+        "hadithnumber_last": 602
+      },
+      {
+        "id": 10,
+        "name": "Call to Prayers (Adhaan)",
+        "hadithnumber_first": 603,
+        "hadithnumber_last": 875
+      },
+      {
+        "id": 11,
+        "name": "Friday Prayer",
+        "hadithnumber_first": 876,
+        "hadithnumber_last": 941
+      },
+      {
+        "id": 12,
+        "name": "Fear Prayer",
+        "hadithnumber_first": 942,
+        "hadithnumber_last": 947
+      },
+      {
+        "id": 13,
+        "name": "The Two Festivals (Eids)",
+        "hadithnumber_first": 948,
+        "hadithnumber_last": 989
+      },
+      {
+        "id": 14,
+        "name": "Witr Prayer",
+        "hadithnumber_first": 990,
+        "hadithnumber_last": 1004
+      },
+      {
+        "id": 15,
+        "name": "Invoking Allah for Rain (Istisqaa)",
+        "hadithnumber_first": 1005,
+        "hadithnumber_last": 1039
+      },
+      {
+        "id": 16,
+        "name": "Eclipses",
+        "hadithnumber_first": 1040,
+        "hadithnumber_last": 1066
+      },
+      {
+        "id": 17,
+        "name": "Prostration During Recital of Qur'an",
+        "hadithnumber_first": 1067,
+        "hadithnumber_last": 1079
+      },
+      {
+        "id": 18,
+        "name": "Shortening the Prayers (At-Taqseer)",
+        "hadithnumber_first": 1080,
+        "hadithnumber_last": 1119
+      },
+      {
+        "id": 19,
+        "name": "Prayer at Night (Tahajjud)",
+        "hadithnumber_first": 1120,
+        "hadithnumber_last": 1187
+      },
+      {
+        "id": 20,
+        "name": "Virtues of Prayer at Masjid Makkah and Madinah",
+        "hadithnumber_first": 1188,
+        "hadithnumber_last": 1197
+      },
+      {
+        "id": 21,
+        "name": "Actions while Praying",
+        "hadithnumber_first": 1198,
+        "hadithnumber_last": 1223
+      },
+      {
+        "id": 22,
+        "name": "Forgetfulness in Prayer",
+        "hadithnumber_first": 1224,
+        "hadithnumber_last": 1236
+      },
+      {
+        "id": 23,
+        "name": "Funerals (Al-Janaa'iz)",
+        "hadithnumber_first": 1237,
+        "hadithnumber_last": 1394
+      },
+      {
+        "id": 24,
+        "name": "Obligatory Charity Tax (Zakat)",
+        "hadithnumber_first": 1395,
+        "hadithnumber_last": 1512
+      },
+      {
+        "id": 25,
+        "name": "Hajj (Pilgrimage)",
+        "hadithnumber_first": 1513,
+        "hadithnumber_last": 1772
+      },
+      {
+        "id": 26,
+        "name": "`Umrah (Minor pilgrimage)",
+        "hadithnumber_first": 1773,
+        "hadithnumber_last": 1805
+      },
+      {
+        "id": 27,
+        "name": "Pilgrims Prevented from Completing the Pilgrimage",
+        "hadithnumber_first": 1806,
+        "hadithnumber_last": 1820
+      },
+      {
+        "id": 28,
+        "name": "Penalty of Hunting while on Pilgrimage",
+        "hadithnumber_first": 1821,
+        "hadithnumber_last": 1866
+      },
+      {
+        "id": 29,
+        "name": "Virtues of Madinah",
+        "hadithnumber_first": 1867,
+        "hadithnumber_last": 1890
+      },
+      {
+        "id": 30,
+        "name": "Fasting",
+        "hadithnumber_first": 1891,
+        "hadithnumber_last": 2007
+      },
+      {
+        "id": 31,
+        "name": "Praying at Night in Ramadaan (Taraweeh)",
+        "hadithnumber_first": 2008,
+        "hadithnumber_last": 2013
+      },
+      {
+        "id": 32,
+        "name": "Virtues of the Night of Qadr",
+        "hadithnumber_first": 2014,
+        "hadithnumber_last": 2024
+      },
+      {
+        "id": 33,
+        "name": "Retiring to a Mosque for Remembrance of Allah (I'tikaf)",
+        "hadithnumber_first": 2025,
+        "hadithnumber_last": 2046
+      },
+      {
+        "id": 34,
+        "name": "Sales and Trade",
+        "hadithnumber_first": 2047,
+        "hadithnumber_last": 2238
+      },
+      {
+        "id": 35,
+        "name": "Sales in which a Price is paid for Goods to be Delivered Later (As-Salam)",
+        "hadithnumber_first": 2239,
+        "hadithnumber_last": 2256
+      },
+      {
+        "id": 36,
+        "name": "Shuf'a",
+        "hadithnumber_first": 2257,
+        "hadithnumber_last": 2259
+      },
+      {
+        "id": 37,
+        "name": "Hiring",
+        "hadithnumber_first": 2260,
+        "hadithnumber_last": 2286
+      },
+      {
+        "id": 38,
+        "name": "Transferance of a Debt from One Person to Another (Al-Hawaala)",
+        "hadithnumber_first": 2287,
+        "hadithnumber_last": 2289
+      },
+      {
+        "id": 39,
+        "name": "Kafalah",
+        "hadithnumber_first": 2290,
+        "hadithnumber_last": 2298
+      },
+      {
+        "id": 40,
+        "name": "Representation, Authorization, Business by Proxy",
+        "hadithnumber_first": 2299,
+        "hadithnumber_last": 2319
+      },
+      {
+        "id": 41,
+        "name": "Agriculture",
+        "hadithnumber_first": 2320,
+        "hadithnumber_last": 2350
+      },
+      {
+        "id": 42,
+        "name": "Distribution of Water",
+        "hadithnumber_first": 2351,
+        "hadithnumber_last": 2383
+      },
+      {
+        "id": 43,
+        "name": "Loans, Payment of Loans, Freezing of Property, Bankruptcy",
+        "hadithnumber_first": 2385,
+        "hadithnumber_last": 2409
+      },
+      {
+        "id": 44,
+        "name": "Khusoomaat",
+        "hadithnumber_first": 2410,
+        "hadithnumber_last": 2425
+      },
+      {
+        "id": 45,
+        "name": "Lost Things Picked up by Someone (Luqatah)",
+        "hadithnumber_first": 2426,
+        "hadithnumber_last": 2439
+      },
+      {
+        "id": 46,
+        "name": "Oppressions",
+        "hadithnumber_first": 2440,
+        "hadithnumber_last": 2482
+      },
+      {
+        "id": 47,
+        "name": "Partnership",
+        "hadithnumber_first": 2483,
+        "hadithnumber_last": 2507
+      },
+      {
+        "id": 48,
+        "name": "Mortgaging",
+        "hadithnumber_first": 2508,
+        "hadithnumber_last": 2515
+      },
+      {
+        "id": 49,
+        "name": "Manumission of Slaves",
+        "hadithnumber_first": 2517,
+        "hadithnumber_last": 2559
+      },
+      {
+        "id": 50,
+        "name": "Makaatib",
+        "hadithnumber_first": 2560,
+        "hadithnumber_last": 2565
+      },
+      {
+        "id": 51,
+        "name": "Gifts",
+        "hadithnumber_first": 2566,
+        "hadithnumber_last": 2636
+      },
+      {
+        "id": 52,
+        "name": "Witnesses",
+        "hadithnumber_first": 2637,
+        "hadithnumber_last": 2689
+      },
+      {
+        "id": 53,
+        "name": "Peacemaking",
+        "hadithnumber_first": 2690,
+        "hadithnumber_last": 2710
+      },
+      {
+        "id": 54,
+        "name": "Conditions",
+        "hadithnumber_first": 2712,
+        "hadithnumber_last": 2737
+      },
+      {
+        "id": 55,
+        "name": "Wills and Testaments (Wasaayaa)",
+        "hadithnumber_first": 2738,
+        "hadithnumber_last": 2781
+      },
+      {
+        "id": 56,
+        "name": "Fighting for the Cause of Allah (Jihaad)",
+        "hadithnumber_first": 2782,
+        "hadithnumber_last": 3090
+      },
+      {
+        "id": 57,
+        "name": "One-fifth of Booty to the Cause of Allah (Khumus)",
+        "hadithnumber_first": 3091,
+        "hadithnumber_last": 3155
+      },
+      {
+        "id": 58,
+        "name": "Jizyah and Mawaada'ah",
+        "hadithnumber_first": 3157,
+        "hadithnumber_last": 3189
+      },
+      {
+        "id": 59,
+        "name": "Beginning of Creation",
+        "hadithnumber_first": 3190,
+        "hadithnumber_last": 3325
+      },
+      {
+        "id": 60,
+        "name": "Prophets",
+        "hadithnumber_first": 3326,
+        "hadithnumber_last": 3488
+      },
+      {
+        "id": 61,
+        "name": "Virtues and Merits of the Prophet (pbuh) and his Companions",
+        "hadithnumber_first": 3489,
+        "hadithnumber_last": 3648
+      },
+      {
+        "id": 62,
+        "name": "Companions of the Prophet",
+        "hadithnumber_first": 3649,
+        "hadithnumber_last": 3775
+      },
+      {
+        "id": 63,
+        "name": "Merits of the Helpers in Madinah (Ansaar)",
+        "hadithnumber_first": 3776,
+        "hadithnumber_last": 3948
+      },
+      {
+        "id": 64,
+        "name": "Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)",
+        "hadithnumber_first": 3949,
+        "hadithnumber_last": 4473
+      },
+      {
+        "id": 65,
+        "name": "Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))",
+        "hadithnumber_first": 4474,
+        "hadithnumber_last": 4977
+      },
+      {
+        "id": 66,
+        "name": "Virtues of the Qur'an",
+        "hadithnumber_first": 4979,
+        "hadithnumber_last": 5062
+      },
+      {
+        "id": 67,
+        "name": "Wedlock, Marriage (Nikaah)",
+        "hadithnumber_first": 5063,
+        "hadithnumber_last": 5250
+      },
+      {
+        "id": 68,
+        "name": "Divorce",
+        "hadithnumber_first": 5251,
+        "hadithnumber_last": 5350
+      },
+      {
+        "id": 69,
+        "name": "Supporting the Family",
+        "hadithnumber_first": 5351,
+        "hadithnumber_last": 5372
+      },
+      {
+        "id": 70,
+        "name": "Food, Meals",
+        "hadithnumber_first": 5373,
+        "hadithnumber_last": 5466
+      },
+      {
+        "id": 71,
+        "name": "Sacrifice on Occasion of Birth (`Aqiqa)",
+        "hadithnumber_first": 5467,
+        "hadithnumber_last": 5474
+      },
+      {
+        "id": 72,
+        "name": "Hunting, Slaughtering",
+        "hadithnumber_first": 5475,
+        "hadithnumber_last": 5544
+      },
+      {
+        "id": 73,
+        "name": "Al-Adha Festival Sacrifice (Adaahi)",
+        "hadithnumber_first": 5545,
+        "hadithnumber_last": 5574
+      },
+      {
+        "id": 74,
+        "name": "Drinks",
+        "hadithnumber_first": 5575,
+        "hadithnumber_last": 5639
+      },
+      {
+        "id": 75,
+        "name": "Patients",
+        "hadithnumber_first": 5640,
+        "hadithnumber_last": 5677
+      },
+      {
+        "id": 76,
+        "name": "Medicine",
+        "hadithnumber_first": 5678,
+        "hadithnumber_last": 5782
+      },
+      {
+        "id": 77,
+        "name": "Dress",
+        "hadithnumber_first": 5783,
+        "hadithnumber_last": 5969
+      },
+      {
+        "id": 78,
+        "name": "Good Manners and Form (Al-Adab)",
+        "hadithnumber_first": 5970,
+        "hadithnumber_last": 6226
+      },
+      {
+        "id": 79,
+        "name": "Asking Permission",
+        "hadithnumber_first": 6227,
+        "hadithnumber_last": 6303
+      },
+      {
+        "id": 80,
+        "name": "Invocations",
+        "hadithnumber_first": 6304,
+        "hadithnumber_last": 6411
+      },
+      {
+        "id": 81,
+        "name": "To make the Heart Tender (Ar-Riqaq)",
+        "hadithnumber_first": 6412,
+        "hadithnumber_last": 6593
+      },
+      {
+        "id": 82,
+        "name": "Divine Will (Al-Qadar)",
+        "hadithnumber_first": 6594,
+        "hadithnumber_last": 6620
+      },
+      {
+        "id": 83,
+        "name": "Oaths and Vows",
+        "hadithnumber_first": 6621,
+        "hadithnumber_last": 6707
+      },
+      {
+        "id": 84,
+        "name": "Expiation for Unfulfilled Oaths",
+        "hadithnumber_first": 6708,
+        "hadithnumber_last": 6722
+      },
+      {
+        "id": 85,
+        "name": "Laws of Inheritance (Al-Faraa'id)",
+        "hadithnumber_first": 6723,
+        "hadithnumber_last": 6771
+      },
+      {
+        "id": 86,
+        "name": "Limits and Punishments set by Allah (Hudood)",
+        "hadithnumber_first": 6772,
+        "hadithnumber_last": 6860
+      },
+      {
+        "id": 87,
+        "name": "Blood Money (Ad-Diyat)",
+        "hadithnumber_first": 6861,
+        "hadithnumber_last": 6917
+      },
+      {
+        "id": 88,
+        "name": "Apostates",
+        "hadithnumber_first": 6918,
+        "hadithnumber_last": 6939
+      },
+      {
+        "id": 89,
+        "name": "(Statements made under) Coercion",
+        "hadithnumber_first": 6940,
+        "hadithnumber_last": 6952
+      },
+      {
+        "id": 90,
+        "name": "Tricks",
+        "hadithnumber_first": 6953,
+        "hadithnumber_last": 6981
+      },
+      {
+        "id": 91,
+        "name": "Interpretation of Dreams",
+        "hadithnumber_first": 6982,
+        "hadithnumber_last": 7047
+      },
+      {
+        "id": 92,
+        "name": "Afflictions and the End of the World",
+        "hadithnumber_first": 7048,
+        "hadithnumber_last": 7136
+      },
+      {
+        "id": 93,
+        "name": "Judgments (Ahkaam)",
+        "hadithnumber_first": 7137,
+        "hadithnumber_last": 7225
+      },
+      {
+        "id": 94,
+        "name": "Wishes",
+        "hadithnumber_first": 7226,
+        "hadithnumber_last": 7245
+      },
+      {
+        "id": 95,
+        "name": "Accepting Information Given by a Truthful Person",
+        "hadithnumber_first": 7246,
+        "hadithnumber_last": 7267
+      },
+      {
+        "id": 96,
+        "name": "Holding Fast to the Qur'an and Sunnah",
+        "hadithnumber_first": 7268,
+        "hadithnumber_last": 7370
+      },
+      {
+        "id": 97,
+        "name": "Oneness, Uniqueness of Allah (Tawheed)",
+        "hadithnumber_first": 7371,
+        "hadithnumber_last": 7563
+      }
+    ]
+  },
+  {
+    "slug": "ibnmajah",
+    "name": "Sunan Ibn Majah",
+    "total_sections": 38,
+    "sections": [
+      {
+        "id": 0,
+        "name": "The Book of the Sunnah",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 266
+      },
+      {
+        "id": 1,
+        "name": "The Book of Purification and its Sunnah",
+        "hadithnumber_first": 267,
+        "hadithnumber_last": 666
+      },
+      {
+        "id": 2,
+        "name": "The Book of the Prayer",
+        "hadithnumber_first": 667,
+        "hadithnumber_last": 705
+      },
+      {
+        "id": 3,
+        "name": "The Book of the Adhan and the Sunnah Regarding It",
+        "hadithnumber_first": 706,
+        "hadithnumber_last": 734
+      },
+      {
+        "id": 4,
+        "name": "The Book On The Mosques And The Congregations",
+        "hadithnumber_first": 735,
+        "hadithnumber_last": 802
+      },
+      {
+        "id": 5,
+        "name": "Establishing the Prayer and the Sunnah Regarding Them",
+        "hadithnumber_first": 803,
+        "hadithnumber_last": 1432
+      },
+      {
+        "id": 6,
+        "name": "Chapters Regarding Funerals",
+        "hadithnumber_first": 1433,
+        "hadithnumber_last": 1637
+      },
+      {
+        "id": 7,
+        "name": "Fasting",
+        "hadithnumber_first": 1638,
+        "hadithnumber_last": 1782
+      },
+      {
+        "id": 8,
+        "name": "The Chapters Regarding Zakat",
+        "hadithnumber_first": 1783,
+        "hadithnumber_last": 1844
+      },
+      {
+        "id": 9,
+        "name": "The Chapters on Marriage",
+        "hadithnumber_first": 1845,
+        "hadithnumber_last": 2015
+      },
+      {
+        "id": 10,
+        "name": "The Chapters on Divorce",
+        "hadithnumber_first": 2016,
+        "hadithnumber_last": 2477
+      },
+      {
+        "id": 11,
+        "name": "The Chapters on Expiation",
+        "hadithnumber_first": 2090,
+        "hadithnumber_last": 2136
+      },
+      {
+        "id": 12,
+        "name": "The Chapters on Business Transactions",
+        "hadithnumber_first": 2137,
+        "hadithnumber_last": 2307
+      },
+      {
+        "id": 13,
+        "name": "The Chapters on Rulings",
+        "hadithnumber_first": 2308,
+        "hadithnumber_last": 2374
+      },
+      {
+        "id": 14,
+        "name": "The Chapters on Gifts",
+        "hadithnumber_first": 2375,
+        "hadithnumber_last": 2389
+      },
+      {
+        "id": 15,
+        "name": "The Chapters on Charity",
+        "hadithnumber_first": 2390,
+        "hadithnumber_last": 2528
+      },
+      {
+        "id": 16,
+        "name": "The Chapters on Pawning",
+        "hadithnumber_first": 2436,
+        "hadithnumber_last": 2491
+      },
+      {
+        "id": 17,
+        "name": "The Chapters on Pre-emption",
+        "hadithnumber_first": 2492,
+        "hadithnumber_last": 2501
+      },
+      {
+        "id": 18,
+        "name": "The Chapters on Lost Property",
+        "hadithnumber_first": 2502,
+        "hadithnumber_last": 2511
+      },
+      {
+        "id": 19,
+        "name": "The Chapters on Manumission (of Slaves)",
+        "hadithnumber_first": 2512,
+        "hadithnumber_last": 2532
+      },
+      {
+        "id": 20,
+        "name": "The Chapters on Legal Punishments",
+        "hadithnumber_first": 2533,
+        "hadithnumber_last": 2614
+      },
+      {
+        "id": 21,
+        "name": "The Chapters on Blood Money",
+        "hadithnumber_first": 2615,
+        "hadithnumber_last": 2694
+      },
+      {
+        "id": 22,
+        "name": "The Chapters on Wills",
+        "hadithnumber_first": 2695,
+        "hadithnumber_last": 2718
+      },
+      {
+        "id": 23,
+        "name": "Chapters on Shares of Inheritance",
+        "hadithnumber_first": 2719,
+        "hadithnumber_last": 2752
+      },
+      {
+        "id": 24,
+        "name": "The Chapters on Jihad",
+        "hadithnumber_first": 2753,
+        "hadithnumber_last": 2881
+      },
+      {
+        "id": 25,
+        "name": "Chapters on Hajj Rituals",
+        "hadithnumber_first": 2882,
+        "hadithnumber_last": 3119
+      },
+      {
+        "id": 26,
+        "name": "Chapters on Sacrifices",
+        "hadithnumber_first": 3120,
+        "hadithnumber_last": 3161
+      },
+      {
+        "id": 27,
+        "name": "Chapters on Slaughtering",
+        "hadithnumber_first": 3162,
+        "hadithnumber_last": 3199
+      },
+      {
+        "id": 28,
+        "name": "Chapters on Hunting",
+        "hadithnumber_first": 3200,
+        "hadithnumber_last": 3250
+      },
+      {
+        "id": 29,
+        "name": " Chapters on Food",
+        "hadithnumber_first": 3251,
+        "hadithnumber_last": 3370
+      },
+      {
+        "id": 30,
+        "name": "Chapters on Drinks",
+        "hadithnumber_first": 3371,
+        "hadithnumber_last": 3435
+      },
+      {
+        "id": 31,
+        "name": "Chapters on Medicine",
+        "hadithnumber_first": 3436,
+        "hadithnumber_last": 3549
+      },
+      {
+        "id": 32,
+        "name": "Chapters on Dress",
+        "hadithnumber_first": 3550,
+        "hadithnumber_last": 3656
+      },
+      {
+        "id": 33,
+        "name": "Etiquette",
+        "hadithnumber_first": 3657,
+        "hadithnumber_last": 3826
+      },
+      {
+        "id": 34,
+        "name": "Supplication",
+        "hadithnumber_first": 3827,
+        "hadithnumber_last": 3892
+      },
+      {
+        "id": 35,
+        "name": "Interpretation of Dreams",
+        "hadithnumber_first": 3893,
+        "hadithnumber_last": 3926
+      },
+      {
+        "id": 36,
+        "name": "Tribulations",
+        "hadithnumber_first": 3927,
+        "hadithnumber_last": 4099
+      },
+      {
+        "id": 37,
+        "name": "Zuhd",
+        "hadithnumber_first": 4100,
+        "hadithnumber_last": 4341
+      }
+    ]
+  },
+  {
+    "slug": "malik",
+    "name": "Muwatta Malik",
+    "total_sections": 62,
+    "sections": [
+      {
+        "id": 1,
+        "name": "The Times of Prayer",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 31
+      },
+      {
+        "id": 2,
+        "name": "Purity",
+        "hadithnumber_first": 32,
+        "hadithnumber_last": 145
+      },
+      {
+        "id": 3,
+        "name": "Prayer",
+        "hadithnumber_first": 146,
+        "hadithnumber_last": 221
+      },
+      {
+        "id": 4,
+        "name": "Forgetfulness in Prayer",
+        "hadithnumber_first": 222,
+        "hadithnumber_last": 224
+      },
+      {
+        "id": 5,
+        "name": "Jumu'a",
+        "hadithnumber_first": 225,
+        "hadithnumber_last": 245
+      },
+      {
+        "id": 6,
+        "name": "Prayer in Ramadan",
+        "hadithnumber_first": 246,
+        "hadithnumber_last": 253
+      },
+      {
+        "id": 7,
+        "name": "Tahajjud",
+        "hadithnumber_first": 254,
+        "hadithnumber_last": 286
+      },
+      {
+        "id": 8,
+        "name": "Prayer in Congregation",
+        "hadithnumber_first": 287,
+        "hadithnumber_last": 325
+      },
+      {
+        "id": 9,
+        "name": "Shortening the Prayer",
+        "hadithnumber_first": 326,
+        "hadithnumber_last": 427
+      },
+      {
+        "id": 10,
+        "name": "The Two 'Ids",
+        "hadithnumber_first": 428,
+        "hadithnumber_last": 440
+      },
+      {
+        "id": 11,
+        "name": "The Fear Prayer",
+        "hadithnumber_first": 441,
+        "hadithnumber_last": 444
+      },
+      {
+        "id": 12,
+        "name": "The Eclipse Prayer",
+        "hadithnumber_first": 445,
+        "hadithnumber_last": 448
+      },
+      {
+        "id": 13,
+        "name": "Asking for Rain",
+        "hadithnumber_first": 449,
+        "hadithnumber_last": 454
+      },
+      {
+        "id": 14,
+        "name": "The Qibla",
+        "hadithnumber_first": 455,
+        "hadithnumber_last": 469
+      },
+      {
+        "id": 15,
+        "name": "The Qur'an",
+        "hadithnumber_first": 470,
+        "hadithnumber_last": 519
+      },
+      {
+        "id": 16,
+        "name": "Burials",
+        "hadithnumber_first": 520,
+        "hadithnumber_last": 577
+      },
+      {
+        "id": 17,
+        "name": "Zakat",
+        "hadithnumber_first": 578,
+        "hadithnumber_last": 629
+      },
+      {
+        "id": 18,
+        "name": "Fasting",
+        "hadithnumber_first": 630,
+        "hadithnumber_last": 689
+      },
+      {
+        "id": 19,
+        "name": "I'tikaf in Ramadan",
+        "hadithnumber_first": 690,
+        "hadithnumber_last": 704
+      },
+      {
+        "id": 20,
+        "name": "Hajj",
+        "hadithnumber_first": 705,
+        "hadithnumber_last": 957
+      },
+      {
+        "id": 21,
+        "name": "Jihad",
+        "hadithnumber_first": 959,
+        "hadithnumber_last": 1008
+      },
+      {
+        "id": 22,
+        "name": "Vows and Oaths",
+        "hadithnumber_first": 1009,
+        "hadithnumber_last": 1027
+      },
+      {
+        "id": 23,
+        "name": "Sacrificial Animals",
+        "hadithnumber_first": 1028,
+        "hadithnumber_last": 1041
+      },
+      {
+        "id": 24,
+        "name": "Slaughtering Animals",
+        "hadithnumber_first": 1042,
+        "hadithnumber_last": 1051
+      },
+      {
+        "id": 25,
+        "name": "Game",
+        "hadithnumber_first": 1052,
+        "hadithnumber_last": 1066
+      },
+      {
+        "id": 26,
+        "name": "The 'Aqiqa",
+        "hadithnumber_first": 1067,
+        "hadithnumber_last": 1073
+      },
+      {
+        "id": 27,
+        "name": "Fara'id",
+        "hadithnumber_first": 1074,
+        "hadithnumber_last": 1089
+      },
+      {
+        "id": 28,
+        "name": "Marriage",
+        "hadithnumber_first": 1091,
+        "hadithnumber_last": 1149
+      },
+      {
+        "id": 29,
+        "name": "Divorce",
+        "hadithnumber_first": 1150,
+        "hadithnumber_last": 1271
+      },
+      {
+        "id": 30,
+        "name": "Suckling",
+        "hadithnumber_first": 1272,
+        "hadithnumber_last": 1289
+      },
+      {
+        "id": 31,
+        "name": "Business Transactions",
+        "hadithnumber_first": 1290,
+        "hadithnumber_last": 1385
+      },
+      {
+        "id": 32,
+        "name": "Qirad",
+        "hadithnumber_first": 1386,
+        "hadithnumber_last": 1387
+      },
+      {
+        "id": 33,
+        "name": "Sharecropping",
+        "hadithnumber_first": 1388,
+        "hadithnumber_last": 1389
+      },
+      {
+        "id": 34,
+        "name": "Renting Land",
+        "hadithnumber_first": 1390,
+        "hadithnumber_last": 1394
+      },
+      {
+        "id": 35,
+        "name": "Pre-emption in Property",
+        "hadithnumber_first": 1395,
+        "hadithnumber_last": 1398
+      },
+      {
+        "id": 36,
+        "name": "Judgements",
+        "hadithnumber_first": 1399,
+        "hadithnumber_last": 1454
+      },
+      {
+        "id": 37,
+        "name": "Wills and Testaments",
+        "hadithnumber_first": 1455,
+        "hadithnumber_last": 1463
+      },
+      {
+        "id": 38,
+        "name": "Setting Free and Wala'",
+        "hadithnumber_first": 1464,
+        "hadithnumber_last": 1488
+      },
+      {
+        "id": 39,
+        "name": "The Mukatab",
+        "hadithnumber_first": 1489,
+        "hadithnumber_last": 1496
+      },
+      {
+        "id": 40,
+        "name": "The Mudabbar",
+        "hadithnumber_first": 1497,
+        "hadithnumber_last": 1499
+      },
+      {
+        "id": 41,
+        "name": "Hudud",
+        "hadithnumber_first": 1500,
+        "hadithnumber_last": 1536
+      },
+      {
+        "id": 42,
+        "name": "Drinks",
+        "hadithnumber_first": 1537,
+        "hadithnumber_last": 1551
+      },
+      {
+        "id": 43,
+        "name": "Blood-Money",
+        "hadithnumber_first": 1552,
+        "hadithnumber_last": 1595
+      },
+      {
+        "id": 44,
+        "name": "The Oath of Qasama",
+        "hadithnumber_first": 1596,
+        "hadithnumber_last": 1597
+      },
+      {
+        "id": 45,
+        "name": "Madina",
+        "hadithnumber_first": 1598,
+        "hadithnumber_last": 1622
+      },
+      {
+        "id": 46,
+        "name": "The Decree",
+        "hadithnumber_first": 1623,
+        "hadithnumber_last": 1632
+      },
+      {
+        "id": 47,
+        "name": "Good Character",
+        "hadithnumber_first": 1633,
+        "hadithnumber_last": 1650
+      },
+      {
+        "id": 48,
+        "name": "Dress",
+        "hadithnumber_first": 1651,
+        "hadithnumber_last": 1670
+      },
+      {
+        "id": 49,
+        "name": "The Description of the Prophet, may Allah Bless Him and Grant Him Peace",
+        "hadithnumber_first": 1671,
+        "hadithnumber_last": 1710
+      },
+      {
+        "id": 50,
+        "name": "The Evil Eye",
+        "hadithnumber_first": 1711,
+        "hadithnumber_last": 1729
+      },
+      {
+        "id": 51,
+        "name": "Hair",
+        "hadithnumber_first": 1730,
+        "hadithnumber_last": 1746
+      },
+      {
+        "id": 52,
+        "name": "Visions",
+        "hadithnumber_first": 1747,
+        "hadithnumber_last": 1755
+      },
+      {
+        "id": 53,
+        "name": "Greetings",
+        "hadithnumber_first": 1756,
+        "hadithnumber_last": 1762
+      },
+      {
+        "id": 54,
+        "name": "General Subjects",
+        "hadithnumber_first": 1763,
+        "hadithnumber_last": 1807
+      },
+      {
+        "id": 55,
+        "name": "The Oath of Allegiance",
+        "hadithnumber_first": 1808,
+        "hadithnumber_last": 1810
+      },
+      {
+        "id": 56,
+        "name": "Speech",
+        "hadithnumber_first": 1811,
+        "hadithnumber_last": 1838
+      },
+      {
+        "id": 57,
+        "name": "Jahannam",
+        "hadithnumber_first": 1839,
+        "hadithnumber_last": 1840
+      },
+      {
+        "id": 58,
+        "name": "Sadaqa",
+        "hadithnumber_first": 1841,
+        "hadithnumber_last": 1855
+      },
+      {
+        "id": 59,
+        "name": "Knowledge",
+        "hadithnumber_first": 1856,
+        "hadithnumber_last": 1856
+      },
+      {
+        "id": 60,
+        "name": "The Supplication of the Unjustly Wronged",
+        "hadithnumber_first": 1857,
+        "hadithnumber_last": 1857
+      },
+      {
+        "id": 61,
+        "name": "The Names of the Prophet, may Allah Bless Him and Grant Him Peace",
+        "hadithnumber_first": 1858,
+        "hadithnumber_last": 1858
+      }
+    ]
+  },
+  {
+    "slug": "muslim",
+    "name": "Sahih Muslim",
+    "total_sections": 57,
+    "sections": [
+      {
+        "id": 0,
+        "name": "Introduction",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 92
+      },
+      {
+        "id": 1,
+        "name": "The Book of Faith",
+        "hadithnumber_first": 93,
+        "hadithnumber_last": 533
+      },
+      {
+        "id": 2,
+        "name": "The Book of Purification",
+        "hadithnumber_first": 534,
+        "hadithnumber_last": 678
+      },
+      {
+        "id": 3,
+        "name": "The Book of Menstruation",
+        "hadithnumber_first": 679,
+        "hadithnumber_last": 836
+      },
+      {
+        "id": 4,
+        "name": "The Book of Prayers ",
+        "hadithnumber_first": 837,
+        "hadithnumber_last": 1160
+      },
+      {
+        "id": 5,
+        "name": "The Book of Mosques and Places of Prayer",
+        "hadithnumber_first": 1161,
+        "hadithnumber_last": 1569
+      },
+      {
+        "id": 6,
+        "name": "The Book of Prayer - Travellers",
+        "hadithnumber_first": 1570,
+        "hadithnumber_last": 1950
+      },
+      {
+        "id": 7,
+        "name": "The Book of Prayer - Friday",
+        "hadithnumber_first": 1951,
+        "hadithnumber_last": 2043
+      },
+      {
+        "id": 8,
+        "name": "The Book of Prayer - Two Eids",
+        "hadithnumber_first": 2044,
+        "hadithnumber_last": 2069
+      },
+      {
+        "id": 9,
+        "name": "The Book of Prayer - Rain",
+        "hadithnumber_first": 2070,
+        "hadithnumber_last": 2088
+      },
+      {
+        "id": 10,
+        "name": "The Book of Prayer - Eclipses",
+        "hadithnumber_first": 2089,
+        "hadithnumber_last": 2122
+      },
+      {
+        "id": 11,
+        "name": "The Book of Prayer - Funerals",
+        "hadithnumber_first": 2123,
+        "hadithnumber_last": 2262
+      },
+      {
+        "id": 12,
+        "name": "The Book of Zakat",
+        "hadithnumber_first": 2263,
+        "hadithnumber_last": 2494
+      },
+      {
+        "id": 13,
+        "name": "The Book of Fasting ",
+        "hadithnumber_first": 2495,
+        "hadithnumber_last": 2779
+      },
+      {
+        "id": 14,
+        "name": "The Book of I'tikaf",
+        "hadithnumber_first": 2780,
+        "hadithnumber_last": 2790
+      },
+      {
+        "id": 15,
+        "name": "The Book of Pilgrimage",
+        "hadithnumber_first": 2791,
+        "hadithnumber_last": 3397
+      },
+      {
+        "id": 16,
+        "name": "The Book of Marriage",
+        "hadithnumber_first": 388,
+        "hadithnumber_last": 3567
+      },
+      {
+        "id": 17,
+        "name": "The Book of Suckling",
+        "hadithnumber_first": 3568,
+        "hadithnumber_last": 3651
+      },
+      {
+        "id": 18,
+        "name": "The Book of Divorce ",
+        "hadithnumber_first": 3652,
+        "hadithnumber_last": 3742
+      },
+      {
+        "id": 19,
+        "name": "The Book of Invoking Curses",
+        "hadithnumber_first": 3743,
+        "hadithnumber_last": 3769
+      },
+      {
+        "id": 20,
+        "name": "The Book of Emancipating Slaves",
+        "hadithnumber_first": 3770,
+        "hadithnumber_last": 3800
+      },
+      {
+        "id": 21,
+        "name": "The Book of Transactions",
+        "hadithnumber_first": 3801,
+        "hadithnumber_last": 3961
+      },
+      {
+        "id": 22,
+        "name": "The Book of Musaqah",
+        "hadithnumber_first": 3962,
+        "hadithnumber_last": 4139
+      },
+      {
+        "id": 23,
+        "name": "The Book of the Rules of Inheritance",
+        "hadithnumber_first": 4140,
+        "hadithnumber_last": 4162
+      },
+      {
+        "id": 24,
+        "name": "The Book of Gifts",
+        "hadithnumber_first": 4163,
+        "hadithnumber_last": 4203
+      },
+      {
+        "id": 25,
+        "name": "The Book of Wills",
+        "hadithnumber_first": 4204,
+        "hadithnumber_last": 4234
+      },
+      {
+        "id": 26,
+        "name": "The Book of Vows",
+        "hadithnumber_first": 4235,
+        "hadithnumber_last": 4253
+      },
+      {
+        "id": 27,
+        "name": "The Book of Oaths",
+        "hadithnumber_first": 4254,
+        "hadithnumber_last": 4341
+      },
+      {
+        "id": 28,
+        "name": "The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)",
+        "hadithnumber_first": 4342,
+        "hadithnumber_last": 4397
+      },
+      {
+        "id": 29,
+        "name": "The Book of Legal Punishments",
+        "hadithnumber_first": 4398,
+        "hadithnumber_last": 4469
+      },
+      {
+        "id": 30,
+        "name": "The Book of Judicial Decisions",
+        "hadithnumber_first": 4470,
+        "hadithnumber_last": 4497
+      },
+      {
+        "id": 31,
+        "name": "The Book of Lost Property",
+        "hadithnumber_first": 4498,
+        "hadithnumber_last": 4518
+      },
+      {
+        "id": 32,
+        "name": "The Book of Jihad and Expeditions",
+        "hadithnumber_first": 4519,
+        "hadithnumber_last": 4700
+      },
+      {
+        "id": 33,
+        "name": "The Book on Government",
+        "hadithnumber_first": 4701,
+        "hadithnumber_last": 4967
+      },
+      {
+        "id": 34,
+        "name": "The Book of Hunting, Slaughter, and what may be Eaten",
+        "hadithnumber_first": 4972,
+        "hadithnumber_last": 5063
+      },
+      {
+        "id": 35,
+        "name": "The Book of Sacrifices",
+        "hadithnumber_first": 5064,
+        "hadithnumber_last": 5126
+      },
+      {
+        "id": 36,
+        "name": "The Book of Drinks",
+        "hadithnumber_first": 5114,
+        "hadithnumber_last": 5383
+      },
+      {
+        "id": 37,
+        "name": "The Book of Clothes and Adornment",
+        "hadithnumber_first": 5385,
+        "hadithnumber_last": 5585
+      },
+      {
+        "id": 38,
+        "name": "The Book of Manners and Etiquette",
+        "hadithnumber_first": 5586,
+        "hadithnumber_last": 5645
+      },
+      {
+        "id": 39,
+        "name": "The Book of Greetings",
+        "hadithnumber_first": 5646,
+        "hadithnumber_last": 5861
+      },
+      {
+        "id": 40,
+        "name": "The Book Concerning the Use of Correct Words",
+        "hadithnumber_first": 5862,
+        "hadithnumber_last": 5884
+      },
+      {
+        "id": 41,
+        "name": "The Book of Poetry",
+        "hadithnumber_first": 5887,
+        "hadithnumber_last": 5896
+      },
+      {
+        "id": 42,
+        "name": "The Book of Dreams",
+        "hadithnumber_first": 5897,
+        "hadithnumber_last": 5937
+      },
+      {
+        "id": 43,
+        "name": "The Book of Virtues",
+        "hadithnumber_first": 384,
+        "hadithnumber_last": 6168
+      },
+      {
+        "id": 44,
+        "name": "The Book of the Merits of the Companions",
+        "hadithnumber_first": 6169,
+        "hadithnumber_last": 6499
+      },
+      {
+        "id": 45,
+        "name": "The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship",
+        "hadithnumber_first": 6500,
+        "hadithnumber_last": 6722
+      },
+      {
+        "id": 46,
+        "name": "The Book of Destiny",
+        "hadithnumber_first": 6723,
+        "hadithnumber_last": 6774
+      },
+      {
+        "id": 47,
+        "name": "The Book of Knowledge",
+        "hadithnumber_first": 6775,
+        "hadithnumber_last": 6804
+      },
+      {
+        "id": 48,
+        "name": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness ",
+        "hadithnumber_first": 6805,
+        "hadithnumber_last": 6936
+      },
+      {
+        "id": 49,
+        "name": "The Book of Heart-Melting Traditions",
+        "hadithnumber_first": 6937,
+        "hadithnumber_last": 6951
+      },
+      {
+        "id": 50,
+        "name": "The Book of Repentance",
+        "hadithnumber_first": 6952,
+        "hadithnumber_last": 7023
+      },
+      {
+        "id": 51,
+        "name": "Characteristics of The Hypocrites And Rulings Concerning Them",
+        "hadithnumber_first": 7024,
+        "hadithnumber_last": 7044
+      },
+      {
+        "id": 52,
+        "name": "Characteristics of the Day of Judgment, Paradise, and Hell",
+        "hadithnumber_first": 7045,
+        "hadithnumber_last": 7129
+      },
+      {
+        "id": 53,
+        "name": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+        "hadithnumber_first": 7130,
+        "hadithnumber_last": 7234
+      },
+      {
+        "id": 54,
+        "name": "The Book of Tribulations and Portents of the Last Hour",
+        "hadithnumber_first": 7235,
+        "hadithnumber_last": 7416
+      },
+      {
+        "id": 55,
+        "name": "The Book of Zuhd and Softening of Hearts ",
+        "hadithnumber_first": 7417,
+        "hadithnumber_last": 7522
+      },
+      {
+        "id": 56,
+        "name": "The Book of Commentary on the Qur'an",
+        "hadithnumber_first": 7523,
+        "hadithnumber_last": 7563
+      }
+    ]
+  },
+  {
+    "slug": "nasai",
+    "name": "Sunan an-Nasa'i",
+    "total_sections": 52,
+    "sections": [
+      {
+        "id": 1,
+        "name": "The Book of Purification",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 324
+      },
+      {
+        "id": 2,
+        "name": "The Book of Water",
+        "hadithnumber_first": 325,
+        "hadithnumber_last": 347
+      },
+      {
+        "id": 3,
+        "name": "The Book of Menstruation and Istihadah",
+        "hadithnumber_first": 348,
+        "hadithnumber_last": 395
+      },
+      {
+        "id": 4,
+        "name": "The Book of Ghusl and Tayammum",
+        "hadithnumber_first": 396,
+        "hadithnumber_last": 447
+      },
+      {
+        "id": 5,
+        "name": "The Book of Salah",
+        "hadithnumber_first": 448,
+        "hadithnumber_last": 493
+      },
+      {
+        "id": 6,
+        "name": "The Book of the Times (of Prayer)",
+        "hadithnumber_first": 494,
+        "hadithnumber_last": 625
+      },
+      {
+        "id": 7,
+        "name": "The Book of the Adhan (The Call to Prayer)",
+        "hadithnumber_first": 626,
+        "hadithnumber_last": 687
+      },
+      {
+        "id": 8,
+        "name": "The Book of the Masjids",
+        "hadithnumber_first": 688,
+        "hadithnumber_last": 741
+      },
+      {
+        "id": 9,
+        "name": "The Book of the Qiblah",
+        "hadithnumber_first": 742,
+        "hadithnumber_last": 776
+      },
+      {
+        "id": 10,
+        "name": "The Book of Leading the Prayer (Al-Imamah)",
+        "hadithnumber_first": 777,
+        "hadithnumber_last": 875
+      },
+      {
+        "id": 11,
+        "name": "The Book of the Commencement of the Prayer",
+        "hadithnumber_first": 876,
+        "hadithnumber_last": 1028
+      },
+      {
+        "id": 12,
+        "name": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
+        "hadithnumber_first": 1029,
+        "hadithnumber_last": 1178
+      },
+      {
+        "id": 13,
+        "name": "The Book of Forgetfulness (In Prayer)",
+        "hadithnumber_first": 1179,
+        "hadithnumber_last": 1366
+      },
+      {
+        "id": 14,
+        "name": "The Book of Jumu'ah (Friday Prayer)",
+        "hadithnumber_first": 1367,
+        "hadithnumber_last": 1432
+      },
+      {
+        "id": 15,
+        "name": "The Book of Shortening the Prayer When Traveling",
+        "hadithnumber_first": 1433,
+        "hadithnumber_last": 1458
+      },
+      {
+        "id": 16,
+        "name": "The Book of Eclipses",
+        "hadithnumber_first": 1459,
+        "hadithnumber_last": 1503
+      },
+      {
+        "id": 17,
+        "name": "The Book of Praying for Rain (Al-Istisqa')",
+        "hadithnumber_first": 1504,
+        "hadithnumber_last": 1528
+      },
+      {
+        "id": 18,
+        "name": "The Book of the Fear Prayer",
+        "hadithnumber_first": 1529,
+        "hadithnumber_last": 1555
+      },
+      {
+        "id": 19,
+        "name": "The Book of the Prayer for the Two 'Eids",
+        "hadithnumber_first": 1556,
+        "hadithnumber_last": 1597
+      },
+      {
+        "id": 20,
+        "name": "The Book of Qiyam Al-Lail (The Night Prayer) and Voluntary Prayers During the Day",
+        "hadithnumber_first": 1598,
+        "hadithnumber_last": 1817
+      },
+      {
+        "id": 21,
+        "name": "The Book of Funerals",
+        "hadithnumber_first": 1818,
+        "hadithnumber_last": 2089
+      },
+      {
+        "id": 22,
+        "name": "The Book of Fasting",
+        "hadithnumber_first": 2090,
+        "hadithnumber_last": 2434
+      },
+      {
+        "id": 23,
+        "name": "The Book of Zakah",
+        "hadithnumber_first": 2435,
+        "hadithnumber_last": 2618
+      },
+      {
+        "id": 24,
+        "name": "The Book of Hajj",
+        "hadithnumber_first": 2619,
+        "hadithnumber_last": 3084
+      },
+      {
+        "id": 25,
+        "name": "The Book of Jihad",
+        "hadithnumber_first": 3085,
+        "hadithnumber_last": 3195
+      },
+      {
+        "id": 26,
+        "name": "The Book of Marriage",
+        "hadithnumber_first": 3196,
+        "hadithnumber_last": 3388
+      },
+      {
+        "id": 27,
+        "name": "The Book of Divorce",
+        "hadithnumber_first": 3389,
+        "hadithnumber_last": 3560
+      },
+      {
+        "id": 28,
+        "name": "The Book of Horses, Races and Shooting",
+        "hadithnumber_first": 3561,
+        "hadithnumber_last": 3593
+      },
+      {
+        "id": 29,
+        "name": "The Book of Endowments",
+        "hadithnumber_first": 3594,
+        "hadithnumber_last": 3610
+      },
+      {
+        "id": 30,
+        "name": "The Book of Wills",
+        "hadithnumber_first": 3611,
+        "hadithnumber_last": 3671
+      },
+      {
+        "id": 31,
+        "name": "The Book of Presents",
+        "hadithnumber_first": 3672,
+        "hadithnumber_last": 3687
+      },
+      {
+        "id": 32,
+        "name": "The Book of Gifts",
+        "hadithnumber_first": 3688,
+        "hadithnumber_last": 3705
+      },
+      {
+        "id": 33,
+        "name": "The Book of ar-Ruqba",
+        "hadithnumber_first": 3706,
+        "hadithnumber_last": 3719
+      },
+      {
+        "id": 34,
+        "name": "The Book of 'Umra",
+        "hadithnumber_first": 3720,
+        "hadithnumber_last": 3760
+      },
+      {
+        "id": 35,
+        "name": "The Book of Agriculture",
+        "hadithnumber_first": 3761,
+        "hadithnumber_last": 3856
+      },
+      {
+        "id": 36,
+        "name": "The Book of the Kind Treatment of Women",
+        "hadithnumber_first": 3939,
+        "hadithnumber_last": 3965
+      },
+      {
+        "id": 37,
+        "name": "The Book of Fighting [The Prohibition of Bloodshed]",
+        "hadithnumber_first": 3966,
+        "hadithnumber_last": 4132
+      },
+      {
+        "id": 38,
+        "name": "The Book of Distribution of Al-Fay'",
+        "hadithnumber_first": 4133,
+        "hadithnumber_last": 4148
+      },
+      {
+        "id": 39,
+        "name": "The Book of al-Bay'ah",
+        "hadithnumber_first": 4149,
+        "hadithnumber_last": 4211
+      },
+      {
+        "id": 40,
+        "name": "The Book of al-'Aqiqah",
+        "hadithnumber_first": 4212,
+        "hadithnumber_last": 4221
+      },
+      {
+        "id": 41,
+        "name": "The Book of al-Fara' and al-'Atirah",
+        "hadithnumber_first": 4222,
+        "hadithnumber_last": 4262
+      },
+      {
+        "id": 42,
+        "name": "The Book of Hunting and Slaughtering",
+        "hadithnumber_first": 4263,
+        "hadithnumber_last": 4360
+      },
+      {
+        "id": 43,
+        "name": "The Book of ad-Dahaya (Sacrifices)",
+        "hadithnumber_first": 4361,
+        "hadithnumber_last": 4448
+      },
+      {
+        "id": 44,
+        "name": "The Book of Financial Transactions",
+        "hadithnumber_first": 4449,
+        "hadithnumber_last": 4705
+      },
+      {
+        "id": 45,
+        "name": "The Book of Oaths (qasamah), Retaliation and Blood Money",
+        "hadithnumber_first": 4706,
+        "hadithnumber_last": 4869
+      },
+      {
+        "id": 46,
+        "name": "The Book of Cutting off the Hand of the Thief",
+        "hadithnumber_first": 4870,
+        "hadithnumber_last": 4984
+      },
+      {
+        "id": 47,
+        "name": "The Book Of Faith and its Signs",
+        "hadithnumber_first": 4985,
+        "hadithnumber_last": 5039
+      },
+      {
+        "id": 48,
+        "name": "The Book of Adornment",
+        "hadithnumber_first": 5040,
+        "hadithnumber_last": 5378
+      },
+      {
+        "id": 49,
+        "name": "The Book of the Etiquette of Judges",
+        "hadithnumber_first": 5379,
+        "hadithnumber_last": 5427
+      },
+      {
+        "id": 50,
+        "name": "The Book of Seeking Refuge with Allah",
+        "hadithnumber_first": 5428,
+        "hadithnumber_last": 5539
+      },
+      {
+        "id": 51,
+        "name": "The Book of Drinks",
+        "hadithnumber_first": 5540,
+        "hadithnumber_last": 5758
+      }
+    ]
+  },
+  {
+    "slug": "tirmidhi",
+    "name": "Jami` at-Tirmidhi",
+    "total_sections": 50,
+    "sections": [
+      {
+        "id": 1,
+        "name": "The Book on Purification",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 148
+      },
+      {
+        "id": 2,
+        "name": "The Book on Salat (Prayer)",
+        "hadithnumber_first": 149,
+        "hadithnumber_last": 451
+      },
+      {
+        "id": 3,
+        "name": "The Book on Al-Witr",
+        "hadithnumber_first": 452,
+        "hadithnumber_last": 487
+      },
+      {
+        "id": 4,
+        "name": "The Book on the Day of Friday",
+        "hadithnumber_first": 488,
+        "hadithnumber_last": 529
+      },
+      {
+        "id": 5,
+        "name": "The Book on the Two Eids",
+        "hadithnumber_first": 530,
+        "hadithnumber_last": 543
+      },
+      {
+        "id": 6,
+        "name": "The Book on Traveling",
+        "hadithnumber_first": 544,
+        "hadithnumber_last": 616
+      },
+      {
+        "id": 7,
+        "name": "The Book on Zakat",
+        "hadithnumber_first": 617,
+        "hadithnumber_last": 681
+      },
+      {
+        "id": 8,
+        "name": "The Book on Fasting",
+        "hadithnumber_first": 682,
+        "hadithnumber_last": 808
+      },
+      {
+        "id": 9,
+        "name": "The Book on Hajj",
+        "hadithnumber_first": 809,
+        "hadithnumber_last": 964
+      },
+      {
+        "id": 10,
+        "name": "The Book on Jana''iz (Funerals)",
+        "hadithnumber_first": 965,
+        "hadithnumber_last": 1079
+      },
+      {
+        "id": 11,
+        "name": "The Book on Marriage",
+        "hadithnumber_first": 1080,
+        "hadithnumber_last": 1145
+      },
+      {
+        "id": 12,
+        "name": "The Book on Suckling",
+        "hadithnumber_first": 1146,
+        "hadithnumber_last": 1174
+      },
+      {
+        "id": 13,
+        "name": "The Book on Divorce and Li'an",
+        "hadithnumber_first": 1175,
+        "hadithnumber_last": 1204
+      },
+      {
+        "id": 14,
+        "name": "The Book on Business",
+        "hadithnumber_first": 1205,
+        "hadithnumber_last": 1321
+      },
+      {
+        "id": 15,
+        "name": "The Chapters On Judgements From The Messenger of Allah",
+        "hadithnumber_first": 1322,
+        "hadithnumber_last": 1385
+      },
+      {
+        "id": 16,
+        "name": "The Book on Blood Money",
+        "hadithnumber_first": 1386,
+        "hadithnumber_last": 1422
+      },
+      {
+        "id": 17,
+        "name": "The Book on Legal Punishments (Al-Hudud)",
+        "hadithnumber_first": 1423,
+        "hadithnumber_last": 1463
+      },
+      {
+        "id": 18,
+        "name": "The Book on Hunting",
+        "hadithnumber_first": 1464,
+        "hadithnumber_last": 1492
+      },
+      {
+        "id": 19,
+        "name": "The Book on Sacrifices",
+        "hadithnumber_first": 1493,
+        "hadithnumber_last": 1523
+      },
+      {
+        "id": 20,
+        "name": "The Book on Vows and Oaths",
+        "hadithnumber_first": 1524,
+        "hadithnumber_last": 1547
+      },
+      {
+        "id": 21,
+        "name": "The Book on Military Expeditions",
+        "hadithnumber_first": 1548,
+        "hadithnumber_last": 1618
+      },
+      {
+        "id": 22,
+        "name": "The Book on Virtues of Jihad",
+        "hadithnumber_first": 1619,
+        "hadithnumber_last": 1669
+      },
+      {
+        "id": 23,
+        "name": "The Book on Jihad",
+        "hadithnumber_first": 1670,
+        "hadithnumber_last": 1719
+      },
+      {
+        "id": 24,
+        "name": "The Book on Clothing",
+        "hadithnumber_first": 1720,
+        "hadithnumber_last": 1787
+      },
+      {
+        "id": 25,
+        "name": "The Book on Food",
+        "hadithnumber_first": 1788,
+        "hadithnumber_last": 1860
+      },
+      {
+        "id": 26,
+        "name": "The Book on Drinks",
+        "hadithnumber_first": 1861,
+        "hadithnumber_last": 1896
+      },
+      {
+        "id": 27,
+        "name": "Chapters on Righteousness And Maintaining Good Relations With Relatives",
+        "hadithnumber_first": 1897,
+        "hadithnumber_last": 2035
+      },
+      {
+        "id": 28,
+        "name": "Chapters on Medicine",
+        "hadithnumber_first": 2036,
+        "hadithnumber_last": 2089
+      },
+      {
+        "id": 29,
+        "name": "Chapters On Inheritance",
+        "hadithnumber_first": 2090,
+        "hadithnumber_last": 2115
+      },
+      {
+        "id": 30,
+        "name": "Chapters On Wasaya (Wills and Testament)",
+        "hadithnumber_first": 2116,
+        "hadithnumber_last": 2124
+      },
+      {
+        "id": 31,
+        "name": "Chapters On Wala' And Gifts",
+        "hadithnumber_first": 2125,
+        "hadithnumber_last": 2132
+      },
+      {
+        "id": 32,
+        "name": "Chapters On Al-Qadar",
+        "hadithnumber_first": 2133,
+        "hadithnumber_last": 2298
+      },
+      {
+        "id": 33,
+        "name": "Chapters On Al-Fitan",
+        "hadithnumber_first": 2158,
+        "hadithnumber_last": 2269
+      },
+      {
+        "id": 34,
+        "name": "Chapters On Dreams",
+        "hadithnumber_first": 2270,
+        "hadithnumber_last": 2294
+      },
+      {
+        "id": 35,
+        "name": "Chapters On Witnesses",
+        "hadithnumber_first": 2295,
+        "hadithnumber_last": 2303
+      },
+      {
+        "id": 36,
+        "name": "Chapters On Zuhd",
+        "hadithnumber_first": 2304,
+        "hadithnumber_last": 2414
+      },
+      {
+        "id": 37,
+        "name": "Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'",
+        "hadithnumber_first": 2415,
+        "hadithnumber_last": 2522
+      },
+      {
+        "id": 38,
+        "name": "Chapters on the description of Paradise",
+        "hadithnumber_first": 2523,
+        "hadithnumber_last": 2735
+      },
+      {
+        "id": 39,
+        "name": "The Book on the Description of Hellfire",
+        "hadithnumber_first": 2573,
+        "hadithnumber_last": 2795
+      },
+      {
+        "id": 40,
+        "name": "The Book on Faith",
+        "hadithnumber_first": 2606,
+        "hadithnumber_last": 2644
+      },
+      {
+        "id": 41,
+        "name": "Chapters on Knowledge",
+        "hadithnumber_first": 2645,
+        "hadithnumber_last": 2687
+      },
+      {
+        "id": 42,
+        "name": "Chapters on Seeking Permission",
+        "hadithnumber_first": 2688,
+        "hadithnumber_last": 2734
+      },
+      {
+        "id": 43,
+        "name": "Chapters on Manners",
+        "hadithnumber_first": 2736,
+        "hadithnumber_last": 2858
+      },
+      {
+        "id": 44,
+        "name": "Chapters on Parables",
+        "hadithnumber_first": 2859,
+        "hadithnumber_last": 2874
+      },
+      {
+        "id": 45,
+        "name": "Chapters on The Virtues of the Qur'an",
+        "hadithnumber_first": 2875,
+        "hadithnumber_last": 2926
+      },
+      {
+        "id": 46,
+        "name": "Chapters on Recitation",
+        "hadithnumber_first": 2927,
+        "hadithnumber_last": 2949
+      },
+      {
+        "id": 47,
+        "name": "Chapters on Tafsir",
+        "hadithnumber_first": 2950,
+        "hadithnumber_last": 3723
+      },
+      {
+        "id": 48,
+        "name": "Chapters on Supplication",
+        "hadithnumber_first": 3370,
+        "hadithnumber_last": 3604.1
+      },
+      {
+        "id": 49,
+        "name": "Chapters on Virtues",
+        "hadithnumber_first": 3605,
+        "hadithnumber_last": 3956
+      }
+    ]
+  },
+  {
+    "slug": "nawawi",
+    "name": "40 Hadith Nawawi",
+    "total_sections": 2,
+    "sections": [
+      {
+        "id": 1,
+        "name": "Forty Hadith of an-Nawawi",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 42
+      }
+    ]
+  },
+  {
+    "slug": "qudsi",
+    "name": "40 Hadith Qudsi",
+    "total_sections": 2,
+    "sections": [
+      {
+        "id": 1,
+        "name": "Forty Hadith Qudsi",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 40
+      }
+    ]
+  },
+  {
+    "slug": "dehlawi",
+    "name": "Forty Hadith of Shah Waliullah Dehlawi",
+    "total_sections": 2,
+    "sections": [
+      {
+        "id": 1,
+        "name": "Forty Hadith of Shah Waliullah Dehlawi",
+        "hadithnumber_first": 1,
+        "hadithnumber_last": 40
+      }
+    ]
+  }
+]

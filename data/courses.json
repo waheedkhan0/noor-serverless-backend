@@ -1,0 +1,238 @@
+[
+  {
+    "id": "c1a11111-1111-4111-8111-111111111111",
+    "title": "Foundations of Faith (Aqeedah & Tawheed)",
+    "description": "Essential Islamic beliefs covering the Six Articles of Faith, the categories of Tawheed, and purifying one's intention for Allah alone.",
+    "difficulty": "Beginner",
+    "thumbnail_url": "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=600&auto=format&fit=crop&q=80",
+    "is_published": true,
+    "lessons": [
+      {
+        "id": "l1a11111-1111-4111-8111-111111111111",
+        "title": "The Meaning of Islam, Iman, and Ihsan",
+        "content_type": "text",
+        "duration_minutes": 10,
+        "order": 1,
+        "content_url": null
+      },
+      {
+        "id": "l1a11111-1111-4111-8111-111111111112",
+        "title": "The Three Categories of Tawheed",
+        "content_type": "text",
+        "duration_minutes": 15,
+        "order": 2,
+        "content_url": null
+      },
+      {
+        "id": "l1a11111-1111-4111-8111-111111111113",
+        "title": "The Six Pillars of Iman",
+        "content_type": "text",
+        "duration_minutes": 12,
+        "order": 3,
+        "content_url": null
+      },
+      {
+        "id": "l1a11111-1111-4111-8111-111111111114",
+        "title": "Living with Sincerity (Ikhlas)",
+        "content_type": "text",
+        "duration_minutes": 10,
+        "order": 4,
+        "content_url": null
+      }
+    ]
+  },
+  {
+    "id": "c2a22222-2222-4222-8222-222222222222",
+    "title": "Step-by-Step Guide to Salah (Prayer)",
+    "description": "Master the spiritual and practical aspects of daily prayer: complete wudu etiquette, proper movements, recitations, and common errors.",
+    "difficulty": "Beginner",
+    "thumbnail_url": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?w=600&auto=format&fit=crop&q=80",
+    "is_published": true,
+    "lessons": [
+      {
+        "id": "l2a22222-2222-4222-8222-222222222221",
+        "title": "Purification: Method of Wudu & Ghusl",
+        "content_type": "text",
+        "duration_minutes": 15,
+        "order": 1,
+        "content_url": null
+      },
+      {
+        "id": "l2a22222-2222-4222-8222-222222222222",
+        "title": "Conditions and Pillars of Valid Prayer",
+        "content_type": "text",
+        "duration_minutes": 12,
+        "order": 2,
+        "content_url": null
+      },
+      {
+        "id": "l2a22222-2222-4222-8222-222222222223",
+        "title": "Step-by-Step Walkthrough: Fajr to Isha",
+        "content_type": "text",
+        "duration_minutes": 20,
+        "order": 3,
+        "content_url": null
+      },
+      {
+        "id": "l2a22222-2222-4222-8222-222222222224",
+        "title": "Attaining Khushoo (Tranquility) in Prayer",
+        "content_type": "text",
+        "duration_minutes": 15,
+        "order": 4,
+        "content_url": null
+      }
+    ]
+  },
+  {
+    "id": "c3a33333-3333-4333-8333-333333333333",
+    "title": "Tajweed Essentials: Reading the Quran Correctly",
+    "description": "Learn correct pronunciation, articulation points (Makharij), and fundamental Tajweed rules to recite the Holy Quran with beauty and accuracy.",
+    "difficulty": "Intermediate",
+    "thumbnail_url": "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?w=600&auto=format&fit=crop&q=80",
+    "is_published": true,
+    "lessons": [
+      {
+        "id": "l3a33333-3333-4333-8333-333333333331",
+        "title": "The Articulation Points (Makharij al-Huruf)",
+        "content_type": "text",
+        "duration_minutes": 25,
+        "order": 1,
+        "content_url": null
+      },
+      {
+        "id": "l3a33333-3333-4333-8333-333333333332",
+        "title": "Rules of Noon Sakinah and Tanween",
+        "content_type": "text",
+        "duration_minutes": 20,
+        "order": 2,
+        "content_url": null
+      },
+      {
+        "id": "l3a33333-3333-4333-8333-333333333333",
+        "title": "Rules of Meem Sakinah and Qalqalah",
+        "content_type": "text",
+        "duration_minutes": 18,
+        "order": 3,
+        "content_url": null
+      },
+      {
+        "id": "l3a33333-3333-4333-8333-333333333334",
+        "title": "Madd (Prolongation) and Stopping Signs",
+        "content_type": "text",
+        "duration_minutes": 15,
+        "order": 4,
+        "content_url": null
+      }
+    ]
+  },
+  {
+    "id": "c4a44444-4444-4444-8444-444444444444",
+    "title": "Seerah: Life of Prophet Muhammad ﷺ",
+    "description": "A comprehensive journey through the life of the Final Messenger of Allah, from his noble birth in Makkah to the illumination of Madinah.",
+    "difficulty": "Intermediate",
+    "thumbnail_url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&auto=format&fit=crop&q=80",
+    "is_published": true,
+    "lessons": [
+      {
+        "id": "l4a44444-4444-4444-8444-444444444441",
+        "title": "Arabia Before Islam & The Blessed Birth",
+        "content_type": "text",
+        "duration_minutes": 20,
+        "order": 1,
+        "content_url": null
+      },
+      {
+        "id": "l4a44444-4444-4444-8444-444444444442",
+        "title": "The First Revelation at Cave Hira",
+        "content_type": "text",
+        "duration_minutes": 18,
+        "order": 2,
+        "content_url": null
+      },
+      {
+        "id": "l4a44444-4444-4444-8444-444444444443",
+        "title": "The Hijrah and Building the Madinah Community",
+        "content_type": "text",
+        "duration_minutes": 25,
+        "order": 3,
+        "content_url": null
+      },
+      {
+        "id": "l4a44444-4444-4444-8444-444444444444",
+        "title": "The Farewell Pilgrimage and Eternal Legacy",
+        "content_type": "text",
+        "duration_minutes": 22,
+        "order": 4,
+        "content_url": null
+      }
+    ]
+  },
+  {
+    "id": "c5a55555-5555-4555-8555-555555555555",
+    "title": "Fiqh of Purification & Worship (Taharah & Ibadah)",
+    "description": "In-depth study of Islamic jurisprudence governing purity, ablution, tayammum, congregational prayer, and traveler rules.",
+    "difficulty": "Advanced",
+    "thumbnail_url": "https://images.unsplash.com/photo-1519817650390-64a93db51149?w=600&auto=format&fit=crop&q=80",
+    "is_published": true,
+    "lessons": [
+      {
+        "id": "l5a55555-5555-4555-8555-555555555551",
+        "title": "Categories of Water and Impurities (Najasah)",
+        "content_type": "text",
+        "duration_minutes": 20,
+        "order": 1,
+        "content_url": null
+      },
+      {
+        "id": "l5a55555-5555-4555-8555-555555555552",
+        "title": "Rulings on Wiping Over Leather Socks (Khuffayn)",
+        "content_type": "text",
+        "duration_minutes": 15,
+        "order": 2,
+        "content_url": null
+      },
+      {
+        "id": "l5a55555-5555-4555-8555-555555555553",
+        "title": "Congregational Prayer (Salat al-Jama'ah) & Sujood as-Sahw",
+        "content_type": "text",
+        "duration_minutes": 25,
+        "order": 3,
+        "content_url": null
+      }
+    ]
+  },
+  {
+    "id": "c6a66666-6666-4666-8666-666666666666",
+    "title": "Principles of Islamic Jurisprudence (Usul al-Fiqh)",
+    "description": "Understand how scholars derive Islamic legal rulings from the primary and secondary sources: Quran, Sunnah, Ijma, and Qiyas.",
+    "difficulty": "Advanced",
+    "thumbnail_url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
+    "is_published": true,
+    "lessons": [
+      {
+        "id": "l6a66666-6666-4666-8666-666666666661",
+        "title": "The Four Primary Sources of Shari'ah",
+        "content_type": "text",
+        "duration_minutes": 30,
+        "order": 1,
+        "content_url": null
+      },
+      {
+        "id": "l6a66666-6666-4666-8666-666666666662",
+        "title": "The Five Legal Rulings (Al-Ahkam Al-Khamsah)",
+        "content_type": "text",
+        "duration_minutes": 25,
+        "order": 2,
+        "content_url": null
+      },
+      {
+        "id": "l6a66666-6666-4666-8666-666666666663",
+        "title": "Ijtihad and Following a Madhhab",
+        "content_type": "text",
+        "duration_minutes": 25,
+        "order": 3,
+        "content_url": null
+      }
+    ]
+  }
+]

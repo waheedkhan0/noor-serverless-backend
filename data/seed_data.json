@@ -1,0 +1,3028 @@
+{
+  "dua_categories": [
+    {
+      "id": "a058e70c-9a00-4a91-8e4c-edbb1be7f1af",
+      "name": "Morning & Evening Adhkar",
+      "name_arabic": "أذكار الصباح والمساء",
+      "icon": "wb_sunny",
+      "description": "Daily adhkar recited at dawn and dusk for protection and blessings.",
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "7f06e8ba-ffca-4ae7-9f7f-ef042cb6c334",
+      "name": "After Salah",
+      "name_arabic": "أذكار بعد الصلاة",
+      "icon": "mosque",
+      "description": "Remembrances and supplications to recite after each obligatory prayer.",
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "4dddbd7d-dc29-4748-ba3f-0dae4949790c",
+      "name": "Sleeping & Waking Up",
+      "name_arabic": "أذكار النوم والاستيقاظ",
+      "icon": "bedtime",
+      "description": "Duas for protection and blessings when going to sleep and waking up.",
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "d6314f88-6117-4496-a24e-9f36bbbbadc7",
+      "name": "Entering & Leaving Home",
+      "name_arabic": "أذكار دخول المنزل والخروج منه",
+      "icon": "home",
+      "description": "Supplications for entering and leaving the home seeking Allah's protection.",
+      "display_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "61f00bae-0ce1-42cf-ad53-4008d8724006",
+      "name": "Entering & Leaving Mosque",
+      "name_arabic": "أذكار دخول المسجد والخروج منه",
+      "icon": "mosque",
+      "description": "Etiquette and duas for entering and leaving the mosque.",
+      "display_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "dc0abcb8-8fa8-4d08-b137-bc9686bff0b8",
+      "name": "Travel",
+      "name_arabic": "أذكار السفر",
+      "icon": "flight",
+      "description": "Prayers for safe travel and return.",
+      "display_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "d8ac2f5e-1a21-4ce4-83e7-3452bafb0e09",
+      "name": "Eating & Drinking",
+      "name_arabic": "أذكار الأكل والشرب",
+      "icon": "restaurant",
+      "description": "Bismillah before eating and supplications after meals.",
+      "display_order": 7,
+      "is_active": true
+    },
+    {
+      "id": "4c5cd8fe-ee20-44f5-abe1-1ece137d3f5e",
+      "name": "Clothing",
+      "name_arabic": "أذكار اللباس",
+      "icon": "checkroom",
+      "description": "Duas for putting on new or existing clothing.",
+      "display_order": 8,
+      "is_active": true
+    },
+    {
+      "id": "bd624fe6-4ff0-4b71-851d-68e8e6594455",
+      "name": "Anxiety & Distress",
+      "name_arabic": "أذكار الهم والحزن",
+      "icon": "psychology",
+      "description": "Supplications for times of worry, sadness, and hardship.",
+      "display_order": 9,
+      "is_active": true
+    },
+    {
+      "id": "84ad2347-d7bb-4ff1-8389-8c3df3f079a7",
+      "name": "Protection",
+      "name_arabic": "أذكار التحصين",
+      "icon": "shield",
+      "description": "Daily prayers for seeking Allah's protection from harm and evil.",
+      "display_order": 10,
+      "is_active": true
+    },
+    {
+      "id": "4f476d5e-39e0-4770-af56-2ee5cb354929",
+      "name": "Rain & Weather",
+      "name_arabic": "أذكار المطر والطقس",
+      "icon": "water_drop",
+      "description": "Supplications for rain, thunder, and strong winds.",
+      "display_order": 11,
+      "is_active": true
+    },
+    {
+      "id": "1c15e0d2-dade-44f1-8641-4bf13ba1ce19",
+      "name": "Quran",
+      "name_arabic": "أذكار القرآن",
+      "icon": "menu_book",
+      "description": "Verses and supplications from the Quran for various occasions.",
+      "display_order": 12,
+      "is_active": true
+    }
+  ],
+  "duas": [
+    {
+      "id": "4a13189a-79dc-4ff9-a035-431289079dcd",
+      "category_id": "a058e70c-9a00-4a91-8e4c-edbb1be7f1af",
+      "arabic_text": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "transliteration": "Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin nushur",
+      "translations": {
+        "en": "All praise is for Allah who gave us life after death and to Him is the return."
+      },
+      "reference": "Bukhari & Muslim",
+      "display_order": 1,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "f2837eeb-10db-4bb6-b587-634caab97b69",
+      "category_id": "a058e70c-9a00-4a91-8e4c-edbb1be7f1af",
+      "arabic_text": "اللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ",
+      "transliteration": "Allahumma bika asbahna wa bika amsayna wa bika nahya wa bika namutu wa ilaykan nushur",
+      "translations": {
+        "en": "O Allah, by You we enter the morning, by You we enter the evening, by You we live, by You we die, and to You is the return."
+      },
+      "reference": "Abu Dawud, Tirmidhi",
+      "display_order": 2,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "dec822e0-0d91-440c-a19c-2fe1740944a7",
+      "category_id": "a058e70c-9a00-4a91-8e4c-edbb1be7f1af",
+      "arabic_text": "رَضِيتُ بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا",
+      "transliteration": "Radeetu billahi rabban wa bil-Islami deenan wa bi Muhammadin nabiyya",
+      "translations": {
+        "en": "I am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad as my Prophet."
+      },
+      "reference": "Abu Dawud, Tirmidhi",
+      "display_order": 3,
+      "repetition_count": 3,
+      "is_active": true
+    },
+    {
+      "id": "2938c63c-8491-441a-b072-b2f5fd4d5d38",
+      "category_id": "a058e70c-9a00-4a91-8e4c-edbb1be7f1af",
+      "arabic_text": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ وَمَلَائِكَتَكَ وَجَمِيعَ خَلْقِكَ أَنَّكَ أَنْتَ اللَّهُ لَا إِلَٰهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيكَ لَكَ وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ",
+      "transliteration": "Allahumma inni asbahtu ush-hiduka wa ush-hidu hamalata arshika wa mala'ikataka wa jamee'a khalqika annaka antallahu la ilaha illa anta wahdaka la sharika laka wa anna Muhammadan abduka wa rasuluk",
+      "translations": {
+        "en": "O Allah, I have entered the morning calling You, the bearers of Your Throne, Your angels, and all of Your creation to witness that You are Allah, there is no god but You alone without partner, and that Muhammad is Your servant and messenger."
+      },
+      "reference": "Abu Dawud",
+      "display_order": 4,
+      "repetition_count": 4,
+      "is_active": true
+    },
+    {
+      "id": "e5aed2e2-5b59-4ea0-9dee-da98bec92d86",
+      "category_id": "a058e70c-9a00-4a91-8e4c-edbb1be7f1af",
+      "arabic_text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ وَرِضَا نَفْسِهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ",
+      "transliteration": "SubhanAllahi wa bihamdihi adada khalqihi wa rida nafsihi wa zinata arshihi wa midada kalimatih",
+      "translations": {
+        "en": "Glory and praise be to Allah, as many times as the number of His creation, as His pleasure, as the weight of His Throne, and as the ink of His words."
+      },
+      "reference": "Muslim",
+      "display_order": 5,
+      "repetition_count": 3,
+      "is_active": true
+    },
+    {
+      "id": "793c1f35-0d33-4b9e-838c-cfa766b0ae49",
+      "category_id": "a058e70c-9a00-4a91-8e4c-edbb1be7f1af",
+      "arabic_text": "اللَّهُمَّ عَافِنِي فِي بَدَنِي اللَّهُمَّ عَافِنِي فِي سَمْعِي اللَّهُمَّ عَافِنِي فِي بَصَرِي لَا إِلَٰهَ إِلَّا أَنْتَ",
+      "transliteration": "Allahumma aafini fi badani, Allahumma aafini fi sam'i, Allahumma aafini fi basari, la ilaha illa ant",
+      "translations": {
+        "en": "O Allah, grant my body health. O Allah, grant my hearing health. O Allah, grant my sight health. There is no god but You."
+      },
+      "reference": "Abu Dawud",
+      "display_order": 6,
+      "repetition_count": 3,
+      "is_active": true
+    },
+    {
+      "id": "f4df11a6-7933-44b2-b4c8-26befdf76b52",
+      "category_id": "4dddbd7d-dc29-4748-ba3f-0dae4949790c",
+      "arabic_text": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "transliteration": "Bismikallahumma amutu wa ahya",
+      "translations": {
+        "en": "In Your name, O Allah, I die and I live."
+      },
+      "reference": "Bukhari",
+      "display_order": 1,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "cb0511bc-67f0-42d4-bc21-51c88593a030",
+      "category_id": "4dddbd7d-dc29-4748-ba3f-0dae4949790c",
+      "arabic_text": "اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ",
+      "transliteration": "Allahumma qini azabaka yawma tab'athu ibadak",
+      "translations": {
+        "en": "O Allah, protect me from Your punishment on the day You resurrect Your servants."
+      },
+      "reference": "Abu Dawud",
+      "display_order": 2,
+      "repetition_count": 3,
+      "is_active": true
+    },
+    {
+      "id": "16a0524b-efc7-43bd-8fec-233848a50220",
+      "category_id": "4dddbd7d-dc29-4748-ba3f-0dae4949790c",
+      "arabic_text": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "transliteration": "Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin nushur",
+      "translations": {
+        "en": "All praise is for Allah who gave us life after death and to Him is the return."
+      },
+      "reference": "Bukhari & Muslim",
+      "display_order": 3,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "0eae2c34-fb8e-44c0-86c0-dbd9a2ee804a",
+      "category_id": "d6314f88-6117-4496-a24e-9f36bbbbadc7",
+      "arabic_text": "بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا",
+      "transliteration": "Bismillahi walajna wa bismillahi kharajna wa alallahi rabbina tawakkalna",
+      "translations": {
+        "en": "In the name of Allah we enter, in the name of Allah we leave, and upon our Lord we rely."
+      },
+      "reference": "Abu Dawud",
+      "display_order": 1,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "b1529c49-02b7-419e-9e0e-433c6279e7aa",
+      "category_id": "d6314f88-6117-4496-a24e-9f36bbbbadc7",
+      "arabic_text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلَجِ وَخَيْرَ الْمَخْرَجِ بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا",
+      "transliteration": "Allahumma inni as'aluka khayral mawlaji wa khayral makhraji bismillahi walajna wa bismillahi kharajna wa alallahi rabbina tawakkalna",
+      "translations": {
+        "en": "O Allah, I ask You for the best of entering and the best of leaving. In Your name we enter, in Your name we leave, and upon our Lord we rely."
+      },
+      "reference": "Abu Dawud",
+      "display_order": 2,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "9c74fc67-d7cb-4a6f-ad04-07e7c334106a",
+      "category_id": "d6314f88-6117-4496-a24e-9f36bbbbadc7",
+      "arabic_text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ الْخُبُثِ وَالْخَبَائِثِ",
+      "transliteration": "Allahumma inni a'udhu bika minal khubuthi wal khaba'ith",
+      "translations": {
+        "en": "O Allah, I seek refuge with You from male and female devils."
+      },
+      "reference": "Bukhari & Muslim",
+      "display_order": 3,
+      "repetition_count": 1,
+      "is_active": true,
+      "reference_detail": "Recited when leaving the home"
+    },
+    {
+      "id": "76c18442-b34e-4184-b5bd-82d55afce059",
+      "category_id": "61f00bae-0ce1-42cf-ad53-4008d8724006",
+      "arabic_text": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "transliteration": "Allahumma iftah li abwaba rahmatik",
+      "translations": {
+        "en": "O Allah, open the doors of Your mercy for me."
+      },
+      "reference": "Muslim",
+      "display_order": 1,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "a19674bf-e33a-430e-91d1-9eec4bcd65b3",
+      "category_id": "61f00bae-0ce1-42cf-ad53-4008d8724006",
+      "arabic_text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "transliteration": "Allahumma inni as'aluka min fadlik",
+      "translations": {
+        "en": "O Allah, I ask You for Your bounty."
+      },
+      "reference": "Muslim",
+      "display_order": 2,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "2d8b3155-dd5f-467f-b3cd-7e15de81d911",
+      "category_id": "61f00bae-0ce1-42cf-ad53-4008d8724006",
+      "arabic_text": "بِسْمِ اللَّهِ وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ",
+      "transliteration": "Bismillahi wassalatu wassalamu ala rasulillah",
+      "translations": {
+        "en": "In the name of Allah, and peace and blessings be upon the Messenger of Allah."
+      },
+      "reference": "Abu Dawud",
+      "display_order": 3,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "390fae16-2e98-452b-8623-c63be12dead9",
+      "category_id": "d8ac2f5e-1a21-4ce4-83e7-3452bafb0e09",
+      "arabic_text": "بِسْمِ اللَّهِ",
+      "transliteration": "Bismillah",
+      "translations": {
+        "en": "In the name of Allah."
+      },
+      "reference": "Bukhari & Muslim",
+      "display_order": 1,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "777fbde9-addc-48e6-9771-97e724e70e48",
+      "category_id": "d8ac2f5e-1a21-4ce4-83e7-3452bafb0e09",
+      "arabic_text": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنْ الْمُسْلِمِينَ",
+      "transliteration": "Alhamdulillahilladhi at'amana wa saqana wa ja'alana minal muslimeen",
+      "translations": {
+        "en": "All praise is for Allah who fed us, gave us drink, and made us Muslims."
+      },
+      "reference": "Abu Dawud, Tirmidhi",
+      "display_order": 2,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "8beba0e8-efbc-4ad8-b2ab-98e73da4e3b9",
+      "category_id": "d8ac2f5e-1a21-4ce4-83e7-3452bafb0e09",
+      "arabic_text": "الْحَمْدُ لِلَّهِ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ",
+      "transliteration": "Alhamdulillahi hamdan kathiran tayyiban mubarakan fih",
+      "translations": {
+        "en": "All praise is for Allah, much, good and blessed praise."
+      },
+      "reference": "Bukhari",
+      "display_order": 3,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "dbce414d-5961-4f82-a5b6-77bcbfa44c82",
+      "category_id": "bd624fe6-4ff0-4b71-851d-68e8e6594455",
+      "arabic_text": "لَا إِلَٰهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ لَا إِلَٰهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ لَا إِلَٰهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ",
+      "transliteration": "La ilaha illallahu al-azim al-haleem, la ilaha illallahu rabbul arshil azim, la ilaha illallahu rabbus samawati wa rabbul ardi wa rabbul arshil kareem",
+      "translations": {
+        "en": "There is no god but Allah, the Almighty, the Forbearing. There is no god but Allah, Lord of the Mighty Throne. There is no god but Allah, Lord of the heavens, Lord of the earth, and Lord of the Noble Throne."
+      },
+      "reference": "Bukhari & Muslim",
+      "display_order": 1,
+      "repetition_count": 1,
+      "is_active": true,
+      "benefit": "Recited during times of distress and anxiety"
+    },
+    {
+      "id": "84d2b852-0f02-4a71-aa46-0cce36b7887d",
+      "category_id": "bd624fe6-4ff0-4b71-851d-68e8e6594455",
+      "arabic_text": "اللَّهُمَّ رَحْمَتَكَ أَرْجُو فَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ وَأَصْلِحْ لِي شَأْنِي كُلَّهُ لَا إِلَٰهَ إِلَّا أَنْتَ",
+      "transliteration": "Allahumma rahmataka arju fala takilni ila nafsi tarfata aynin wa aslih li sha'ni kullahu la ilaha illa ant",
+      "translations": {
+        "en": "O Allah, I hope for Your mercy, so do not leave me to myself for the blink of an eye, and set right all my affairs. There is no god but You."
+      },
+      "reference": "Abu Dawud",
+      "display_order": 2,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "35239156-6ed6-45ee-8bec-c8429ef7fe8c",
+      "category_id": "bd624fe6-4ff0-4b71-851d-68e8e6594455",
+      "arabic_text": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
+      "transliteration": "Ya Hayyu ya Qayyumu birahmatika astaghith",
+      "translations": {
+        "en": "O Ever-Living, O Self-Sustaining, by Your mercy I seek help."
+      },
+      "reference": "Tirmidhi",
+      "display_order": 3,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "51057490-ba1e-4072-ba4f-36be5316b179",
+      "category_id": "84ad2347-d7bb-4ff1-8389-8c3df3f079a7",
+      "arabic_text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "transliteration": "A'udhu bikalimatillahi tammati min sharri ma khalaq",
+      "translations": {
+        "en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+      },
+      "reference": "Muslim",
+      "display_order": 1,
+      "repetition_count": 3,
+      "is_active": true
+    },
+    {
+      "id": "9cacf461-9074-40d7-b688-add04aa7a072",
+      "category_id": "84ad2347-d7bb-4ff1-8389-8c3df3f079a7",
+      "arabic_text": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "transliteration": "Bismillahilladhi la yadurru ma'asmihi shay'un fil ardi wa la fis sama'i wa huwas samee'ul 'aleem",
+      "translations": {
+        "en": "In the name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, All-Knowing."
+      },
+      "reference": "Abu Dawud, Tirmidhi",
+      "display_order": 2,
+      "repetition_count": 3,
+      "is_active": true
+    },
+    {
+      "id": "9714e840-d97b-48cf-b235-12f7ebb488d0",
+      "category_id": "84ad2347-d7bb-4ff1-8389-8c3df3f079a7",
+      "arabic_text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ الْهَمِّ وَالْحَزَنِ وَأَعُوذُ بِكَ مِنْ الْعَجْزِ وَالْكَسَلِ وَأَعُوذُ بِكَ مِنْ الْجُبْنِ وَالْبُخْلِ وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ",
+      "transliteration": "Allahumma inni a'udhu bika minal hammi wal hazani wa a'udhu bika minal 'ajzi wal kasali wa a'udhu bika minal jubni wal bukhli wa a'udhu bika min ghalabatid dayni wa qahrir rijal",
+      "translations": {
+        "en": "O Allah, I seek refuge in You from worry and grief, from weakness and laziness, from cowardice and miserliness, from the burden of debt and the oppression of men."
+      },
+      "reference": "Bukhari",
+      "display_order": 3,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "872dfe1a-4a9a-4ea6-86a3-7c2c2aee5f91",
+      "category_id": "84ad2347-d7bb-4ff1-8389-8c3df3f079a7",
+      "arabic_text": "قُلْ هُوَ اللَّهُ أَحَدٌ * اللَّهُ الصَّمَدُ * لَمْ يَلِدْ وَلَمْ يُولَدْ * وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+      "transliteration": "Qul huwallahu ahad, Allahus samad, lam yalid wa lam yulad, wa lam yakun lahu kufuwan ahad",
+      "translations": {
+        "en": "Say: He is Allah, the One. Allah, the Eternal, the Absolute. He neither begets nor is born, nor is there to Him any equivalent."
+      },
+      "reference": "Quran 112:1-4",
+      "display_order": 4,
+      "repetition_count": 3,
+      "is_active": true,
+      "benefit": "Recited morning and evening for protection"
+    },
+    {
+      "id": "99bda7d7-9688-4366-af33-3d65a4978c0a",
+      "category_id": "dc0abcb8-8fa8-4d08-b137-bc9686bff0b8",
+      "arabic_text": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ",
+      "transliteration": "Allahu akbar, Allahu akbar, Allahu akbar. Subhanalladhi sakhkhara lana hadha wa ma kunna lahu muqrinin wa inna ila rabbina lamunqalibun",
+      "translations": {
+        "en": "Allah is the Greatest, Allah is the Greatest, Allah is the Greatest. Glory to Him who has subjected this to us, and we could never have done it by ourselves. Truly, to our Lord we shall return."
+      },
+      "reference": "Quran 43:13-14",
+      "display_order": 1,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "8312fd00-e528-4831-b787-ce0759e8c973",
+      "category_id": "dc0abcb8-8fa8-4d08-b137-bc9686bff0b8",
+      "arabic_text": "اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى وَمِنْ الْعَمَلِ مَا تَرْضَى اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ",
+      "transliteration": "Allahumma inna nas'aluka fi safarina hadha al-birra wat-taqwa wa minal 'amali ma tarda. Allahumma hawwin alayna safarana hadha watwi 'anna bu'dah",
+      "translations": {
+        "en": "O Allah, we ask You for righteousness, piety, and actions that please You during this journey. O Allah, make this journey easy for us and shorten its distance."
+      },
+      "reference": "Muslim",
+      "display_order": 2,
+      "repetition_count": 1,
+      "is_active": true
+    },
+    {
+      "id": "78ab7c38-0b24-4bd1-a29b-121c90d2c1a6",
+      "category_id": "dc0abcb8-8fa8-4d08-b137-bc9686bff0b8",
+      "arabic_text": "اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الْأَهْلِ",
+      "transliteration": "Allahumma antas sahibu fis safari wal khalifatu fil ahli",
+      "translations": {
+        "en": "O Allah, You are the Companion on the journey and the Guardian over the family."
+      },
+      "reference": "Muslim",
+      "display_order": 3,
+      "repetition_count": 1,
+      "is_active": true
+    }
+  ],
+  "tasbih_presets": [
+    {
+      "id": "ef815b23-1384-4db9-b5d1-8cf7f6a2ac30",
+      "label": "SubhanAllah",
+      "arabic_text": "سُبْحَانَ اللَّهِ",
+      "transliteration": "SubhanAllah",
+      "translation": "Glory be to Allah",
+      "default_target": 33,
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "351cff60-2f52-4542-8a92-a236f098d5bb",
+      "label": "Alhamdulillah",
+      "arabic_text": "الْحَمْدُ لِلَّهِ",
+      "transliteration": "Alhamdulillah",
+      "translation": "All praise is for Allah",
+      "default_target": 33,
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "c0a9190d-40b4-499e-a574-fb1bffefe566",
+      "label": "Allahu Akbar",
+      "arabic_text": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar",
+      "translation": "Allah is the Greatest",
+      "default_target": 33,
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "b9526a37-dcfd-469b-963d-2a434c85a536",
+      "label": "La ilaha illallah",
+      "arabic_text": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+      "transliteration": "La ilaha illallah",
+      "translation": "There is no god but Allah",
+      "default_target": 100,
+      "display_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "1a0ad9f3-e481-48be-97a1-49dcd2a593f1",
+      "label": "Astaghfirullah",
+      "arabic_text": "أَسْتَغْفِرُ اللَّهَ",
+      "transliteration": "Astaghfirullah",
+      "translation": "I seek forgiveness from Allah",
+      "default_target": 100,
+      "display_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "5d635030-1a67-46ac-b299-be06e474b9d1",
+      "label": "Bismillah",
+      "arabic_text": "بِسْمِ اللَّهِ",
+      "transliteration": "Bismillah",
+      "translation": "In the name of Allah",
+      "default_target": 33,
+      "display_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "bb9d0d49-8004-480c-8cd6-fad62d45c5b5",
+      "label": "SubhanAllah wa bihamdihi",
+      "arabic_text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "transliteration": "SubhanAllahi wa bihamdihi",
+      "translation": "Glory and praise be to Allah",
+      "default_target": 100,
+      "display_order": 7,
+      "is_active": true
+    },
+    {
+      "id": "94b3813c-9a31-48ea-a25f-806788380f68",
+      "label": "La hawla wa la quwwata",
+      "arabic_text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "transliteration": "La hawla wa la quwwata illa billah",
+      "translation": "There is no power nor strength except with Allah",
+      "default_target": 100,
+      "display_order": 8,
+      "is_active": true
+    }
+  ],
+  "asma_ul_husna": [
+    {
+      "id": "4628b63d-370f-4789-abf0-a88ebd063055",
+      "name_arabic": "الرَّحْمَنُ",
+      "transliteration": "Ar-Rahman",
+      "meaning": "The Most Gracious",
+      "explanation": "The One who bestows countless blessings upon all creation without discrimination.",
+      "quran_references": [
+        {
+          "surah": 1,
+          "ayah": 1
+        }
+      ],
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "068fd96a-1ceb-4d21-ae9f-daa400aafde1",
+      "name_arabic": "الرَّحِيمُ",
+      "transliteration": "Ar-Raheem",
+      "meaning": "The Most Merciful",
+      "explanation": "The One whose mercy is especially reserved for the believers.",
+      "quran_references": [
+        {
+          "surah": 1,
+          "ayah": 1
+        }
+      ],
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "a43d2c74-a6f9-4b66-b768-8b69cdd0a216",
+      "name_arabic": "الْمَلِكُ",
+      "transliteration": "Al-Malik",
+      "meaning": "The King",
+      "explanation": "The Sovereign Lord, the Owner of all creation.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "094e447a-9566-49d0-b7cf-ff7bbc052308",
+      "name_arabic": "الْقُدُّوسُ",
+      "transliteration": "Al-Quddus",
+      "meaning": "The Most Holy",
+      "explanation": "The Pure One, free from all imperfections.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "8e7a62ee-d2bd-45a7-8c35-50f52e8ea785",
+      "name_arabic": "السَّلَامُ",
+      "transliteration": "As-Salam",
+      "meaning": "The Source of Peace",
+      "explanation": "The One who gives peace and security to all creation.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "c388ebf5-5d97-40d8-8de3-e06464200afb",
+      "name_arabic": "الْمُؤْمِنُ",
+      "transliteration": "Al-Mu'min",
+      "meaning": "The Granter of Security",
+      "explanation": "The One who bestows faith and security upon His creation.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "0847a442-4085-490d-abdb-e410ef91014a",
+      "name_arabic": "الْمُهَيْمِنُ",
+      "transliteration": "Al-Muhaymin",
+      "meaning": "The Guardian",
+      "explanation": "The One who watches over and protects all things.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 7,
+      "is_active": true
+    },
+    {
+      "id": "11709dc2-f903-4e66-afa0-c52fd0294088",
+      "name_arabic": "الْعَزِيزُ",
+      "transliteration": "Al-Aziz",
+      "meaning": "The Almighty",
+      "explanation": "The Omnipotent, the Invincible.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 8,
+      "is_active": true
+    },
+    {
+      "id": "36151619-8800-40c1-bf28-9fbd27e84915",
+      "name_arabic": "الْجَبَّارُ",
+      "transliteration": "Al-Jabbar",
+      "meaning": "The Compeller",
+      "explanation": "The One who compels all things according to His will.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 9,
+      "is_active": true
+    },
+    {
+      "id": "16520c2a-fa95-42ff-ade1-4b6f0c489252",
+      "name_arabic": "الْمُتَكَبِّرُ",
+      "transliteration": "Al-Mutakabbir",
+      "meaning": "The Supreme",
+      "explanation": "The One who is majestic and possesses all greatness.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 23
+        }
+      ],
+      "display_order": 10,
+      "is_active": true
+    },
+    {
+      "id": "400e6fb2-71dc-4654-9985-e3971a643dd6",
+      "name_arabic": "الْخَالِقُ",
+      "transliteration": "Al-Khaliq",
+      "meaning": "The Creator",
+      "explanation": "The One who creates everything from nothing.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 24
+        }
+      ],
+      "display_order": 11,
+      "is_active": true
+    },
+    {
+      "id": "5a5d45e2-02fe-4a53-901c-3fbf88ac0bd3",
+      "name_arabic": "الْبَارِئُ",
+      "transliteration": "Al-Bari",
+      "meaning": "The Maker",
+      "explanation": "The One who brings creation into existence with perfect order.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 24
+        }
+      ],
+      "display_order": 12,
+      "is_active": true
+    },
+    {
+      "id": "d72c9a07-221b-47d9-b494-e8e2d6fb3e53",
+      "name_arabic": "الْمُصَوِّرُ",
+      "transliteration": "Al-Musawwir",
+      "meaning": "The Fashioner",
+      "explanation": "The One who gives each creation its distinctive form.",
+      "quran_references": [
+        {
+          "surah": 59,
+          "ayah": 24
+        }
+      ],
+      "display_order": 13,
+      "is_active": true
+    },
+    {
+      "id": "1c6237d5-1595-4d36-a215-281244c377ad",
+      "name_arabic": "الْغَفَّارُ",
+      "transliteration": "Al-Ghaffar",
+      "meaning": "The Ever-Forgiving",
+      "explanation": "The One who repeatedly forgives sins and covers faults.",
+      "quran_references": [
+        {
+          "surah": 20,
+          "ayah": 82
+        }
+      ],
+      "display_order": 14,
+      "is_active": true
+    },
+    {
+      "id": "5cca9d14-7454-4b20-82b8-f497c35c9f8b",
+      "name_arabic": "الْقَهَّارُ",
+      "transliteration": "Al-Qahhar",
+      "meaning": "The Subduer",
+      "explanation": "The One who dominates all things and prevails over all.",
+      "quran_references": [
+        {
+          "surah": 13,
+          "ayah": 16
+        }
+      ],
+      "display_order": 15,
+      "is_active": true
+    },
+    {
+      "id": "401a8eb3-97b2-4d75-8466-ff009521dd03",
+      "name_arabic": "الْوَهَّابُ",
+      "transliteration": "Al-Wahhab",
+      "meaning": "The Bestower",
+      "explanation": "The One who gives generously without expecting anything in return.",
+      "quran_references": [
+        {
+          "surah": 38,
+          "ayah": 9
+        }
+      ],
+      "display_order": 16,
+      "is_active": true
+    },
+    {
+      "id": "5d94c602-cf30-4fe4-8d77-32f1f8b685ed",
+      "name_arabic": "الرَّزَّاقُ",
+      "transliteration": "Ar-Razzaq",
+      "meaning": "The Provider",
+      "explanation": "The One who provides sustenance for all creatures.",
+      "quran_references": [
+        {
+          "surah": 51,
+          "ayah": 58
+        }
+      ],
+      "display_order": 17,
+      "is_active": true
+    },
+    {
+      "id": "6c63518f-5ded-4ef0-a70c-9344629c9f49",
+      "name_arabic": "الْفَتَّاحُ",
+      "transliteration": "Al-Fattah",
+      "meaning": "The Opener",
+      "explanation": "The One who opens doors of mercy, provisions, and solutions.",
+      "quran_references": [
+        {
+          "surah": 34,
+          "ayah": 26
+        }
+      ],
+      "display_order": 18,
+      "is_active": true
+    },
+    {
+      "id": "09badab1-9930-49b2-9b2c-6ce42c983f06",
+      "name_arabic": "الْعَلِيمُ",
+      "transliteration": "Al-Alim",
+      "meaning": "The All-Knowing",
+      "explanation": "The One who knows everything, the apparent and the hidden.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 158
+        }
+      ],
+      "display_order": 19,
+      "is_active": true
+    },
+    {
+      "id": "ea90e25d-e2eb-481f-a052-b7e4a8564f5e",
+      "name_arabic": "الْقَابِضُ",
+      "transliteration": "Al-Qabid",
+      "meaning": "The Withholder",
+      "explanation": "The One who restricts sustenance and provisions as He wills.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 245
+        }
+      ],
+      "display_order": 20,
+      "is_active": true
+    },
+    {
+      "id": "260ac1c8-efc4-4f63-a844-218abde161c4",
+      "name_arabic": "الْبَاسِطُ",
+      "transliteration": "Al-Basit",
+      "meaning": "The Extender",
+      "explanation": "The One who expands and increases provisions for whom He wills.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 245
+        }
+      ],
+      "display_order": 21,
+      "is_active": true
+    },
+    {
+      "id": "6137908e-4b3a-40ad-ba2c-ba883e5184c0",
+      "name_arabic": "الْخَافِضُ",
+      "transliteration": "Al-Khafid",
+      "meaning": "The Abaser",
+      "explanation": "The One who lowers and humbles the arrogant.",
+      "display_order": 22,
+      "is_active": true
+    },
+    {
+      "id": "036584c1-ee67-40e9-96fa-092acac8cde0",
+      "name_arabic": "الرَّافِعُ",
+      "transliteration": "Ar-Rafi",
+      "meaning": "The Exalter",
+      "explanation": "The One who raises the ranks of the righteous.",
+      "display_order": 23,
+      "is_active": true
+    },
+    {
+      "id": "8e2d19c5-d66d-4698-816e-3c801ac6f332",
+      "name_arabic": "الْمُعِزُّ",
+      "transliteration": "Al-Mu'izz",
+      "meaning": "The Honorer",
+      "explanation": "The One who grants honor and dignity to whom He wills.",
+      "quran_references": [
+        {
+          "surah": 3,
+          "ayah": 26
+        }
+      ],
+      "display_order": 24,
+      "is_active": true
+    },
+    {
+      "id": "e3849d27-67f4-4198-bcb2-da3f0abeb57a",
+      "name_arabic": "الْمُذِلُّ",
+      "transliteration": "Al-Mudhill",
+      "meaning": "The Humiliator",
+      "explanation": "The One who humiliates the arrogant and tyrants.",
+      "quran_references": [
+        {
+          "surah": 3,
+          "ayah": 26
+        }
+      ],
+      "display_order": 25,
+      "is_active": true
+    },
+    {
+      "id": "4d9d173f-b7f5-421d-86db-c9ee1e72c956",
+      "name_arabic": "السَّمِيعُ",
+      "transliteration": "As-Sami",
+      "meaning": "The All-Hearing",
+      "explanation": "The One who hears all sounds, whispers, and prayers.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 127
+        }
+      ],
+      "display_order": 26,
+      "is_active": true
+    },
+    {
+      "id": "f921a1d8-4bd7-4314-a077-1f37cc7354b5",
+      "name_arabic": "الْبَصِيرُ",
+      "transliteration": "Al-Basir",
+      "meaning": "The All-Seeing",
+      "explanation": "The One who sees all things, no matter how small.",
+      "quran_references": [
+        {
+          "surah": 4,
+          "ayah": 58
+        }
+      ],
+      "display_order": 27,
+      "is_active": true
+    },
+    {
+      "id": "d4189f5a-c3ce-4f33-b4ac-2b2ce1cdab2c",
+      "name_arabic": "الْحَكَمُ",
+      "transliteration": "Al-Hakam",
+      "meaning": "The Judge",
+      "explanation": "The One who judges with absolute justice.",
+      "quran_references": [
+        {
+          "surah": 22,
+          "ayah": 69
+        }
+      ],
+      "display_order": 28,
+      "is_active": true
+    },
+    {
+      "id": "c3de46da-5769-4cf0-9972-1ac56bcbb668",
+      "name_arabic": "الْعَدْلُ",
+      "transliteration": "Al-Adl",
+      "meaning": "The Just",
+      "explanation": "The One who is perfectly just in all matters.",
+      "quran_references": [
+        {
+          "surah": 6,
+          "ayah": 115
+        }
+      ],
+      "display_order": 29,
+      "is_active": true
+    },
+    {
+      "id": "ab1bdcb7-2304-49fa-8004-2208a281fa61",
+      "name_arabic": "اللَّطِيفُ",
+      "transliteration": "Al-Latif",
+      "meaning": "The Subtle",
+      "explanation": "The One who is kind and gentle, aware of the finest details.",
+      "quran_references": [
+        {
+          "surah": 6,
+          "ayah": 103
+        }
+      ],
+      "display_order": 30,
+      "is_active": true
+    },
+    {
+      "id": "3b4a69aa-1c4b-434c-aa2d-383b104a602b",
+      "name_arabic": "الْخَبِيرُ",
+      "transliteration": "Al-Khabir",
+      "meaning": "The All-Aware",
+      "explanation": "The One who is fully aware of all hidden realities.",
+      "quran_references": [
+        {
+          "surah": 6,
+          "ayah": 18
+        }
+      ],
+      "display_order": 31,
+      "is_active": true
+    },
+    {
+      "id": "b82d710f-5fe3-479a-bf5b-91cd8190d83b",
+      "name_arabic": "الْحَلِيمُ",
+      "transliteration": "Al-Haleem",
+      "meaning": "The Forbearing",
+      "explanation": "The One who is patient and does not hasten punishment.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 235
+        }
+      ],
+      "display_order": 32,
+      "is_active": true
+    },
+    {
+      "id": "d4638d39-79f4-46c0-9a9f-009811376f31",
+      "name_arabic": "الْعَظِيمُ",
+      "transliteration": "Al-Azim",
+      "meaning": "The Magnificent",
+      "explanation": "The One whose greatness is beyond comprehension.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 255
+        }
+      ],
+      "display_order": 33,
+      "is_active": true
+    },
+    {
+      "id": "0e140659-b588-4050-b330-958362567012",
+      "name_arabic": "الْغَفُورُ",
+      "transliteration": "Al-Ghafur",
+      "meaning": "The Oft-Forgiving",
+      "explanation": "The One who forgives all sins for those who repent.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 173
+        }
+      ],
+      "display_order": 34,
+      "is_active": true
+    },
+    {
+      "id": "c2d4570c-a818-4553-8ab9-f291416c7421",
+      "name_arabic": "الشَّكُورُ",
+      "transliteration": "Ash-Shakur",
+      "meaning": "The Appreciative",
+      "explanation": "The One who rewards good deeds abundantly.",
+      "quran_references": [
+        {
+          "surah": 35,
+          "ayah": 30
+        }
+      ],
+      "display_order": 35,
+      "is_active": true
+    },
+    {
+      "id": "298a3121-2be3-42de-a4b7-5c0a347c5d37",
+      "name_arabic": "الْعَلِيُّ",
+      "transliteration": "Al-Aliyy",
+      "meaning": "The Most High",
+      "explanation": "The One whose rank is supreme and exalted.",
+      "quran_references": [
+        {
+          "surah": 4,
+          "ayah": 34
+        }
+      ],
+      "display_order": 36,
+      "is_active": true
+    },
+    {
+      "id": "0b741732-5d7b-4788-b7cd-88f2b9a26d0a",
+      "name_arabic": "الْكَبِيرُ",
+      "transliteration": "Al-Kabir",
+      "meaning": "The Most Great",
+      "explanation": "The One who is greatest in every way.",
+      "quran_references": [
+        {
+          "surah": 13,
+          "ayah": 9
+        }
+      ],
+      "display_order": 37,
+      "is_active": true
+    },
+    {
+      "id": "265025da-e1a3-419d-b93b-f4b6a3112032",
+      "name_arabic": "الْحَفِيظُ",
+      "transliteration": "Al-Hafiz",
+      "meaning": "The Preserver",
+      "explanation": "The One who preserves and protects all things.",
+      "quran_references": [
+        {
+          "surah": 11,
+          "ayah": 57
+        }
+      ],
+      "display_order": 38,
+      "is_active": true
+    },
+    {
+      "id": "4fbb65f5-7f49-4e10-a993-4cd8b4d19f8a",
+      "name_arabic": "الْمُقِيتُ",
+      "transliteration": "Al-Muqit",
+      "meaning": "The Sustainer",
+      "explanation": "The One who provides nourishment and sustenance.",
+      "quran_references": [
+        {
+          "surah": 4,
+          "ayah": 85
+        }
+      ],
+      "display_order": 39,
+      "is_active": true
+    },
+    {
+      "id": "d5fd258e-029c-468f-a88e-e6998d47b92f",
+      "name_arabic": "الْحَسِيبُ",
+      "transliteration": "Al-Hasib",
+      "meaning": "The Reckoner",
+      "explanation": "The One who takes account of all deeds.",
+      "quran_references": [
+        {
+          "surah": 4,
+          "ayah": 6
+        }
+      ],
+      "display_order": 40,
+      "is_active": true
+    },
+    {
+      "id": "9755d0ed-1b79-42d6-a2d6-c4597640cc14",
+      "name_arabic": "الْجَلِيلُ",
+      "transliteration": "Al-Jalil",
+      "meaning": "The Majestic",
+      "explanation": "The One who possesses absolute majesty and grandeur.",
+      "display_order": 41,
+      "is_active": true
+    },
+    {
+      "id": "b6195581-0881-4dcc-a800-8f4d26a490a1",
+      "name_arabic": "الْكَرِيمُ",
+      "transliteration": "Al-Karim",
+      "meaning": "The Generous",
+      "explanation": "The One who is infinitely generous and noble.",
+      "quran_references": [
+        {
+          "surah": 27,
+          "ayah": 40
+        }
+      ],
+      "display_order": 42,
+      "is_active": true
+    },
+    {
+      "id": "5a8863e7-375e-4514-b5ad-e28a03f7399e",
+      "name_arabic": "الرَّقِيبُ",
+      "transliteration": "Ar-Raqib",
+      "meaning": "The Watchful",
+      "explanation": "The One who watches over all creation at all times.",
+      "quran_references": [
+        {
+          "surah": 4,
+          "ayah": 1
+        }
+      ],
+      "display_order": 43,
+      "is_active": true
+    },
+    {
+      "id": "44c8b088-fb06-4d89-a88e-871e1e151396",
+      "name_arabic": "الْمُجِيبُ",
+      "transliteration": "Al-Mujib",
+      "meaning": "The Responsive",
+      "explanation": "The One who answers the prayers of those who call upon Him.",
+      "quran_references": [
+        {
+          "surah": 11,
+          "ayah": 61
+        }
+      ],
+      "display_order": 44,
+      "is_active": true
+    },
+    {
+      "id": "753fe4b0-0565-46ac-888a-afdbc31c9cc8",
+      "name_arabic": "الْوَاسِعُ",
+      "transliteration": "Al-Wasi",
+      "meaning": "The All-Encompassing",
+      "explanation": "The One whose mercy, knowledge, and power encompass everything.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 268
+        }
+      ],
+      "display_order": 45,
+      "is_active": true
+    },
+    {
+      "id": "f05840f1-93d2-4db0-8421-30609128a560",
+      "name_arabic": "الْحَكِيمُ",
+      "transliteration": "Al-Hakim",
+      "meaning": "The All-Wise",
+      "explanation": "The One who is perfect in wisdom in all His actions.",
+      "quran_references": [
+        {
+          "surah": 31,
+          "ayah": 27
+        }
+      ],
+      "display_order": 46,
+      "is_active": true
+    },
+    {
+      "id": "5c883f91-ec22-42e5-964a-aa6177e28aa7",
+      "name_arabic": "الْوَدُودُ",
+      "transliteration": "Al-Wadud",
+      "meaning": "The Loving",
+      "explanation": "The One who loves His righteous servants and is beloved to them.",
+      "quran_references": [
+        {
+          "surah": 11,
+          "ayah": 90
+        }
+      ],
+      "display_order": 47,
+      "is_active": true
+    },
+    {
+      "id": "463554b3-0c36-4582-ab0e-ab8fa9cf3818",
+      "name_arabic": "الْمَجِيدُ",
+      "transliteration": "Al-Majid",
+      "meaning": "The Glorious",
+      "explanation": "The One whose glory and honor are supreme.",
+      "quran_references": [
+        {
+          "surah": 11,
+          "ayah": 73
+        }
+      ],
+      "display_order": 48,
+      "is_active": true
+    },
+    {
+      "id": "e1868cc3-2e5b-4b5b-984f-848f8cec7e58",
+      "name_arabic": "الْبَاعِثُ",
+      "transliteration": "Al-Ba'ith",
+      "meaning": "The Resurrector",
+      "explanation": "The One who resurrects the dead on the Day of Judgment.",
+      "quran_references": [
+        {
+          "surah": 22,
+          "ayah": 7
+        }
+      ],
+      "display_order": 49,
+      "is_active": true
+    },
+    {
+      "id": "c04e4c3c-6caa-43b4-bc80-f1116ca9535c",
+      "name_arabic": "الشَّهِيدُ",
+      "transliteration": "Ash-Shahid",
+      "meaning": "The Witness",
+      "explanation": "The One who witnesses everything that happens.",
+      "quran_references": [
+        {
+          "surah": 4,
+          "ayah": 166
+        }
+      ],
+      "display_order": 50,
+      "is_active": true
+    },
+    {
+      "id": "fdd35bb6-04d1-411a-b312-a7acd4a90fc5",
+      "name_arabic": "الْحَقُّ",
+      "transliteration": "Al-Haqq",
+      "meaning": "The Truth",
+      "explanation": "The One whose existence is absolute truth.",
+      "quran_references": [
+        {
+          "surah": 20,
+          "ayah": 114
+        }
+      ],
+      "display_order": 51,
+      "is_active": true
+    },
+    {
+      "id": "b7f627ec-9287-4be5-b3f5-390d85a4ca82",
+      "name_arabic": "الْوَكِيلُ",
+      "transliteration": "Al-Wakil",
+      "meaning": "The Trustee",
+      "explanation": "The One to rely upon for all affairs.",
+      "quran_references": [
+        {
+          "surah": 3,
+          "ayah": 173
+        }
+      ],
+      "display_order": 52,
+      "is_active": true
+    },
+    {
+      "id": "1b4cc1ba-e134-42c3-9ab2-d6e32358149a",
+      "name_arabic": "الْقَوِيُّ",
+      "transliteration": "Al-Qawiyy",
+      "meaning": "The Strong",
+      "explanation": "The One whose strength is limitless.",
+      "quran_references": [
+        {
+          "surah": 8,
+          "ayah": 52
+        }
+      ],
+      "display_order": 53,
+      "is_active": true
+    },
+    {
+      "id": "99a6a461-2614-450f-8c85-f8ff3630bc61",
+      "name_arabic": "الْمَتِينُ",
+      "transliteration": "Al-Matin",
+      "meaning": "The Firm",
+      "explanation": "The One whose power is severe and unyielding.",
+      "quran_references": [
+        {
+          "surah": 51,
+          "ayah": 58
+        }
+      ],
+      "display_order": 54,
+      "is_active": true
+    },
+    {
+      "id": "92b835aa-69f6-416c-b818-ce15cad4b49d",
+      "name_arabic": "الْوَلِيُّ",
+      "transliteration": "Al-Waliyy",
+      "meaning": "The Friend",
+      "explanation": "The One who is the protecting friend of the believers.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 257
+        }
+      ],
+      "display_order": 55,
+      "is_active": true
+    },
+    {
+      "id": "9e090333-c7d8-43fe-9ccf-d6596e2dc37c",
+      "name_arabic": "الْحَمِيدُ",
+      "transliteration": "Al-Hamid",
+      "meaning": "The Praiseworthy",
+      "explanation": "The One who is praised for all His actions.",
+      "quran_references": [
+        {
+          "surah": 14,
+          "ayah": 8
+        }
+      ],
+      "display_order": 56,
+      "is_active": true
+    },
+    {
+      "id": "008c7d3d-d74b-43e8-bdb8-3ee9ff5f956d",
+      "name_arabic": "الْمُحْصِي",
+      "transliteration": "Al-Muhsi",
+      "meaning": "The Reckoner",
+      "explanation": "The One who keeps count of all things.",
+      "display_order": 57,
+      "is_active": true
+    },
+    {
+      "id": "3d277752-0dc2-4208-bb4a-3d236fa624ba",
+      "name_arabic": "الْمُبْدِئُ",
+      "transliteration": "Al-Mubdi",
+      "meaning": "The Originator",
+      "explanation": "The One who begins creation from nothing.",
+      "quran_references": [
+        {
+          "surah": 10,
+          "ayah": 34
+        }
+      ],
+      "display_order": 58,
+      "is_active": true
+    },
+    {
+      "id": "6df392de-f6ae-4a99-9200-754ad5f21089",
+      "name_arabic": "الْمُعِيدُ",
+      "transliteration": "Al-Mu'id",
+      "meaning": "The Restorer",
+      "explanation": "The One who repeats and restores creation.",
+      "quran_references": [
+        {
+          "surah": 10,
+          "ayah": 34
+        }
+      ],
+      "display_order": 59,
+      "is_active": true
+    },
+    {
+      "id": "6ae2a794-e8ac-483e-b462-9784cc578b8c",
+      "name_arabic": "الْمُحْيِي",
+      "transliteration": "Al-Muhyi",
+      "meaning": "The Giver of Life",
+      "explanation": "The One who gives life to all living beings.",
+      "quran_references": [
+        {
+          "surah": 41,
+          "ayah": 39
+        }
+      ],
+      "display_order": 60,
+      "is_active": true
+    },
+    {
+      "id": "5427ed47-a7aa-4e7d-b4c5-84c8b319ce9d",
+      "name_arabic": "الْمُمِيتُ",
+      "transliteration": "Al-Mumit",
+      "meaning": "The Taker of Life",
+      "explanation": "The One who causes death to all living beings.",
+      "quran_references": [
+        {
+          "surah": 3,
+          "ayah": 156
+        }
+      ],
+      "display_order": 61,
+      "is_active": true
+    },
+    {
+      "id": "79364a21-932c-493b-b374-5e82509af5a9",
+      "name_arabic": "الْحَيُّ",
+      "transliteration": "Al-Hayy",
+      "meaning": "The Ever-Living",
+      "explanation": "The One who is eternally alive and never dies.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 255
+        }
+      ],
+      "display_order": 62,
+      "is_active": true
+    },
+    {
+      "id": "be541c67-9627-4eab-b1a9-c824a3885676",
+      "name_arabic": "الْقَيُّومُ",
+      "transliteration": "Al-Qayyum",
+      "meaning": "The Self-Sustaining",
+      "explanation": "The One who sustains all existence without need.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 255
+        }
+      ],
+      "display_order": 63,
+      "is_active": true
+    },
+    {
+      "id": "f0be5938-8c61-4087-b64c-65b384dd2f44",
+      "name_arabic": "الْوَاجِدُ",
+      "transliteration": "Al-Wajid",
+      "meaning": "The Finder",
+      "explanation": "The One who finds whatever He seeks, nothing escapes Him.",
+      "display_order": 64,
+      "is_active": true
+    },
+    {
+      "id": "a5c88fa4-20e3-4c41-a01e-f120aef48bfa",
+      "name_arabic": "الْمَاجِدُ",
+      "transliteration": "Al-Majid",
+      "meaning": "The Noble",
+      "explanation": "The One whose nobility, honor, and generosity are immense.",
+      "display_order": 65,
+      "is_active": true
+    },
+    {
+      "id": "a868e595-1831-4cd7-b2be-9ce31889a599",
+      "name_arabic": "الْأَحَدُ",
+      "transliteration": "Al-Ahad",
+      "meaning": "The One",
+      "explanation": "The One who is unique and has no partner.",
+      "quran_references": [
+        {
+          "surah": 112,
+          "ayah": 1
+        }
+      ],
+      "display_order": 66,
+      "is_active": true
+    },
+    {
+      "id": "7776e29b-18a4-4ac0-bbcf-ca4e8a14bb8d",
+      "name_arabic": "الصَّمَدُ",
+      "transliteration": "As-Samad",
+      "meaning": "The Eternal",
+      "explanation": "The One to whom all creation turns for their needs.",
+      "quran_references": [
+        {
+          "surah": 112,
+          "ayah": 2
+        }
+      ],
+      "display_order": 67,
+      "is_active": true
+    },
+    {
+      "id": "9fdccc07-a63c-4994-a6b2-86f93f7d2d68",
+      "name_arabic": "الْقَادِرُ",
+      "transliteration": "Al-Qadir",
+      "meaning": "The Able",
+      "explanation": "The One who has power over all things.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 20
+        }
+      ],
+      "display_order": 68,
+      "is_active": true
+    },
+    {
+      "id": "fc6db1dd-8b2b-4450-bd9e-85a6d06bc299",
+      "name_arabic": "الْمُقْتَدِرُ",
+      "transliteration": "Al-Muqtadir",
+      "meaning": "The Powerful",
+      "explanation": "The One who has complete power over all things.",
+      "quran_references": [
+        {
+          "surah": 18,
+          "ayah": 45
+        }
+      ],
+      "display_order": 69,
+      "is_active": true
+    },
+    {
+      "id": "75e43b42-c103-4a2d-8799-dd09dfd27199",
+      "name_arabic": "الْمُقَدِّمُ",
+      "transliteration": "Al-Muqaddim",
+      "meaning": "The Advancer",
+      "explanation": "The One who brings forward whom He wills.",
+      "display_order": 70,
+      "is_active": true
+    },
+    {
+      "id": "f4c075b2-b3ce-4893-a698-542820e1ce49",
+      "name_arabic": "الْمُؤَخِّرُ",
+      "transliteration": "Al-Mu'akhkhir",
+      "meaning": "The Delayer",
+      "explanation": "The One who delays whom He wills.",
+      "display_order": 71,
+      "is_active": true
+    },
+    {
+      "id": "0e735a0f-447a-45cd-9cba-425337c294ab",
+      "name_arabic": "الْأَوَّلُ",
+      "transliteration": "Al-Awwal",
+      "meaning": "The First",
+      "explanation": "The One who exists before all things.",
+      "quran_references": [
+        {
+          "surah": 57,
+          "ayah": 3
+        }
+      ],
+      "display_order": 72,
+      "is_active": true
+    },
+    {
+      "id": "addf3a94-aa5b-48f4-9fbf-d259426dd4e3",
+      "name_arabic": "الْآخِرُ",
+      "transliteration": "Al-Akhir",
+      "meaning": "The Last",
+      "explanation": "The One who remains after all things cease.",
+      "quran_references": [
+        {
+          "surah": 57,
+          "ayah": 3
+        }
+      ],
+      "display_order": 73,
+      "is_active": true
+    },
+    {
+      "id": "5c1b87c3-8854-484f-8a76-09cf823ec006",
+      "name_arabic": "الظَّاهِرُ",
+      "transliteration": "Az-Zahir",
+      "meaning": "The Manifest",
+      "explanation": "The One whose existence is evident through His creation.",
+      "quran_references": [
+        {
+          "surah": 57,
+          "ayah": 3
+        }
+      ],
+      "display_order": 74,
+      "is_active": true
+    },
+    {
+      "id": "b873b6c2-6f10-4fb2-bb04-c225f0a76846",
+      "name_arabic": "الْبَاطِنُ",
+      "transliteration": "Al-Batin",
+      "meaning": "The Hidden",
+      "explanation": "The One who is hidden from sensory perception.",
+      "quran_references": [
+        {
+          "surah": 57,
+          "ayah": 3
+        }
+      ],
+      "display_order": 75,
+      "is_active": true
+    },
+    {
+      "id": "dd305531-e113-47c0-95f9-6c155e6c541b",
+      "name_arabic": "الْوَالِي",
+      "transliteration": "Al-Wali",
+      "meaning": "The Governor",
+      "explanation": "The One who governs and manages all affairs.",
+      "display_order": 76,
+      "is_active": true
+    },
+    {
+      "id": "05d37b3a-c171-4cb3-8f90-238b9f9ca1bf",
+      "name_arabic": "الْمُتَعَالِي",
+      "transliteration": "Al-Muta'ali",
+      "meaning": "The Most Exalted",
+      "explanation": "The One who is far above any imperfection.",
+      "quran_references": [
+        {
+          "surah": 13,
+          "ayah": 9
+        }
+      ],
+      "display_order": 77,
+      "is_active": true
+    },
+    {
+      "id": "51d67352-6405-4d3a-84eb-44ad73823557",
+      "name_arabic": "الْبَرُّ",
+      "transliteration": "Al-Barr",
+      "meaning": "The Source of Goodness",
+      "explanation": "The One who is infinitely kind and benevolent.",
+      "quran_references": [
+        {
+          "surah": 52,
+          "ayah": 28
+        }
+      ],
+      "display_order": 78,
+      "is_active": true
+    },
+    {
+      "id": "206ae823-458e-4649-a70c-fdd0f7c42713",
+      "name_arabic": "التَّوَّابُ",
+      "transliteration": "At-Tawwab",
+      "meaning": "The Accepter of Repentance",
+      "explanation": "The One who accepts repentance and forgives repeatedly.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 128
+        }
+      ],
+      "display_order": 79,
+      "is_active": true
+    },
+    {
+      "id": "21453caf-9a99-4137-96f3-618b0d61bf79",
+      "name_arabic": "الْمُنْتَقِمُ",
+      "transliteration": "Al-Muntaqim",
+      "meaning": "The Avenger",
+      "explanation": "The One who punishes those who persist in evil.",
+      "quran_references": [
+        {
+          "surah": 32,
+          "ayah": 22
+        }
+      ],
+      "display_order": 80,
+      "is_active": true
+    },
+    {
+      "id": "5b61d743-5c53-4fa0-9882-99027fc71310",
+      "name_arabic": "الْعَفُوُّ",
+      "transliteration": "Al-Afuww",
+      "meaning": "The Pardoner",
+      "explanation": "The One who pardons sins and overlooks faults.",
+      "quran_references": [
+        {
+          "surah": 4,
+          "ayah": 43
+        }
+      ],
+      "display_order": 81,
+      "is_active": true
+    },
+    {
+      "id": "771e546a-8ec4-4bac-9000-fda609fa4dbf",
+      "name_arabic": "الرَّءُوفُ",
+      "transliteration": "Ar-Ra'uf",
+      "meaning": "The Compassionate",
+      "explanation": "The One who is full of compassion and kindness.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 143
+        }
+      ],
+      "display_order": 82,
+      "is_active": true
+    },
+    {
+      "id": "e877a847-dee7-4844-a638-1de9e8342640",
+      "name_arabic": "مَالِكُ الْمُلْكِ",
+      "transliteration": "Malik-ul-Mulk",
+      "meaning": "The Owner of All Sovereignty",
+      "explanation": "The One who owns all dominion and authority.",
+      "quran_references": [
+        {
+          "surah": 3,
+          "ayah": 26
+        }
+      ],
+      "display_order": 83,
+      "is_active": true
+    },
+    {
+      "id": "db81f8a8-47fe-4d17-8030-d46e708af075",
+      "name_arabic": "ذُو الْجَلَالِ وَالْإِكْرَامِ",
+      "transliteration": "Dhul-Jalali wal-Ikram",
+      "meaning": "The Lord of Majesty and Generosity",
+      "explanation": "The One who possesses both grandeur and generosity.",
+      "quran_references": [
+        {
+          "surah": 55,
+          "ayah": 27
+        }
+      ],
+      "display_order": 84,
+      "is_active": true
+    },
+    {
+      "id": "7cb29688-b14a-4fbb-b4b4-ab9fe6f5eaca",
+      "name_arabic": "الْمُقْسِطُ",
+      "transliteration": "Al-Muqsit",
+      "meaning": "The Equitable",
+      "explanation": "The One who deals with absolute fairness and justice.",
+      "display_order": 85,
+      "is_active": true
+    },
+    {
+      "id": "9bf7ee7d-3cc5-4800-b586-f2517e1fc3be",
+      "name_arabic": "الْجَامِعُ",
+      "transliteration": "Al-Jami",
+      "meaning": "The Gatherer",
+      "explanation": "The One who gathers all creation on the Day of Judgment.",
+      "quran_references": [
+        {
+          "surah": 3,
+          "ayah": 9
+        }
+      ],
+      "display_order": 86,
+      "is_active": true
+    },
+    {
+      "id": "cbb35821-2294-4876-8ac2-20c0b59a1011",
+      "name_arabic": "الْغَنِيُّ",
+      "transliteration": "Al-Ghaniyy",
+      "meaning": "The Self-Sufficient",
+      "explanation": "The One who is free of all needs.",
+      "quran_references": [
+        {
+          "surah": 35,
+          "ayah": 15
+        }
+      ],
+      "display_order": 87,
+      "is_active": true
+    },
+    {
+      "id": "992dce51-3f09-4966-90af-220652f4de41",
+      "name_arabic": "الْمُغْنِي",
+      "transliteration": "Al-Mughni",
+      "meaning": "The Enricher",
+      "explanation": "The One who enriches whom He wills.",
+      "display_order": 88,
+      "is_active": true
+    },
+    {
+      "id": "8bdfd73a-ba24-421c-aa8d-6d852f9b0a84",
+      "name_arabic": "الْمَانِعُ",
+      "transliteration": "Al-Mani",
+      "meaning": "The Preventer",
+      "explanation": "The One who prevents harm as He wills.",
+      "display_order": 89,
+      "is_active": true
+    },
+    {
+      "id": "7701fd3f-c9b9-478f-b930-90cf3da7310b",
+      "name_arabic": "الضَّارُّ",
+      "transliteration": "Ad-Darr",
+      "meaning": "The Afflicter",
+      "explanation": "The One who causes harm to test His creation.",
+      "display_order": 90,
+      "is_active": true
+    },
+    {
+      "id": "28bfc9d3-fdf2-4c80-8e67-930ab915c253",
+      "name_arabic": "النَّافِعُ",
+      "transliteration": "An-Nafi",
+      "meaning": "The Benefiter",
+      "explanation": "The One who brings benefit to whom He wills.",
+      "display_order": 91,
+      "is_active": true
+    },
+    {
+      "id": "981cb24d-8a8f-4d22-99c4-c5bf0f394187",
+      "name_arabic": "النُّورُ",
+      "transliteration": "An-Nur",
+      "meaning": "The Light",
+      "explanation": "The One who is the light of the heavens and the earth.",
+      "quran_references": [
+        {
+          "surah": 24,
+          "ayah": 35
+        }
+      ],
+      "display_order": 92,
+      "is_active": true
+    },
+    {
+      "id": "6413b8b6-825b-4da1-aede-3d39200a67a8",
+      "name_arabic": "الْهَادِي",
+      "transliteration": "Al-Hadi",
+      "meaning": "The Guide",
+      "explanation": "The One who guides whom He wills to the right path.",
+      "quran_references": [
+        {
+          "surah": 22,
+          "ayah": 54
+        }
+      ],
+      "display_order": 93,
+      "is_active": true
+    },
+    {
+      "id": "b6ffa40d-0512-4e4a-91f1-b1aa8afdb642",
+      "name_arabic": "الْبَدِيعُ",
+      "transliteration": "Al-Badi",
+      "meaning": "The Originator",
+      "explanation": "The One who creates with unparalleled beauty and innovation.",
+      "quran_references": [
+        {
+          "surah": 2,
+          "ayah": 117
+        }
+      ],
+      "display_order": 94,
+      "is_active": true
+    },
+    {
+      "id": "81e243d9-94f3-4a0f-bf66-d3f91f42825a",
+      "name_arabic": "الْبَاقِي",
+      "transliteration": "Al-Baqi",
+      "meaning": "The Everlasting",
+      "explanation": "The One who remains forever, while all else perishes.",
+      "quran_references": [
+        {
+          "surah": 55,
+          "ayah": 27
+        }
+      ],
+      "display_order": 95,
+      "is_active": true
+    },
+    {
+      "id": "1701fc65-ab02-48d4-b169-18224e982867",
+      "name_arabic": "الْوَارِثُ",
+      "transliteration": "Al-Warith",
+      "meaning": "The Inheritor",
+      "explanation": "The One who inherits all things after creation ceases.",
+      "quran_references": [
+        {
+          "surah": 15,
+          "ayah": 23
+        }
+      ],
+      "display_order": 96,
+      "is_active": true
+    },
+    {
+      "id": "7223d924-5a2f-41b3-b08f-45cfc4880a94",
+      "name_arabic": "الرَّشِيدُ",
+      "transliteration": "Ar-Rashid",
+      "meaning": "The Guide to Right Path",
+      "explanation": "The One who guides all affairs to their right conclusion.",
+      "display_order": 97,
+      "is_active": true
+    },
+    {
+      "id": "04d31f9a-60bc-4d4d-b524-2f53dfdc2c77",
+      "name_arabic": "الصَّبُورُ",
+      "transliteration": "As-Sabur",
+      "meaning": "The Patient",
+      "explanation": "The One who is extremely patient and does not hasten punishment.",
+      "display_order": 98,
+      "is_active": true
+    },
+    {
+      "id": "46b2d0c9-bb92-4a66-8b65-a1ff4021a0ee",
+      "name_arabic": "الرَّحْمَنُ",
+      "transliteration": "Ar-Rahman",
+      "meaning": "The Most Gracious (repeat)",
+      "explanation": "Begin and end with the Most Gracious, whose mercy encompasses all.",
+      "quran_references": [
+        {
+          "surah": 1,
+          "ayah": 1
+        }
+      ],
+      "display_order": 99,
+      "is_active": true
+    }
+  ],
+  "kalmas": [
+    {
+      "id": "11d696a8-f4bb-40d4-9b2c-f6b0429930f4",
+      "name": "Kalma Tayyiba",
+      "name_arabic": "كلمہ طیبہ",
+      "arabic_text": "لَا إِلَٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+      "transliteration": "La ilaha illallah Muhammadur Rasulullah",
+      "translations": {
+        "en": "There is no god but Allah, Muhammad is the Messenger of Allah.",
+        "ur": "اللہ کے سوا کوئی معبود نہیں، محمد اللہ کے رسول ہیں"
+      },
+      "benefits": "The foundation of Islamic faith. Whoever recites it with sincerity enters Paradise.",
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "1a8674d5-ca5f-40e8-b33b-5edaeeaa20e5",
+      "name": "Kalma Shahadat",
+      "name_arabic": "كلمہ شہادت",
+      "arabic_text": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "Ashhadu an la ilaha illallah wa ashhadu anna Muhammadan abduhu wa rasuluh",
+      "translations": {
+        "en": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and messenger."
+      },
+      "benefits": "The testimony of faith that enters one into Islam.",
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "cdf54a41-1333-472e-a82c-a3e9f7d81df1",
+      "name": "Kalma Tamjeed",
+      "name_arabic": "كلمہ تمجید",
+      "arabic_text": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَٰهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+      "transliteration": "SubhanAllah walhamdulillah wa la ilaha illallah wallahu akbar wa la hawla wa la quwwata illa billahil aliyyil azeem",
+      "translations": {
+        "en": "Glory be to Allah, all praise is for Allah, there is no god but Allah, Allah is the Greatest, and there is no power nor strength except with Allah, the Most High, the Most Great."
+      },
+      "benefits": "A comprehensive praise of Allah that brings immense rewards.",
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "61ab97c6-af0a-4ae9-ad02-3fc4eeb1079b",
+      "name": "Kalma Tawheed",
+      "name_arabic": "كلمہ توحید",
+      "arabic_text": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "transliteration": "La ilaha illallahu wahdahu la sharika lah, lahul mulku wa lahul hamdu yuhyi wa yumitu wa huwa hayyun la yamutu bi yadihil khayr wa huwa ala kulli shay'in qadeer",
+      "translations": {
+        "en": "There is no god but Allah alone, He has no partner. His is the kingdom and His is the praise. He gives life and causes death, and He is the Living who does not die. In His hand is all good, and He has power over all things."
+      },
+      "benefits": "The essence of Islamic monotheism.",
+      "display_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "e3c16504-598a-4940-a6cc-cbff5073cc9f",
+      "name": "Kalma Astaghfar",
+      "name_arabic": "كلمہ استغفار",
+      "arabic_text": "أَسْتَغْفِرُ اللَّهَ رَبِّي مِنْ كُلِّ ذَنْبٍ وَأَتُوبُ إِلَيْهِ",
+      "transliteration": "Astaghfirullaha rabbi min kulli dhanbin wa atubu ilayh",
+      "translations": {
+        "en": "I seek forgiveness from Allah, my Lord, from every sin and I turn to Him in repentance."
+      },
+      "benefits": "Seeks forgiveness from Allah and wipes away sins.",
+      "display_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "9881db8d-cfdf-496a-9f17-61bc9c9d334a",
+      "name": "Kalma Radd-e-Kufr",
+      "name_arabic": "كلمہ رد كفر",
+      "arabic_text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَأَنَا أَعْلَمُ وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكِذْبِ وَالْمَعَاصِي كُلِّهَا أَسْلَمْتُ وَآمَنْتُ وَأَقُولُ لَا إِلَٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+      "transliteration": "Allahumma inni a'udhu bika min an ushrika bika shay'an wa ana a'lam, wa astaghfiruka lima la a'lam, tubtu anhu wa tabarra'tu minal kufri wash-shirki wal-kidhbi wal-ma'asi kulliha, aslamtu wa amantu wa aqulu la ilaha illallah, Muhammadur Rasulullah",
+      "translations": {
+        "en": "O Allah, I seek refuge in You from knowingly associating partners with You, and I seek Your forgiveness for what I do not know. I repent from it and I disassociate myself from disbelief, polytheism, falsehood, and all sins. I submit and I believe, and I declare: There is no god but Allah, Muhammad is the Messenger of Allah."
+      },
+      "benefits": "Renounces disbelief and reaffirms faith in Allah.",
+      "display_order": 6,
+      "is_active": true
+    }
+  ],
+  "daily_content": [
+    {
+      "id": "170791b0-ddea-43b8-b1de-72ac8024760b",
+      "content_type": "hadith",
+      "title": "Sincerity in Actions",
+      "arabic_text": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ",
+      "translations": {
+        "en": "Actions are judged by intentions."
+      },
+      "source": "Bukhari & Muslim",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "4d379d2e-b27b-422f-a7ad-42264c4e6c00",
+      "content_type": "hadith",
+      "title": "The Best of You",
+      "arabic_text": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ",
+      "translations": {
+        "en": "The best among you are those who learn the Quran and teach it."
+      },
+      "source": "Bukhari",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "96e39a92-9f09-48be-8dbe-16a14b357d11",
+      "content_type": "ayah",
+      "title": "Ayah of the Day",
+      "arabic_text": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translations": {
+        "en": "Indeed, with hardship comes ease."
+      },
+      "source": "Quran 94:6",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "5b99b2f7-2575-46e3-8f69-1b23d8e8b75b",
+      "content_type": "quote",
+      "title": "Quote of the Day",
+      "translations": {
+        "en": "The best way to find yourself is to lose yourself in the service of others."
+      },
+      "source": "— Islamic saying",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "edd1ae35-1e8a-4ff5-a041-27c83739ad5c",
+      "content_type": "hadith",
+      "title": "Kindness",
+      "arabic_text": "الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ",
+      "translations": {
+        "en": "Those who show mercy will be shown mercy by the Most Merciful."
+      },
+      "source": "Tirmidhi",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "561615aa-e422-47a1-b751-e2fa576cb4f2",
+      "content_type": "ayah",
+      "title": "Patience",
+      "arabic_text": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+      "translations": {
+        "en": "Indeed, Allah is with the patient."
+      },
+      "source": "Quran 2:153",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "7f280f59-e35b-4f7f-b692-be9e964aa1b4",
+      "content_type": "quote",
+      "title": "Gratitude",
+      "translations": {
+        "en": "Gratitude for the little things brings abundant blessings."
+      },
+      "source": "— Islamic wisdom",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "0972c2b2-b27b-4da5-8ffd-0234a984c979",
+      "content_type": "hadith",
+      "title": "Neighbor",
+      "arabic_text": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيُحْسِنْ إِلَى جَارِهِ",
+      "translations": {
+        "en": "Whoever believes in Allah and the Last Day, let him be good to his neighbor."
+      },
+      "source": "Bukhari & Muslim",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "ee5f7aba-9c96-46cb-a56b-1b22554de330",
+      "content_type": "ayah",
+      "title": "Forgiveness",
+      "arabic_text": "وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَنْ يَغْفِرَ اللَّهُ لَكُمْ",
+      "translations": {
+        "en": "Let them pardon and overlook. Would you not love for Allah to forgive you?"
+      },
+      "source": "Quran 24:22",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    },
+    {
+      "id": "a7ecb3b0-f2eb-4711-8b7e-4d403eb9e6d6",
+      "content_type": "quote",
+      "title": "Knowledge",
+      "translations": {
+        "en": "Seeking knowledge is a duty upon every Muslim."
+      },
+      "source": "— Ibn Majah",
+      "scheduled_date": "2026-10-23",
+      "is_recurring": true,
+      "is_active": true
+    }
+  ],
+  "historical_places": [
+    {
+      "id": "5d455d08-7cb2-4954-adbf-361577dd2986",
+      "name": "Masjid al-Haram",
+      "name_arabic": "المسجد الحرام",
+      "category": "mosque",
+      "description": "The Grand Mosque in Makkah, surrounding the Kaaba. The holiest site in Islam.",
+      "significance": "Direction of prayer (Qibla) for all Muslims worldwide. Destination for Hajj and Umrah.",
+      "latitude": 21.4225,
+      "longitude": 39.8262,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "e4976b89-a500-410e-b1ae-d7f784fb8b82",
+      "name": "Masjid an-Nabawi",
+      "name_arabic": "المسجد النبوي",
+      "category": "mosque",
+      "description": "The Prophet's Mosque in Madinah, built by Prophet Muhammad (PBUH).",
+      "significance": "Second holiest mosque in Islam. Contains the Green Dome marking the Prophet's tomb.",
+      "latitude": 24.4672,
+      "longitude": 39.6112,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "a3e68e0e-d692-40c9-9c0a-37792c9e64b3",
+      "name": "Masjid al-Aqsa",
+      "name_arabic": "المسجد الأقصى",
+      "category": "mosque",
+      "description": "The third holiest mosque in Islam, located in Jerusalem.",
+      "significance": "First Qibla of Islam. Site of Prophet Muhammad's Night Journey (Isra and Mi'raj).",
+      "latitude": 31.7762,
+      "longitude": 35.2355,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "3dd5966c-f1e8-42fc-8352-5ead896b43f8",
+      "name": "Mount Uhud",
+      "name_arabic": "جبل أحد",
+      "category": "battle_site",
+      "description": "Site of the Battle of Uhud (3 AH / 625 CE) near Madinah.",
+      "significance": "Mountain loved by the Prophet. Site where the Prophet was wounded and 70 companions were martyred.",
+      "latitude": 24.5097,
+      "longitude": 39.6169,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "a68b3944-002a-46c1-bdb6-e8e3950dfa02",
+      "name": "Cave of Hira",
+      "name_arabic": "غار حراء",
+      "category": "landmark",
+      "description": "Cave on Jabal al-Nur where the first revelation was received by Prophet Muhammad (PBUH).",
+      "significance": "Where the first verses of the Quran were revealed: 'Iqra' (Read!).",
+      "latitude": 21.4575,
+      "longitude": 39.8602,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "121d6239-c921-4cd6-be1c-bef4a9fd7a9c",
+      "name": "Cave of Thawr",
+      "name_arabic": "غار ثور",
+      "category": "landmark",
+      "description": "Cave where Prophet Muhammad (PBUH) and Abu Bakr (RA) hid during the migration to Madinah.",
+      "significance": "Allah caused a spider to weave a web and a bird to nest at the entrance, concealing them from the Quraysh.",
+      "latitude": 21.4256,
+      "longitude": 39.8055,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "d7b104c1-362f-42ff-8f72-036e62d3f683",
+      "name": "Mount Arafat",
+      "name_arabic": "جبل عرفة",
+      "category": "landmark",
+      "description": "The plain of Arafat where pilgrims gather on the 9th of Dhul Hijjah.",
+      "significance": "The most important day of Hajj. The Prophet said 'Hajj is Arafah.'",
+      "latitude": 21.3544,
+      "longitude": 39.9833,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 7,
+      "is_active": true
+    },
+    {
+      "id": "91c54400-8e82-478a-9f0f-0d96a3f66e8e",
+      "name": "Quba Mosque",
+      "name_arabic": "مسجد قباء",
+      "category": "mosque",
+      "description": "The first mosque built in Islamic history, founded by Prophet Muhammad (PBUH) upon arrival in Madinah.",
+      "significance": "The Prophet said 'One who performs ablution and prays in it will have the reward of Umrah.'",
+      "latitude": 24.4394,
+      "longitude": 39.6178,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 8,
+      "is_active": true
+    },
+    {
+      "id": "ff1a8ce5-e63b-4d44-89c3-51073009473d",
+      "name": "Masjid al-Qiblatain",
+      "name_arabic": "مسجد القبلتين",
+      "category": "mosque",
+      "description": "The mosque where the direction of prayer was changed from Jerusalem to Makkah.",
+      "significance": "Witnessed the revelation changing the Qibla direction during prayer.",
+      "latitude": 24.474,
+      "longitude": 39.6068,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 9,
+      "is_active": true
+    },
+    {
+      "id": "57eb8354-214c-4e60-89db-697f085b78a4",
+      "name": "Battle of Badr",
+      "name_arabic": "غزوة بدر",
+      "category": "battle_site",
+      "description": "Site of the first major battle in Islamic history (2 AH / 624 CE).",
+      "significance": "Decisive victory for the Muslims against the Quraysh. A turning point in Islamic history.",
+      "latitude": 24.4084,
+      "longitude": 38.6667,
+      "image_urls": [],
+      "thumbnail_url": null,
+      "display_order": 10,
+      "is_active": true
+    }
+  ],
+  "hajj_steps": [
+    {
+      "id": "a0e3f84d-1b21-4fc7-81e0-66b056aecbf3",
+      "step_number": 1,
+      "title": "Ihram",
+      "title_arabic": "الإحرام",
+      "descriptions": {
+        "en": "Enter the state of Ihram at the Miqat. Men wear two white seamless cloths. Women wear modest clothing. Make the intention for Hajj and recite the Talbiyah."
+      },
+      "duas": [
+        {
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكِ، لَا شَرِيكَ لَكَ",
+          "translations": {
+            "en": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace and sovereignty are Yours. You have no partner."
+          }
+        }
+      ],
+      "common_mistakes": {
+        "en": [
+          "Passing the Miqat without Ihram",
+          "Wearing stitched clothing for men",
+          "Arguing or using profane language"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "1c044050-7036-4642-bf33-4f737c77b849",
+      "step_number": 2,
+      "title": "Tawaf",
+      "title_arabic": "الطواف",
+      "descriptions": {
+        "en": "Upon reaching Makkah, perform Tawaf al-Qudum (circumambulation of the Kaaba seven times counter-clockwise)."
+      },
+      "duas": [
+        {
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "translations": {
+            "en": "Our Lord, give us good in this world and good in the Hereafter and protect us from the punishment of the Fire."
+          }
+        }
+      ],
+      "common_mistakes": {
+        "en": [
+          "Touching the Black Stone when crowded causing harm",
+          "Performing Tawaf inside the Hateem area",
+          "Facing the Kaaba while making Tawaf"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "8ed346bf-f069-4f46-8e5d-ef3887e1547d",
+      "step_number": 3,
+      "title": "Sa'i",
+      "title_arabic": "السعي",
+      "descriptions": {
+        "en": "Walk seven times between the hills of Safa and Marwah, following the footsteps of Hagar (RA)."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Not climbing Safa and Marwah",
+          "Running in the green area incorrectly"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "f7d4d39d-11c0-4cc5-a06a-b887b9f6faac",
+      "step_number": 4,
+      "title": "Day of Tarwiyah - Mina",
+      "title_arabic": "يوم التروية - منى",
+      "descriptions": {
+        "en": "On the 8th of Dhul Hijjah, proceed to Mina and spend the day in prayer and remembrance."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Leaving Mina before Fajr on the 9th",
+          "Not performing prayers on time"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "5f906c7b-901d-43d3-9468-3b00605d7e96",
+      "step_number": 5,
+      "title": "Day of Arafah",
+      "title_arabic": "يوم عرفة",
+      "descriptions": {
+        "en": "The most important day of Hajj. Stand on the plain of Arafat from noon until sunset, making earnest dua and seeking forgiveness. The Prophet said: 'Hajj is Arafah.'"
+      },
+      "duas": [
+        {
+          "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          "translations": {
+            "en": "There is no god but Allah, alone, without partner. His is the sovereignty and His is the praise, and He has power over all things."
+          }
+        }
+      ],
+      "common_mistakes": {
+        "en": [
+          "Leaving Arafah before sunset",
+          "Spending the day shopping or sleeping instead of making dua",
+          "Not combining Dhuhr and Asr prayers"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "c3eedf8a-5b9a-4278-88c2-e1f8bf5e777f",
+      "step_number": 6,
+      "title": "Muzdalifah",
+      "title_arabic": "مزدلفة",
+      "descriptions": {
+        "en": "After sunset on the 9th, proceed to Muzdalifah. Combine Maghrib and Isha prayers. Spend the night in prayer and collect 49 pebbles for the stoning."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Leaving Muzdalifah before Fajr",
+          "Not collecting enough pebbles"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "6f7d50c6-5503-4813-ae68-942375603160",
+      "step_number": 7,
+      "title": "Stoning the Jamarat",
+      "title_arabic": "رمي الجمرات",
+      "descriptions": {
+        "en": "On the 10th, 11th, 12th, and optionally 13th, stone the Jamarat (pillars) with 7 pebbles each, starting with the largest (Jamrat al-Aqaba) on the 10th."
+      },
+      "duas": [
+        {
+          "arabic": "اللَّهُ أَكْبَرُ",
+          "translations": {
+            "en": "Allah is the Greatest."
+          }
+        }
+      ],
+      "common_mistakes": {
+        "en": [
+          "Throwing large objects instead of small pebbles",
+          "Stoning before Fajr on the 11th-13th",
+          "Hitting people while stoning"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "cfc5e047-0257-470c-ac30-e0ff9880e9d4",
+      "step_number": 8,
+      "title": "Sacrifice & Shaving",
+      "title_arabic": "الهدي والحلق",
+      "descriptions": {
+        "en": "After stoning on the 10th, sacrifice an animal (Hadi) and shave or trim your hair. Men shave their heads, women trim a fingertip's length."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Shaving before stoning",
+          "Not performing sacrifice when required"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "8457e835-76a6-4f11-986d-e5fb21eaee5e",
+      "step_number": 9,
+      "title": "Tawaf al-Ifadah",
+      "title_arabic": "طواف الإفاضة",
+      "descriptions": {
+        "en": "Return to Makkah to perform Tawaf al-Ifadah (7 circuits around the Kaaba) and Sa'i. This is an essential pillar of Hajj."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Delaying Tawaf al-Ifadah beyond the days of Tashreeq unnecessarily"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "c1deecd7-7b46-439d-a558-e961f0bb43cd",
+      "step_number": 10,
+      "title": "Farewell Tawaf",
+      "title_arabic": "طواف الوداع",
+      "descriptions": {
+        "en": "Before leaving Makkah, perform the Farewell Tawaf (Tawaf al-Wada) as the final act of Hajj."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Leaving Makkah without performing Farewell Tawaf",
+          "Menstruating women may be excused from Farewell Tawaf"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    }
+  ],
+  "umrah_steps": [
+    {
+      "id": "ce008b6f-c0fa-4ee5-b881-e34c0461dfe4",
+      "step_number": 1,
+      "title": "Ihram",
+      "title_arabic": "الإحرام",
+      "descriptions": {
+        "en": "Enter the state of Ihram at the designated Miqat. Make intention for Umrah and recite the Talbiyah."
+      },
+      "duas": [
+        {
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكِ، لَا شَرِيكَ لَكَ",
+          "translations": {
+            "en": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace and sovereignty are Yours. You have no partner."
+          }
+        }
+      ],
+      "common_mistakes": {
+        "en": [
+          "Passing Miqat without Ihram"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "56f4f2dc-0189-489a-b52a-354b4c81f2d8",
+      "step_number": 2,
+      "title": "Tawaf",
+      "title_arabic": "الطواف",
+      "descriptions": {
+        "en": "Perform 7 circuits around the Kaaba counter-clockwise, starting from the Black Stone."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Pushing or crowding at the Black Stone"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "2a78f23a-b8ba-4091-8b17-7f5095007a36",
+      "step_number": 3,
+      "title": "Sa'i",
+      "title_arabic": "السعي",
+      "descriptions": {
+        "en": "Walk 7 times between Safa and Marwah."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Not starting from Safa"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    },
+    {
+      "id": "1a93bd78-d3a8-43fb-807e-88d48f49b773",
+      "step_number": 4,
+      "title": "Shaving/Trimming",
+      "title_arabic": "الحلق أو التقصير",
+      "descriptions": {
+        "en": "Men shave their heads or trim, women trim a fingertip's length. This completes Umrah."
+      },
+      "duas": [],
+      "common_mistakes": {
+        "en": [
+          "Shaving before completing Sa'i"
+        ]
+      },
+      "diagrams": [],
+      "video_url": null,
+      "is_active": true
+    }
+  ],
+  "hajj_checklist": [
+    {
+      "id": "72d55ba0-ff5b-4cb0-95bc-11829775415c",
+      "category": "documents",
+      "item_name": "Passport (valid 6+ months)",
+      "item_name_arabic": "جواز السفر",
+      "is_essential": true,
+      "notes": "Ensure validity of at least 6 months from travel date",
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "812c7ac7-4d3c-460f-b198-05f0e8c86c10",
+      "category": "documents",
+      "item_name": "Visa for Saudi Arabia",
+      "item_name_arabic": "تأشيرة المملكة",
+      "is_essential": true,
+      "notes": "Obtain through authorized Hajj travel agents",
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "7bc26366-419c-4f35-800d-1cd5402180a0",
+      "category": "documents",
+      "item_name": "Vaccination certificate",
+      "item_name_arabic": "شهادة التطعيم",
+      "is_essential": true,
+      "notes": "Meningitis, COVID-19, and seasonal flu vaccines required",
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "a847b12b-82e4-40d8-b08c-c0afc746f6ea",
+      "category": "documents",
+      "item_name": "Flight tickets",
+      "item_name_arabic": "تذاكر الطيران",
+      "is_essential": true,
+      "display_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "dbab58ec-a641-48c2-ba8d-ab3380162fe2",
+      "category": "documents",
+      "item_name": "Hotel booking confirmations",
+      "item_name_arabic": "تأكيدات الفندق",
+      "is_essential": true,
+      "display_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "ddc16353-ca5a-490c-8179-061ba12c2747",
+      "category": "documents",
+      "item_name": "Emergency contact numbers",
+      "item_name_arabic": "أرقام الطوارئ",
+      "is_essential": false,
+      "display_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "d461bbd4-0f7c-4038-87b2-5797310eff2a",
+      "category": "documents",
+      "item_name": "Photocopies of important documents",
+      "item_name_arabic": "نسخ من المستندات",
+      "is_essential": false,
+      "notes": "Keep copies separate from originals",
+      "display_order": 7,
+      "is_active": true
+    },
+    {
+      "id": "c4ec03db-dda6-42bb-90fd-2349d2d84085",
+      "category": "clothing",
+      "item_name": "Ihram sheets (2 for men)",
+      "item_name_arabic": "ملابس الإحرام",
+      "is_essential": true,
+      "display_order": 8,
+      "is_active": true
+    },
+    {
+      "id": "873fcca7-40ca-4220-8419-abf1cc4c17a3",
+      "category": "clothing",
+      "item_name": "Modest clothing for women",
+      "item_name_arabic": "ملابس محتشمة",
+      "is_essential": true,
+      "display_order": 9,
+      "is_active": true
+    },
+    {
+      "id": "fa547867-d5d5-4196-b725-aca4a51b0d04",
+      "category": "clothing",
+      "item_name": "Comfortable sandals / slippers",
+      "item_name_arabic": "صنادل مريحة",
+      "is_essential": true,
+      "display_order": 10,
+      "is_active": true
+    },
+    {
+      "id": "d9ae504a-7981-407c-be40-16616f41fbc5",
+      "category": "clothing",
+      "item_name": "Light jacket or sweater",
+      "item_name_arabic": "سترة خفيفة",
+      "is_essential": false,
+      "notes": "Mina and Arafat can be cool at night",
+      "display_order": 11,
+      "is_active": true
+    },
+    {
+      "id": "fe787f5b-3b03-489d-840f-20590f2e14ba",
+      "category": "health",
+      "item_name": "Personal medication",
+      "item_name_arabic": "الأدوية الشخصية",
+      "is_essential": true,
+      "notes": "Bring enough for the entire trip plus extra",
+      "display_order": 12,
+      "is_active": true
+    },
+    {
+      "id": "99233389-98c2-451c-9db7-1fe5e2df05cb",
+      "category": "health",
+      "item_name": "Pain relievers",
+      "item_name_arabic": "مسكنات الألم",
+      "is_essential": false,
+      "display_order": 13,
+      "is_active": true
+    },
+    {
+      "id": "f82f34ac-2054-496b-a331-76ee178a7edf",
+      "category": "health",
+      "item_name": "First aid kit",
+      "item_name_arabic": "حقيبة إسعافات أولية",
+      "is_essential": false,
+      "notes": "Band-aids, antiseptic, blister treatment",
+      "display_order": 14,
+      "is_active": true
+    },
+    {
+      "id": "8ec1e82f-f022-49cb-a904-2c7ce59f1f3f",
+      "category": "health",
+      "item_name": "Face masks & hand sanitizer",
+      "item_name_arabic": "كمامات ومعقم",
+      "is_essential": false,
+      "display_order": 15,
+      "is_active": true
+    },
+    {
+      "id": "8ea92938-af03-4c6a-881b-3c8411146aab",
+      "category": "health",
+      "item_name": "Motion sickness medication",
+      "item_name_arabic": "دواء دوار الحركة",
+      "is_essential": false,
+      "display_order": 16,
+      "is_active": true
+    },
+    {
+      "id": "151c314b-e86e-49a1-ace9-f1adef2657e5",
+      "category": "essentials",
+      "item_name": "Small Quran",
+      "item_name_arabic": "مصحف صغير",
+      "is_essential": true,
+      "display_order": 17,
+      "is_active": true
+    },
+    {
+      "id": "043f2090-fa61-4b35-9ad8-3f37c895c7d1",
+      "category": "essentials",
+      "item_name": "Dua booklet",
+      "item_name_arabic": "كتيب الأدعية",
+      "is_essential": true,
+      "display_order": 18,
+      "is_active": true
+    },
+    {
+      "id": "e7646b33-918c-487e-810b-18546ffdd23f",
+      "category": "essentials",
+      "item_name": "Small bag for pebbles",
+      "item_name_arabic": "كيس للحصى",
+      "is_essential": true,
+      "display_order": 19,
+      "is_active": true
+    },
+    {
+      "id": "7841d70e-585e-42ab-871c-76ef3c38dfca",
+      "category": "essentials",
+      "item_name": "Sunscreen & umbrella",
+      "item_name_arabic": "واقي شمس ومظلة",
+      "is_essential": false,
+      "display_order": 20,
+      "is_active": true
+    },
+    {
+      "id": "9e8367fd-01fb-4393-bdad-f0a2d129368a",
+      "category": "essentials",
+      "item_name": "Reusable water bottle",
+      "item_name_arabic": "زجاجة ماء",
+      "is_essential": false,
+      "display_order": 21,
+      "is_active": true
+    },
+    {
+      "id": "16a03925-ad07-4b32-b820-767baf433210",
+      "category": "essentials",
+      "item_name": "Snacks (dates, nuts)",
+      "item_name_arabic": "وجبات خفيفة",
+      "is_essential": false,
+      "display_order": 22,
+      "is_active": true
+    },
+    {
+      "id": "76e34be4-de8a-4033-844e-bb49f1e875d6",
+      "category": "essentials",
+      "item_name": "Sleeping bag / mat",
+      "item_name_arabic": "حقيبة نوم",
+      "is_essential": false,
+      "notes": "Useful for nights in Mina and Muzdalifah",
+      "display_order": 23,
+      "is_active": true
+    },
+    {
+      "id": "12f3f8fb-8f36-4f89-8663-cc578e42bda3",
+      "category": "electronics",
+      "item_name": "Phone & charger",
+      "item_name_arabic": "هاتف وشاحن",
+      "is_essential": false,
+      "display_order": 24,
+      "is_active": true
+    },
+    {
+      "id": "daa8e08b-fcf7-4bae-bfad-c0d37674180a",
+      "category": "electronics",
+      "item_name": "Power bank",
+      "item_name_arabic": "بطارية محمولة",
+      "is_essential": false,
+      "display_order": 25,
+      "is_active": true
+    },
+    {
+      "id": "32e6a1c5-8e6a-4bd0-8540-ac23a8bb791e",
+      "category": "electronics",
+      "item_name": "International SIM / roaming plan",
+      "item_name_arabic": "شريحة دولية",
+      "is_essential": false,
+      "display_order": 26,
+      "is_active": true
+    }
+  ],
+  "nisab_records": [
+    {
+      "id": "4719cbef-8a29-4c1b-bd02-3c6029da2f4e",
+      "gold_price_per_gram": 85.0,
+      "silver_price_per_gram": 1.0,
+      "gold_nisab": 7225.0,
+      "silver_nisab": 595.0,
+      "currency": "USD",
+      "source": "default",
+      "is_admin_override": false
+    },
+    {
+      "id": "ae02bca7-b6b3-423c-af39-5746da7ac0ac",
+      "gold_price_per_gram": 72.5,
+      "silver_price_per_gram": 0.85,
+      "gold_nisab": 6162.5,
+      "silver_nisab": 505.75,
+      "currency": "USD",
+      "source": "api",
+      "is_admin_override": false
+    }
+  ],
+  "subscription_plans": [
+    {
+      "id": "84484290-ebfc-416d-8c9e-7595967014aa",
+      "name": "Monthly Pro",
+      "description": "Unlock all premium features with a monthly subscription. Ad-free experience, unlimited AI assistant, cloud sync, premium themes, and more.",
+      "interval": "month",
+      "price": 4.99,
+      "currency": "USD",
+      "platform": "stripe",
+      "product_id": "pro_monthly",
+      "stripe_price_id": "price_pro_monthly",
+      "trial_days": 7,
+      "is_active": true,
+      "display_order": 1,
+      "features": {
+        "ad_free": true,
+        "ai_unlimited": true,
+        "cloud_sync": true,
+        "premium_themes": true,
+        "full_offline": true,
+        "data_export": true,
+        "widget_support": "all",
+        "priority_support": true,
+        "advanced_notifications": true
+      }
+    },
+    {
+      "id": "e7f80208-1709-44f7-92e1-ad24c9752060",
+      "name": "Yearly Pro",
+      "description": "Best value! Get all premium features for a full year at a discounted rate. Save over 40% compared to monthly.",
+      "interval": "year",
+      "price": 29.99,
+      "currency": "USD",
+      "platform": "stripe",
+      "product_id": "pro_yearly",
+      "stripe_price_id": "price_pro_yearly",
+      "trial_days": 7,
+      "is_active": true,
+      "display_order": 2,
+      "features": {
+        "ad_free": true,
+        "ai_unlimited": true,
+        "cloud_sync": true,
+        "premium_themes": true,
+        "full_offline": true,
+        "data_export": true,
+        "widget_support": "all",
+        "priority_support": true,
+        "advanced_notifications": true
+      }
+    },
+    {
+      "id": "ee77cb30-8fb6-4864-a7e5-11a96f56e6ad",
+      "name": "Monthly Pro (iOS)",
+      "description": "Monthly subscription for iOS users.",
+      "interval": "month",
+      "price": 5.99,
+      "currency": "USD",
+      "platform": "ios",
+      "product_id": "com.firecode.studios.noor.pro.monthly",
+      "stripe_price_id": null,
+      "trial_days": 7,
+      "is_active": true,
+      "display_order": 3,
+      "features": {
+        "ad_free": true,
+        "ai_unlimited": true,
+        "cloud_sync": true,
+        "premium_themes": true,
+        "full_offline": true,
+        "data_export": true,
+        "widget_support": "all",
+        "priority_support": true,
+        "advanced_notifications": true
+      }
+    },
+    {
+      "id": "645a9e6a-f871-4d6b-9cc5-fae93acf261e",
+      "name": "Yearly Pro (iOS)",
+      "description": "Yearly subscription for iOS users.",
+      "interval": "year",
+      "price": 34.99,
+      "currency": "USD",
+      "platform": "ios",
+      "product_id": "com.firecode.studios.noor.pro.yearly",
+      "stripe_price_id": null,
+      "trial_days": 7,
+      "is_active": true,
+      "display_order": 4,
+      "features": {
+        "ad_free": true,
+        "ai_unlimited": true,
+        "cloud_sync": true,
+        "premium_themes": true,
+        "full_offline": true,
+        "data_export": true,
+        "widget_support": "all",
+        "priority_support": true,
+        "advanced_notifications": true
+      }
+    },
+    {
+      "id": "4998d32e-8e0e-415a-9947-8a75bca9c29b",
+      "name": "Monthly Pro (Android)",
+      "description": "Monthly subscription for Android users.",
+      "interval": "month",
+      "price": 5.99,
+      "currency": "USD",
+      "platform": "android",
+      "product_id": "com.firecode.studios.noor.pro.monthly",
+      "stripe_price_id": null,
+      "trial_days": 7,
+      "is_active": true,
+      "display_order": 5,
+      "features": {
+        "ad_free": true,
+        "ai_unlimited": true,
+        "cloud_sync": true,
+        "premium_themes": true,
+        "full_offline": true,
+        "data_export": true,
+        "widget_support": "all",
+        "priority_support": true,
+        "advanced_notifications": true
+      }
+    },
+    {
+      "id": "dd410a23-7809-4579-b0fc-925a62bae731",
+      "name": "Yearly Pro (Android)",
+      "description": "Yearly subscription for Android users.",
+      "interval": "year",
+      "price": 34.99,
+      "currency": "USD",
+      "platform": "android",
+      "product_id": "com.firecode.studios.noor.pro.yearly",
+      "stripe_price_id": null,
+      "trial_days": 7,
+      "is_active": true,
+      "display_order": 6,
+      "features": {
+        "ad_free": true,
+        "ai_unlimited": true,
+        "cloud_sync": true,
+        "premium_themes": true,
+        "full_offline": true,
+        "data_export": true,
+        "widget_support": "all",
+        "priority_support": true,
+        "advanced_notifications": true
+      }
+    }
+  ]
+}

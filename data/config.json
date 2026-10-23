@@ -1,0 +1,17 @@
+{
+  "maintenance_mode": false,
+  "force_update_version": "1.0.0",
+  "app_store_url": "https://play.google.com/store/apps/details?id=com.firecode.studios.noor",
+  "announcement": "Welcome to Noor - your comprehensive daily Islamic companion. May Allah bless your journey of faith.",
+  "quick_links": [
+    { "title": "Learn About Islam", "icon": "lightbulb", "route": "/courses" },
+    { "title": "99 Names of Allah", "icon": "stars", "route": "/asma-ul-husna" },
+    { "title": "Daily Duas", "icon": "menu_book", "route": "/duas" },
+    { "title": "Qibla Direction", "icon": "explore", "route": "/qibla" }
+  ],
+  "ai_daily_limit_free": 5,
+  "ai_daily_limit_premium": 999999,
+  "support_email": "noorsupport@googlegroups.com",
+  "privacy_email": "noorsupport@googlegroups.com",
+  "legal_email": "noorsupport@googlegroups.com"
+}
