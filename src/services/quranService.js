@@ -118,27 +118,35 @@ async function getTafsirEditions() {
 }
 
 async function getTafsirByChapter(slug, chapter) {
+  const key = `tafsir:${slug}:${chapter}`;
+  const cached = getCached(key);
+  if (cached) return cached;
+
   try {
-    const res = await fetchWithTimeout(`${TAFSIR_CDN_BASE}/editions/${slug}/${chapter}.json`);
+    const res = await fetchWithTimeout(`${TAFSIR_CDN_BASE}/${slug}/${chapter}.json`, {}, 6000);
     if (res.ok) {
       const data = await res.json();
-      return { chapter, slug, ayahs: data.ayahs || data.verses || [] };
+      const ayahs = Array.isArray(data) ? data : (data.ayahs || data.verses || []);
+      const result = { chapter: Number(chapter), slug, ayahs };
+      setCached(key, result);
+      return result;
     }
   } catch (e) {
     console.warn(`Failed to fetch tafsir ${slug}/${chapter}:`, e.message);
   }
-  return { chapter, slug, ayahs: [] };
+  return { chapter: Number(chapter), slug, ayahs: [] };
 }
 
 async function getTafsirVerse(slug, chapter, verse) {
   const chapterData = await getTafsirByChapter(slug, chapter);
+  const vNum = Number(verse);
   const found = (chapterData.ayahs || []).find(
-    a => (a.ayah || a.verse || a.number) === Number(verse)
+    a => Number(a.ayah || a.verse || a.number || a.ayah_number) === vNum
   );
   if (found) {
     return {
-      chapter,
-      verse: Number(verse),
+      chapter: Number(chapter),
+      verse: vNum,
       slug,
       text: found.text || found.content || ''
     };

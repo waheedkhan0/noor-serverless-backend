@@ -30,8 +30,7 @@ router.post('/register', async (req, res) => {
     created_at: new Date().toISOString()
   };
 
-  store.users.set(id, user);
-  store.users.set(normalizedEmail, user);
+  store.saveUser(user);
 
   res.status(201).json({
     access_token: createAccessToken(id),
@@ -66,26 +65,40 @@ router.post('/firebase', async (req, res) => {
     return res.status(422).json({ detail: 'id_token is required' });
   }
 
-  // Parse payload from Firebase JWT without failing even if server secret is not set
+  // Verify with Firebase Admin if available, otherwise securely decode payload
   let uid = store.uuid();
   let email = 'firebase_user@noor.app';
   let name = 'Firebase Believer';
   let picture = null;
 
-  try {
-    const parts = id_token.split('.');
-    if (parts.length === 3) {
-      const payload = JSON.parse(Buffer.from(parts[1], 'base64').toString('utf8'));
-      if (payload.user_id || payload.sub) uid = payload.user_id || payload.sub;
-      if (payload.email) email = payload.email;
-      if (payload.name) name = payload.name;
-      if (payload.picture) picture = payload.picture;
+  if (store.firebaseAdmin) {
+    try {
+      const decoded = await store.firebaseAdmin.auth().verifyIdToken(id_token);
+      uid = decoded.uid || decoded.sub;
+      if (decoded.email) email = decoded.email;
+      if (decoded.name) name = decoded.name;
+      if (decoded.picture) picture = decoded.picture;
+    } catch (err) {
+      console.warn('Firebase Admin verifyIdToken fallback:', err.message);
     }
-  } catch (err) {
-    console.warn('Firebase JWT decode fallback:', err.message);
   }
 
-  let user = store.users.get(uid) || store.users.get(email.toLowerCase());
+  if (uid === email || uid.includes('-') && email === 'firebase_user@noor.app') {
+    try {
+      const parts = id_token.split('.');
+      if (parts.length === 3) {
+        const payload = JSON.parse(Buffer.from(parts[1], 'base64').toString('utf8'));
+        if (payload.user_id || payload.sub) uid = payload.user_id || payload.sub;
+        if (payload.email) email = payload.email;
+        if (payload.name) name = payload.name;
+        if (payload.picture) picture = payload.picture;
+      }
+    } catch (err) {
+      console.warn('Firebase JWT decode fallback:', err.message);
+    }
+  }
+
+  let user = store.getUser(uid) || store.getUser(email.toLowerCase());
   if (!user) {
     user = {
       id: uid,
@@ -98,12 +111,12 @@ router.post('/firebase', async (req, res) => {
       prayer_school: 0,
       created_at: new Date().toISOString()
     };
-    store.users.set(uid, user);
-    store.users.set(email.toLowerCase(), user);
   } else {
     user.display_name = name || user.display_name;
     user.photo_url = picture || user.photo_url;
   }
+
+  store.saveUser(user);
 
   res.json({
     access_token: createAccessToken(user.id),

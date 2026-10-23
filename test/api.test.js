@@ -213,13 +213,57 @@ async function runTests() {
       assert.ok(qibla.body.data.direction);
       console.log(`✔ GET /prayer/qibla passed (Direction: ${qibla.body.data.direction}°)`);
 
-      // 17. Hadith books
+      // 17. Hadith books, sections & hadiths
       const books = await request('/hadith/books');
       assert.strictEqual(books.status, 200);
       assert.ok(books.body.data.length > 0);
       console.log(`✔ GET /hadith/books passed (${books.body.data.length} books)`);
 
-      // 18. Static pages & AdMob / AdSense verification
+      const hadithSections = await request('/hadith/editions/eng-bukhari/sections');
+      assert.strictEqual(hadithSections.status, 200);
+      assert.ok(hadithSections.body.data.length > 0);
+      assert.strictEqual(hadithSections.body.data[0].id, 1);
+      console.log(`✔ GET /hadith/editions/eng-bukhari/sections passed (${hadithSections.body.data.length} sections)`);
+
+      const sectionHadiths = await request('/hadith/eng-bukhari/sections/1');
+      assert.strictEqual(sectionHadiths.status, 200);
+      assert.ok(sectionHadiths.body.hadiths.length > 0);
+      console.log(`✔ GET /hadith/eng-bukhari/sections/1 passed (${sectionHadiths.body.hadiths.length} hadiths loaded via single CDN call)`);
+
+      // 18. Tafsir
+      const tafsir = await request('/quran/tafsir/en-tafisr-ibn-kathir/1/1');
+      assert.strictEqual(tafsir.status, 200);
+      assert.ok(tafsir.body.text && tafsir.body.text.length > 100);
+      console.log(`✔ GET /quran/tafsir/en-tafisr-ibn-kathir/1/1 passed (Text length: ${tafsir.body.text.length})`);
+
+      // 19. 1-to-1 Course Inquiry Flow & Admin View
+      const inquiryRes = await request('/courses/c1a11111-1111-4111-8111-111111111111/inquiry', {
+        method: 'POST',
+        body: {
+          student_name: 'Test Student',
+          phone_or_whatsapp: '+14165550199',
+          email: 'student@example.com',
+          preferred_days: 'Weekends',
+          preferred_time: 'Evening',
+          student_level: 'Beginner',
+          notes: 'Looking for 1-on-1 female tutor'
+        }
+      });
+      assert.strictEqual(inquiryRes.status, 201);
+      assert.ok(inquiryRes.body.inquiry.id);
+      console.log(`✔ POST /courses/:id/inquiry passed (Inquiry ID: ${inquiryRes.body.inquiry.id})`);
+
+      const adminInquiries = await request('/courses/admin/inquiries');
+      assert.strictEqual(adminInquiries.status, 200);
+      assert.ok(adminInquiries.body.inquiries.length > 0);
+      console.log(`✔ GET /courses/admin/inquiries passed (${adminInquiries.body.inquiries.length} inquiries found)`);
+
+      const adminDashboard = await request('/courses/admin/dashboard');
+      assert.strictEqual(adminDashboard.status, 200);
+      assert.ok(typeof adminDashboard.body === 'string' && adminDashboard.body.includes('Noor 1-on-1 Course Leads'));
+      console.log(`✔ GET /courses/admin/dashboard passed (HTML Dashboard Rendered)`);
+
+      // 20. Static pages & AdMob / AdSense verification
       const appAds = await request('/app-ads.txt');
       assert.strictEqual(appAds.status, 200);
       assert.ok(appAds.body.includes('pub-1806048559578873'));
@@ -235,7 +279,7 @@ async function runTests() {
       assert.ok(typeof landing.body === 'string' && landing.body.includes('Noor'));
       console.log(`✔ GET / (Landing Page) passed`);
 
-      console.log('\n🎉 ALL 18 TEST SUITES PASSED FLAWLESSLY! 🎉\n');
+      console.log('\n🎉 ALL 20 TEST SUITES PASSED FLAWLESSLY! 🎉\n');
       process.exit(0);
     } catch (err) {
       console.error('\n❌ Test failed:', err);

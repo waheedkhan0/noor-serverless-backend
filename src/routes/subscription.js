@@ -116,6 +116,7 @@ router.post('/create-portal-session', requireAuth, (req, res) => {
 router.post('/sync-bookmarks', requireAuth, (req, res) => {
   const bookmarks = req.body.bookmarks || [];
   store.userBookmarks.set(req.user.id, bookmarks);
+  store.persistRuntime();
   res.json({ success: true, count: bookmarks.length });
 });
 
@@ -127,6 +128,7 @@ router.get('/sync-bookmarks', requireAuth, (req, res) => {
 router.post('/sync-tasbih', requireAuth, (req, res) => {
   const presets = req.body.presets || [];
   store.userTasbih.set(req.user.id, presets);
+  store.persistRuntime();
   res.json({ success: true, count: presets.length });
 });
 
@@ -138,6 +140,7 @@ router.get('/sync-tasbih', requireAuth, (req, res) => {
 router.post('/sync-settings', requireAuth, (req, res) => {
   const settings = req.body || {};
   store.userSettings.set(req.user.id, settings);
+  store.persistRuntime();
   res.json({ success: true });
 });
 

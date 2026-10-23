@@ -74,19 +74,29 @@ function getSections(editionSlug) {
   const book = store.hadithBooks.find(b => b.slug.toLowerCase().includes(rawBook.toLowerCase()));
 
   if (book && book.sections && book.sections.length > 0) {
-    return book.sections.map(s => ({
-      id: typeof s.id === 'number' ? s.id : (parseInt(s.id, 10) || s.id),
-      name: s.name,
-      hadithnumber_first: s.hadithnumber_first,
-      hadithnumber_last: s.hadithnumber_last
-    }));
+    return book.sections.map(s => {
+      const id = typeof s.id === 'number' ? s.id : (parseInt(s.id, 10) || 0);
+      const from = s.hadithnumber_first != null ? Number(s.hadithnumber_first) : null;
+      const to = s.hadithnumber_last != null ? Number(s.hadithnumber_last) : null;
+      const count = (from != null && to != null && to >= from) ? (to - from + 1) : 0;
+      return {
+        id,
+        name: s.name || `Section ${id}`,
+        arabic_name: s.arabic_name || null,
+        hadith_count: count,
+        from,
+        to,
+        hadithnumber_first: from,
+        hadithnumber_last: to
+      };
+    });
   }
 
   // Fallback default sections
   return [
-    { id: 1, name: 'Book of Faith', hadithnumber_first: 1, hadithnumber_last: 10 },
-    { id: 2, name: 'Book of Purification', hadithnumber_first: 11, hadithnumber_last: 25 },
-    { id: 3, name: 'Book of Prayer', hadithnumber_first: 26, hadithnumber_last: 50 }
+    { id: 1, name: 'Book of Faith', hadith_count: 10, from: 1, to: 10, hadithnumber_first: 1, hadithnumber_last: 10 },
+    { id: 2, name: 'Book of Purification', hadith_count: 15, from: 11, to: 25, hadithnumber_first: 11, hadithnumber_last: 25 },
+    { id: 3, name: 'Book of Prayer', hadith_count: 25, from: 26, to: 50, hadithnumber_first: 26, hadithnumber_last: 50 }
   ];
 }
 
@@ -152,11 +162,40 @@ async function getHadithEdition(edition) {
 }
 
 async function getEditionSection(edition, sectionNumber) {
-  // If section hadiths are requested, return the hadiths belonging to that section
+  const key = `hadith:section:${edition}:${sectionNumber}`;
+  const cached = getCached(key);
+  if (cached) return cached;
+
+  // 1. Direct CDN call (fetches the entire section in 1 ultra-fast request)
+  try {
+    const res = await fetchWithTimeout(`${HADITH_CDN_BASE}/editions/${edition}/sections/${sectionNumber}.min.json`, {}, 6000);
+    if (res.ok) {
+      const data = await res.json();
+      const hadiths = (data.hadiths || []).map(h => ({
+        hadithnumber: h.hadithnumber,
+        arabicnumber: h.arabicnumber || h.hadithnumber,
+        text: h.text || '',
+        grades: h.grades || [],
+        reference: h.reference || {}
+      }));
+
+      const result = {
+        edition,
+        section_number: Number(sectionNumber),
+        hadiths
+      };
+      setCached(key, result);
+      return result;
+    }
+  } catch (e) {
+    console.warn(`CDN section fetch failed for ${edition}/${sectionNumber}:`, e.message);
+  }
+
+  // 2. Fallback: Lookup section boundaries and fetch individual verses
   const sections = getSections(edition);
   const sec = sections.find(s => String(s.id) === String(sectionNumber));
-  const start = sec ? sec.hadithnumber_first : 1;
-  const end = sec ? Math.min(sec.hadithnumber_last, start + 15) : 10;
+  const start = sec ? (sec.hadithnumber_first || 1) : 1;
+  const end = sec ? Math.min(sec.hadithnumber_last || 10, start + 15) : 10;
 
   const hadiths = [];
   for (let i = start; i <= end; i++) {
@@ -170,35 +209,131 @@ async function getEditionSection(edition, sectionNumber) {
     });
   }
 
-  return {
+  const result = {
     edition,
-    section_number: sectionNumber,
+    section_number: Number(sectionNumber),
     hadiths
   };
+  setCached(key, result);
+  return result;
 }
 
-function searchHadiths(query, edition) {
-  const sample = [
-    {
-      edition_slug: 'eng-bukhari',
-      edition_name: 'Sahih al-Bukhari',
-      hadith_number: 1,
-      text: 'Narrated \'Umar bin Al-Khattab: I heard Allah\'s Messenger (ﷺ) saying, "The reward of deeds depends upon the intentions and every person will get the reward according to what he has intended."',
-      grades: [{ name: 'Al-Albani', grade: 'Sahih' }],
-      reference: { book: 1, hadith: 1 }
-    },
-    {
-      edition_slug: 'eng-muslim',
-      edition_name: 'Sahih Muslim',
-      hadith_number: 1,
-      text: 'It is narrated on the authority of Yahya b. Ya\'mar that the first man who discussed Qadr in Basrah was Ma\'bad al-Juhani. The Messenger of Allah (ﷺ) explained Islam, Iman, and Ihsan.',
-      grades: [{ name: 'Sahih', grade: 'Sahih' }],
-      reference: { book: 1, hadith: 1 }
-    }
-  ];
+const SEARCH_CATALOG = [
+  {
+    edition_slug: 'eng-bukhari',
+    edition_name: 'Sahih al-Bukhari',
+    hadith_number: 1,
+    text: 'Narrated \'Umar bin Al-Khattab: I heard Allah\'s Messenger (ﷺ) saying, "The reward of deeds depends upon the intentions and every person will get the reward according to what he has intended."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 1, hadith: 1 }
+  },
+  {
+    edition_slug: 'eng-bukhari',
+    edition_name: 'Sahih al-Bukhari',
+    hadith_number: 8,
+    text: 'Narrated Ibn \'Umar: Allah\'s Messenger (ﷺ) said: Islam is based on five pillars: To testify that none has the right to be worshipped but Allah and Muhammad is Allah\'s Messenger, to establish prayer (Salah), to pay Zakat, to perform Hajj, and to observe fast during Ramadan.',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 2, hadith: 1 }
+  },
+  {
+    edition_slug: 'eng-bukhari',
+    edition_name: 'Sahih al-Bukhari',
+    hadith_number: 5027,
+    text: 'Narrated \'Uthman bin \'Affan: The Prophet (ﷺ) said, "The most superior among you (Muslims) are those who learn the Qur\'an and teach it."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 66, hadith: 49 }
+  },
+  {
+    edition_slug: 'eng-muslim',
+    edition_name: 'Sahih Muslim',
+    hadith_number: 1,
+    text: 'It is narrated on the authority of \'Umar ibn al-Khattab that the Angel Jibril came to the Prophet (ﷺ) and asked him about Islam, Iman (faith), and Ihsan (perfection of faith).',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 1, hadith: 1 }
+  },
+  {
+    edition_slug: 'eng-muslim',
+    edition_name: 'Sahih Muslim',
+    hadith_number: 223,
+    text: 'Abu Malik al-Ash\'ari reported: The Messenger of Allah (ﷺ) said: "Purity and cleanliness is half of faith, and Al-Hamdulillah fills the scale."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 2, hadith: 1 }
+  },
+  {
+    edition_slug: 'eng-muslim',
+    edition_name: 'Sahih Muslim',
+    hadith_number: 2588,
+    text: 'Abu Hurairah reported that the Messenger of Allah (ﷺ) said: "Charity does not decrease wealth, no one forgives another except that Allah increases his honor, and no one humbles himself for the sake of Allah except that Allah elevates his status."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 45, hadith: 90 }
+  },
+  {
+    edition_slug: 'eng-muslim',
+    edition_name: 'Sahih Muslim',
+    hadith_number: 2699,
+    text: 'Abu Hurairah reported: The Messenger of Allah (ﷺ) said, "Whoever treads a path in search of knowledge, Allah makes the path to Paradise easy for him."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 48, hadith: 36 }
+  },
+  {
+    edition_slug: 'eng-tirmidhi',
+    edition_name: 'Jami` at-Tirmidhi',
+    hadith_number: 1956,
+    text: 'Abu Dharr narrated that the Messenger of Allah (ﷺ) said: "Your smiling in the face of your brother is charity, commanding good and forbidding evil is charity, and guiding a man who has lost his way is charity."',
+    grades: [{ name: 'Hasan', grade: 'Hasan' }],
+    reference: { book: 27, hadith: 62 }
+  },
+  {
+    edition_slug: 'eng-tirmidhi',
+    edition_name: 'Jami` at-Tirmidhi',
+    hadith_number: 3371,
+    text: 'An-Nu\'man bin Bashir narrated that the Prophet (ﷺ) said: "Supplication (Du\'a) is worship itself." Then he recited: And your Lord says: Call upon Me; I will answer you.',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 48, hadith: 2 }
+  },
+  {
+    edition_slug: 'eng-tirmidhi',
+    edition_name: 'Jami` at-Tirmidhi',
+    hadith_number: 1924,
+    text: 'Abdullah bin Amr narrated that the Messenger of Allah (ﷺ) said: "The merciful will be shown mercy by the Most Merciful. Be merciful to those on the earth and the One in the heavens will have mercy upon you."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 27, hadith: 30 }
+  },
+  {
+    edition_slug: 'eng-bukhari',
+    edition_name: 'Sahih al-Bukhari',
+    hadith_number: 6114,
+    text: 'Narrated Abu Huraira: Allah\'s Messenger (ﷺ) said, "The strong is not the one who overcomes the people by his strength, but the strong is the one who controls himself while in anger."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 78, hadith: 141 }
+  },
+  {
+    edition_slug: 'eng-bukhari',
+    edition_name: 'Sahih al-Bukhari',
+    hadith_number: 13,
+    text: 'Narrated Anas: The Prophet (ﷺ) said, "None of you will have faith until he loves for his brother (or neighbor) what he loves for himself."',
+    grades: [{ name: 'Sahih', grade: 'Sahih' }],
+    reference: { book: 2, hadith: 6 }
+  }
+];
 
-  const q = (query || '').toLowerCase();
-  return sample.filter(h => h.text.toLowerCase().includes(q) || !q);
+function searchHadiths(query, edition) {
+  const q = (query || '').toLowerCase().trim();
+  let results = SEARCH_CATALOG;
+
+  if (edition) {
+    results = results.filter(h => h.edition_slug.includes(edition.toLowerCase()));
+  }
+
+  if (q) {
+    results = results.filter(h =>
+      h.text.toLowerCase().includes(q) ||
+      h.edition_name.toLowerCase().includes(q) ||
+      String(h.hadith_number).includes(q)
+    );
+  }
+
+  return results;
 }
 
 module.exports = {
