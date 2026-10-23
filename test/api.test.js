@@ -219,11 +219,16 @@ async function runTests() {
       assert.ok(books.body.data.length > 0);
       console.log(`✔ GET /hadith/books passed (${books.body.data.length} books)`);
 
-      // 18. Static pages
-      const ads = await request('/app-ads.txt');
+      // 18. Static pages & AdMob / AdSense verification
+      const appAds = await request('/app-ads.txt');
+      assert.strictEqual(appAds.status, 200);
+      assert.ok(appAds.body.includes('pub-1806048559578873'));
+      console.log(`✔ GET /app-ads.txt passed`);
+
+      const ads = await request('/ads.txt');
       assert.strictEqual(ads.status, 200);
       assert.ok(ads.body.includes('pub-1806048559578873'));
-      console.log(`✔ GET /app-ads.txt passed`);
+      console.log(`✔ GET /ads.txt passed`);
 
       const landing = await request('/');
       assert.strictEqual(landing.status, 200);

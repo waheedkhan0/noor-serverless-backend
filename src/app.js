@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const crypto = require('crypto');
+const path = require('path');
 
 // Routes
 const authRouter = require('./routes/auth');
@@ -30,6 +31,10 @@ const app = express();
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// Static files
+app.use('/static', express.static(path.join(__dirname, '../public/static')));
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Response time & Request ID tracking
 app.use((req, res, next) => {

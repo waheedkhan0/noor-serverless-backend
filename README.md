@@ -109,8 +109,32 @@ In `noor_flutter`, the app can be pointed to your deployed URL in any of these w
 ### Health & Information
 - `GET /health` - System health and service status
 - `GET /healthz` - Lightweight liveness probe
-- `GET /app-ads.txt` - AdMob verification
-- `GET /` - Public web landing page
+- `GET /app-ads.txt` - AdMob app verification (`pub-1806048559578873`)
+- `GET /ads.txt` - AdSense verification (`pub-1806048559578873`)
+- `GET /` - Visual emerald-gold landing page with phone mockup and live prayer clock
+- `GET /docs` - Interactive Swagger/OpenAPI style endpoint explorer
+- `GET /privacy-policy` - Google Play store compliant privacy policy
+- `GET /terms` - Terms of Service
+- `GET /delete-account` - Google Play compliant user account deletion request page
+
+---
+
+## 📢 Google AdMob & AdSense Setup (`app-ads.txt`)
+
+This backend automatically serves your AdMob verification string at both root paths:
+- `/app-ads.txt`
+- `/ads.txt`
+
+Snippet served:
+```text
+google.com, pub-1806048559578873, DIRECT, f08c47fec0942fa0
+```
+
+### Steps to verify in AdMob:
+1. Deploy this backend to Vercel/Netlify or link your custom domain (e.g., `quicksol.ca` or `noor.quicksol.ca` or `your-subdomain.vercel.app`).
+2. Update your **Developer Website** in the **Google Play Console** (under **Store presence &rarr; Store settings &rarr; Website**) to point to your deployed URL.
+3. Verify that `https://yourdomain.com/app-ads.txt` opens and returns the exact snippet as `text/plain`.
+4. Wait 24 hours for Google AdMob crawlers to index the file. Check status in your Google AdMob dashboard under **Apps &rarr; View all apps &rarr; app-ads.txt**.
 
 ### Prayer & Calendar
 - `GET /prayer/timings?date=DD-MM-YYYY&latitude=LAT&longitude=LNG&method=3&school=0`
